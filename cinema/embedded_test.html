@@ -1,0 +1,12 @@
+<!-- This file is subject to copyright - contact swampservers@gmail.com for more information. -->
+<html>
+<body>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/swfobject/2.2/swfobject.js" type="text/javascript"></script>
+	<script>
+	var support = "SUPPORT:";
+	support += navigator.userAgent.includes("Awesomium")?0:1;
+	support += swfobject.hasFlashPlayerVersion("1")?1:0;
+	console.log(support);
+	</script>
+</body>
+</html>

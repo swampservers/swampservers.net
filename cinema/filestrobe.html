@@ -1,0 +1,122 @@
+<!-- This file is subject to copyright - contact swampservers@gmail.com for more information. -->
+<html>
+<body style="margin:0px;background-color:black;overflow:hidden;">
+	<div id="player-container" style="width:100%;height:100%;"></div>
+	<div id="loadmsg" style="z-index:99999;color:white;background-color:black;font-size:28pt;text-align:center;vertical-align:top;position:absolute;margin-top:200px;left:0;right:0;top:0;display:none;"><img src="http://swampservers.net/static/img/loading.gif" style="width:28pt;height:28pt;position:relative;top:4px;"> Buffering... <span id="seekpc"></span><br><span style="font-size:14pt;position:relative;bottom:4px;">Yes this is very slow, tell Garry to replace Awesomium</span></div>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/swfobject/2.2/swfobject.js" type="text/javascript"></script>
+	<script>
+
+	var player = null;
+	var player_ready = false;
+	var to_video = null;
+	var to_volume = 100;
+	var video_source = null;
+	var seek_percent = 0;
+	var start_time = 0;
+
+	var dom_loadmsg = document.getElementById("loadmsg");
+	var dom_seekpc = document.getElementById("seekpc");
+
+	function timestamp() {
+		return (new Date().getTime())*0.001;
+	}
+
+	function target_time() {
+		return Math.max(0,(timestamp()-start_time)-0.5);
+	}
+
+	function think() {
+		if (player_ready) {
+
+			if (to_volume !== null) {
+				player.setVolume(to_volume*0.01);
+				to_volume = null;
+			}
+
+			//livestreams are 0
+			if (!isNaN(player.getDuration()) && player.getDuration() > 0) {
+
+				var target_t = target_time();
+
+				if (target_t < player.getDuration()) {
+					
+					var maxoffset = 15;
+					//if(this.videoId.indexOf("rtmp://") != -1) { maxoffset = 2; }
+
+					if (Math.abs(player.getCurrentTime() - target_t) > maxoffset) {
+						player.seek(Math.max(0,target_t));
+
+						if((dom_loadmsg.style.display=="none") && (video_source.indexOf("rtmp://") == -1)) {
+							seek_percent=0;
+							dom_loadmsg.style.display = 'block';
+						}
+						if(dom_loadmsg.style.display == 'block'){
+							seek_percent=Math.min(Math.max(seek_percent,Math.floor((100.0*player.getBytesLoaded()/player.getBytesTotal())*player.getDuration()/target_t)),100);
+							dom_seekpc.innerHTML = seek_percent+"%";
+						}
+
+					} else {
+						if(dom_loadmsg.style.display == 'block'){ dom_loadmsg.style.display = 'none'; }
+					}
+				}
+
+			}
+		}
+
+	}
+	setInterval(think, 100);
+
+	function th_video(id) {
+		if(video_source!==null){swfobject.removeSWF("player");}
+		document.getElementById("player-container").innerHTML='<div id="player" style="width:100%;height:100%;"></div>';
+		
+		player = null;
+		player_ready = false;
+
+		start_time = timestamp();
+		video_source = id;
+
+		if(dom_loadmsg.style.display == 'block'){ dom_loadmsg.style.display = 'none'; }
+
+		var parameters = {
+			src: id
+		,	autoPlay: true
+		,	controlBarMode: "none"
+		,	optimizeBuffering: false
+		,   javascriptCallbackFunction: "callback"
+		,	backgroundColor: "000000"
+		,	playButtonOverlay: false
+		};
+
+		swfobject.embedSWF
+			( "StrobeMediaPlayback.swf"
+			, "player"
+			, "100%"
+			, "100%"
+			, "10.1.0"
+			, {}
+			, parameters
+			, { allowFullScreen: "true"}
+			, { name: "player" }
+			);
+	};
+
+	function th_volume( volume ) {
+		to_volume = volume;
+	};
+
+	function th_seek( seconds ) {
+		start_time = timestamp()-seconds;
+	};
+
+	function callback(playerId)
+	{
+		if (!player_ready) {
+			player_ready = true;
+			player = document.getElementById(playerId);
+		}
+	}
+	</script>
+
+</body>
+</html>

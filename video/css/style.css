@@ -1,0 +1,92 @@
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{border:0;font-size:100%;font:inherit;vertical-align:baseline;margin:0;padding:0}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:none}table{border-collapse:collapse;border-spacing:0}
+
+html, body { height: 100%; }
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background: #000000 url("/video/noise.png");
+	color: white;
+	font-family: 'Lato', sans-serif;
+}
+
+nav {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	height: 32px;
+	background: #333;
+	box-shadow: 0px -2px 20px rgba(0,0,0,1);
+	font-size: 0;
+	z-index: 999;
+}
+
+nav:after {
+	content: '';
+	display: block;
+	background: -webkit-linear-gradient(left, rgba(255,255,255,0.11) 0%,rgba(255,255,255,0.33) 50%,rgba(255,255,255,0.11) 100%);
+	position: absolute;
+	left: 0;
+	right: 0;
+	height: 1px;
+	margin-top: -1px;
+}
+
+nav *::selection { background: transparent; }
+nav ul { height: 32px; line-height: 32px; margin:0px; }
+nav li { display: inline-block; }
+
+nav li:after {
+	content: '';
+	display: block;
+	background: -webkit-linear-gradient(top, rgba(255,255,255,0.15) 0%,rgba(255,255,255,0.03) 100%);
+	width: 1px;
+	height: 32px;
+	margin-top: -32px;
+	float: right;
+}
+
+nav a, nav a:visited {
+	color: rgba(255,255,255,0.33);
+	text-decoration: none;
+	display: block;
+	padding-left: 15px;
+	padding-right: 15px;
+	font-size: 12pt;
+	font-weight: bold;
+}
+
+nav a.active, nav a:active {
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,0)), color-stop(100%,rgba(255,255,255,0.22)));
+	text-shadow: 0px 0px 7px rgba(0,0,0,0.66);
+	color: rgba(255,255,255,0.88);
+}
+
+nav a:hover {
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,0)), color-stop(100%,rgba(255,255,255,0.22)));
+	text-shadow: 0px 0px 7px rgba(0,0,0,0.66);
+	color: rgba(255,255,255,0.88);
+}
+
+
+#content-container {
+	width: 100%;
+	height: 100%;
+}
+
+.whitepill {
+	display: block;
+	background-color: #EEE;
+	background-repeat: no-repeat;
+	background-position: center center;
+	border-radius: 8pt;
+	width: 100%;
+	height:100px;
+}
+
+.whitepill li {
+	cursor: hand;
+}

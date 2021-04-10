@@ -1,0 +1,161 @@
+<!-- This file is subject to copyright - contact swampservers@gmail.com for more information. -->
+<html>
+
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+	<title>Swamp Servers - Plugins</title>
+	<link href="css/style.css" rel="stylesheet" type="text/css">
+	<link href="/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/swfobject/2.2/swfobject.js" type="text/javascript"></script>
+	<style>
+		em {
+			font-style: italic;
+		}
+	</style>
+</head>
+<body>
+<section id="content-container">
+<div style="width:700px;margin-left:auto;margin-right:auto;margin-top:32px;">
+		<h1 class="text-center">Plugins</h3>
+		
+		<div id="supports" class="well" style="font-size:20px;padding-top:30px;padding-bottom:30px;cursor: pointer;">
+		<div class="row">
+			<div class="col-sm-6" onclick="location.href='#chromium'">
+				<div id="yes_ch" class="text-center">
+					<div style="height:100px;background-image:url(chromium.png);background-size:100px;background-repeat:no-repeat;background-position:center;"><span class="glyphicon glyphicon-ok" style="color:green;font-size:50px;position:relative;top:55px;left:40px;"></span></div>
+					<br>You have Chromium
+				</div>
+				<div id="no_ch" class="text-center">
+					<div style="height:100px;background-image:url(chromium.png);background-size:100px;background-repeat:no-repeat;background-position:center;"><span class="glyphicon glyphicon-remove" style="color:red;font-size:50px;position:relative;top:55px;left:40px;"></span></div>
+					<br>You don't have Chromium
+				</div>
+			</div>
+		<!--	<div class="col-sm-4" onclick="location.href='#flash'">
+				<div id="yes_fl" class="text-center">
+					<div style="height:100px;background-image:url(flash.png);background-size:100px;background-repeat:no-repeat;background-position:center;"><span class="glyphicon glyphicon-ok" style="color:green;font-size:50px;position:relative;top:55px;left:40px;"></span></div>
+					<br>You have Flash
+				</div>
+				<div id="no_fl" class="text-center">
+					<div style="height:100px;background-image:url(flash.png);background-size:100px;background-repeat:no-repeat;background-position:center;"><span class="glyphicon glyphicon-remove" style="color:red;font-size:50px;position:relative;top:55px;left:40px;"></span></div>
+					<br>You don't have Flash
+				</div>
+			</div>-->
+			<div class="col-sm-6" onclick="location.href='#codecs'">
+				<div id="yes_co" class="text-center">
+					<div style="height:100px;background-image:url(codecss.png);background-size:100px;background-repeat:no-repeat;background-position:center;"><span class="glyphicon glyphicon-ok" style="color:green;font-size:50px;position:relative;top:55px;left:40px;"></span></div>
+					<br>You have Codecs
+				</div>
+				<div id="no_co" class="text-center">
+					<div style="height:100px;background-image:url(codecss.png);background-size:100px;background-repeat:no-repeat;background-position:center;"><span class="glyphicon glyphicon-remove" style="color:red;font-size:50px;position:relative;top:55px;left:40px;"></span></div>
+					<br>You don't have Codecs
+				</div>
+			</div>
+		</div>
+		</div>
+		<div id="macwarning" style="display:none;">
+			<span class="glyphicon glyphicon-alert" style="color:red;font-size:50px;float:left;padding-left:64px;padding-right:32px;"></span>
+			Mac and Linux have limited plugin support.<br>We recommend Windows for the best gaming experience.
+		</div>
+		<script>
+		document.getElementById(navigator.userAgent.indexOf("Awesomium")==-1?"no_ch":"yes_ch").style.display = "none";
+		//document.getElementById(swfobject.hasFlashPlayerVersion("1")?"no_fl":"yes_fl").style.display = "none";
+		document.getElementById(document.createElement("video").canPlayType('video/mp4; codecs="avc1.42E01E, mp4a.40.2"') == "probably" ? "no_co":"yes_co").style.display = "none";
+
+		function macwarn() {
+			document.getElementById("macwarning").style.display = "block";
+		}
+
+		if (navigator.userAgent.toLowerCase().indexOf("gmod")==-1) {
+			document.getElementById("supports").style.display = "none";
+		} else {
+			console.log("CLIPBOARD:https://swampservers.net/video/plugin-guide.html");
+			console.log("RUNLUA:SetClipboardText('https://swampservers.net/video/plugin-guide.html')");
+			console.log("RUNLUA:if not system.IsWindows() then SELF:RunJavascript('macwarn();') end");
+		}
+
+		</script>
+
+		<h3 class="text-center">Installation</h3>
+
+		<hr>
+		<p>
+			Before installing plugins, close Garry's Mod completely. The URL to this page has been automatically copied to your clipboard, so you can open it in a web browser.
+		</p>
+		<hr>
+
+		<h3 class="text-center" id="chromium">Chromium</h3>
+
+		<p style="font-size:16px;"><em>Chromium Embedded Framework</em> is a replacement for GMOD's outdated Awesomium integrated browser. It is up-to-date with web standards, which allows HD YouTube, greater support for other videos, and better framerates.<br><br>
+		Currently, you must opt-in to run Chromium on GMOD, which you can do as follows:
+		</p>
+
+		<p>1. Right click Garry's Mod in your Steam library and select "Properties"</p>
+		<p class="text-center"><img src="tutorials/chromium1.png"></p>
+
+		<p>2. In the "Betas" tab, use the dropdown to switch to the "x86-64" branch</p>
+		<p class="text-center"><img src="tutorials/chromium3_2.png"></p>
+
+		<!--<p>3. To maintain Flash, you may need to install the PPAPI player - see below</p>-->
+
+		<p style="font-size:16px;"><em>Note: Chromium is currently only supported on Windows.</em></p>
+
+<!--
+		<h3 class="text-center" id="flash">Flash</h3>
+
+		
+
+		<p style="font-size:16px;"><em>Adobe Flash Player</em> is (still) required to watch many videos on Cinema. A specific version must be installed for GMOD to use it:
+		</p>
+
+		<p>1. Open the <a href="http://get.adobe.com/flashplayer/otherversions/" target="_blank">Flash Player download page</a>
+
+		<p>2. Install Flash:</p>
+		<ul style="font-size:16px;padding-left:32px;margin-top:-8px;">
+			<li>If you have Chromium, select the 'PPAPI' version.<br>We <strong>strongly</strong> recommend <a href="#chromium">installing Chromium</a> if you don't.</li>
+			<li>If you can't use Chromium, select the 'NPAPI' version.</li>
+		</ul>
+		<p class="text-center"><img src="tutorials/flash1.png"></p>
+
+		<p style="font-size:16px;"><em>Note: GMOD Flash Player is not supported on Mac OS. If you have Linux, <a href="http://pixeltailgames.github.io/cinema/search/flash.html">see this page</a></em></p>
+-->
+
+
+		<h3 class="text-center" id="codecs">Codecs</h3>
+
+
+		<p style="font-size:16px;">We use a third-party patch to enable certain video codecs in Chromium which are required for many videos to play.</p>
+
+		<p style="font-size:16px;"><em>You must install Chromium as described above for this to work.</em></p>
+
+		<p>1. Download the latest version of GModCEFCodecFix.exe from <a href="https://github.com/solsticegamestudios/GModCEFCodecFix/releases">https://github.com/solsticegamestudios/GModCEFCodecFix/releases</a></p>
+
+		<p class="text-center"><img src="tutorials/codecs1.png"></p>
+
+		<p>2. Move the .exe file to your desktop, then run it launch Garry's Mod with codecs.</p>
+
+		<p><strong>IMPORTANT: Steam sometimes removes the codecs patch. You may need to launch Garry's Mod using this patch every time you want to enable video codecs!</strong></p>
+
+
+		<hr>
+		<p class="text-center">Done installing plugins? <a href="steam://connect/cinema.swampservers.net:27015">Click here</a> to rejoin Swamp Cinema!</p>
+		<p class="text-center">(If you want Codecs, launch GMOD using the patch then click the link to join)</p>		
+
+
+			<hr>
+		  <p class="text-center text-muted">&copy; 2020 <a href="/" class="text-muted">Swamp Servers</a> - <a href="/contact" class="text-muted">Contact Us</a></p>
+
+
+
+</div>
+</section>
+<link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet" type="text/css">
+
+
+ 
+
+
+
+
+</body>
+
+</html>

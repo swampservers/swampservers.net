@@ -1,0 +1,92 @@
+<!-- This file is subject to copyright - contact swampservers@gmail.com for more information. -->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <title>Strobe Media Playback</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/swfobject/2.2/swfobject.js" type="text/javascript"></script>
+	<script type="text/javascript">  		
+    		
+    	// Create a StrobeMediaPlayback configuration 
+		var parameters =
+			{	
+				//src: "rtmp://104.143.77.44/vod/Unsorted/G.mp4"
+				//src: "rtmp://horatiotube.stream/live/horatiotube"   			
+				//src: "rtmp://104.143.77.44/vod/Unsorted/nothing.mp4"
+				//src: "https://www.dropbox.com/s/r6vzqgzrzwnhe1l/dancing%20like%20a%20hoe.mp4?dl=1"
+				//src: "https://www.dropbox.com/s/r6vzqgzrzwnhe1l/danci.mp4"
+   			,	autoPlay: true
+			,	controlBarMode: "none"
+			,	optimizeBuffering: false
+			,   javascriptCallbackFunction: "onJavaScriptBridgeCreated"
+			};
+    		
+		// Embed the player SWF:    		
+		swfobject.embedSWF
+			( "StrobeMediaPlayback.swf"
+			, "strobeMediaPlayback"
+			, 640
+			, 480
+			, "10.1.0"
+			, {}
+			, parameters
+			, { allowFullScreen: "true"}
+			, { name: "strobeMediaPlayback" }
+			);
+			
+		function onCurrentTimeChange(time, playerId)
+		{
+			console.log(time);	
+			document.getElementById("currentTime").innerHTML = time;		
+		}
+
+		function onStateChange(time, playerId)
+		{
+			console.log(time);	
+		}
+		
+		function onDurationChange(time, playerId)
+		{
+			if (!isNaN(time)) {
+				console.log(time==0?-1:time);
+			}
+			document.getElementById("duration").innerHTML = time;	
+		}		
+		var player = null;
+		function onJavaScriptBridgeCreated(playerId)
+		{
+			if (player == null) {
+				player = document.getElementById(playerId);
+				
+				// Add event listeners that will update the 
+				player.addEventListener("currentTimeChange", "onCurrentTimeChange");
+				player.addEventListener("durationChange", "onDurationChange");
+				player.addEventListener("playStateChange", "onStateChange");
+				
+				// Pause/Resume the playback when we click the Play/Pause link
+				document.getElementById("play-pause").onclick = function(){
+					var state = player.getState();
+					if (state == "ready" || state == "paused") {
+						player.play2();
+					}
+					else 
+						if (state == "playing") {
+							player.pause();
+						}
+					return false;
+				};
+			}
+		}
+    </script>  	
+  </head>
+  <body>
+	<div>
+		<div>
+			<span id="currentTime" /> ... </span> : <span id="duration" /> ... </span>
+		</div>   
+		<a href="#" id="play-pause">Play/Pause</div>  
+	</div>
+	<div id="strobeMediaPlayback">
+      <p>Alternative content</p>
+    </div>
+  </body>
+</html>

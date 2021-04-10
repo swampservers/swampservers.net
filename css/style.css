@@ -1,0 +1,75 @@
+body {
+  /* Show it's not fixed to the top */
+  min-height: 75rem;
+  padding-top: 88px;
+}
+
+/*note: added outline: none !important; to bootstrap.min.css .btn*/
+
+/* latin-ext */
+@font-face {
+  font-family: 'Righteous';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Righteous'), local('Righteous-Regular'), url(https://fonts.gstatic.com/s/righteous/v5/eJYqrhUff1n1Ge9A-rSw_BJtnKITppOI_IvcXXDNrsc.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Righteous';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Righteous'), local('Righteous-Regular'), url(https://fonts.gstatic.com/s/righteous/v5/w5P-SI7QJQSDqB3GziL8XVtXRa8TVwTICgirnJhmVJw.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+
+.navbar-brand {
+	font-family: 'Righteous', cursive;
+	font-size: 42px;
+	line-height: 26px;
+	position: relative;
+	top: -16px;
+}
+
+.fake-button {
+	pointer-events: auto;
+	-webkit-user-select: text;
+    -moz-user-select: text;
+    -ms-user-select: text;
+    user-select: auto;
+    cursor: auto;
+}
+
+.bancard {
+  width:600px;
+  display:inline-block;
+}
+
+.steamcard {
+	max-width:600px;
+	display:inline-block;
+	cursor: pointer;
+}
+
+.steamcard:hover {
+    box-shadow: 0px 0px 16px #ffffff;
+}
+
+td {
+	padding: 4px !important;
+}
+
+.underline {
+	text-decoration: underline;
+}
+
+.server-thumbnail {
+  clear: both;
+  padding-top: 1em;
+  padding-left: 80px;
+}
+
+.progress {
+	height: 20px;
+	margin: 20px;
+}

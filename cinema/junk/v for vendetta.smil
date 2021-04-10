@@ -1,0 +1,11 @@
+<smil>
+  <head>
+    <meta base="rtmp://swampservers.net/vod/" />
+  </head>
+  <body>
+    <switch>
+      <video src="mp4:v for vendetta.mp4" height="528" system-bitrate="900000" width="1280" />
+      <video src="mp4:v for vendetta.low.mp4" height="264" system-bitrate="400000" width="640" />
+    </switch>
+  </body>
+</smil>
