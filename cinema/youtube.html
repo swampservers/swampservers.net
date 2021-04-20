@@ -54,9 +54,11 @@
 				}
 			}
 
-
+			if (player_ready) {
+				console.log("T:"+player.getCurrentTime());
+			}
 		}
-		setInterval(think, 100);
+		setInterval(think, 200);
 
 		function th_video(id, live = false) {
 			//help with buffering
