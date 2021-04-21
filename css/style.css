@@ -2,6 +2,7 @@ body {
   /* Show it's not fixed to the top */
   min-height: 75rem;
   padding-top: 88px;
+  background:#222 url(/static/img/noise.png);
 }
 
 /*note: added outline: none !important; to bootstrap.min.css .btn*/
