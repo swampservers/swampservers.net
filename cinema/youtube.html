@@ -48,8 +48,8 @@
 					}
 				}
 
-
-				if (player.getPlayerState() != 1) {
+				// ended or playing
+				if (player.getPlayerState() != 0 && player.getPlayerState() != 1) {
 					player.playVideo();
 				}
 			}
