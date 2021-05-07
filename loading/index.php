@@ -7,7 +7,7 @@ function startsWith($haystack, $needle)
 }
 
 $type = "cinema";
-$wallpaper = "v3wallpaper";
+$wallpaper = "warwallpaper"; //"v3wallpaper";
 if (isset($_GET["map"])) {
     if (startsWith($_GET["map"], "fatkid")) {
         $type = "fatkid";
