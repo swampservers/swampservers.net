@@ -1,0 +1,109 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Righteous, Concert One;
+  scroll-behavior: smooth;
+}
+body{
+  background: #111;
+  font: 20px Concert One, sans-serif;
+  line-height: 1.8;
+  
+}
+nav{
+  display: flex;
+  height: 60px;
+  width: 100%;
+  background: #286068;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 50px 0 50px;
+  flex-wrap: wrap;
+  position: fixed;
+  top: 0px;
+  z-index: 2;
+  font-family: 'Poppins', sans-serif;
+}
+.logo a{
+  color: #fff;
+  font-size: 30px;
+  font-weight: 600;
+  text-decoration: none;
+}
+ul{
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  margin-bottom: 0px;
+}
+li{
+  margin: 0 5px;
+}
+nav ul li a{
+  color: #f2f2f2;
+  text-decoration: none;
+  font-size: 17px;
+  font-weight: 500;
+  padding: 5px 15px;
+  border-radius: 9px;
+  letter-spacing: 1px;
+  transition: all 0.3s ease;
+}
+nav ul li a.active,
+nav ul li a:hover{
+  color: #111;
+  background: #fff;
+}
+
+.hide {
+    display: block;
+    height: 80px;
+    margin-top: 10px;
+    visibility: hidden;
+}
+
+#code{
+  max-width: 40%;
+  border-radius: 25px;
+}
+
+.code{
+  padding: 10px 10px;
+}
+
+.command{
+  padding: 0px 400px;
+  padding-bottom: 10px;
+  color: #fff;
+}
+
+hr{
+    height: 4px;
+    background-color: #286068;
+    border: none;
+}
+
+.command div div ~ hr{
+  background-color: #122a2e;
+  height: 3px;
+  margin-left: 30px;
+
+}
+
+.command div div hr:nth-child(2){
+  height: 0px;
+
+}
+
+h5{
+  margin: 0px 40px;
+  padding: 0px 10px;
+  border: 2px outset #ccc;
+  border-radius: 10px;
+  display: inline;
+}
+
+p{
+  padding: 0px 90px;
+}
