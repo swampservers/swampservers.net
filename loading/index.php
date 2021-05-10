@@ -7,7 +7,7 @@ function startsWith($haystack, $needle)
 }
 
 $type = "cinema";
-$wallpaper = "warwallpaper"; //"v3wallpaper";
+$wallpaper = "v3wallpapercrusader";
 if (isset($_GET["map"])) {
     if (startsWith($_GET["map"], "fatkid")) {
         $type = "fatkid";
@@ -74,7 +74,7 @@ div {
     player = new YT.Player('player', {
       height: '390',
       width: '640',
-      videoId: 'vRF3zgF6Xao', //'ih4_1FyVjaY',
+      videoId: 'kQ-I-VQsvko', //'vRF3zgF6Xao', //'ih4_1FyVjaY',
       loop: 1,
       events: {
         'onReady': onPlayerReady
