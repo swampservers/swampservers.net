@@ -5,8 +5,8 @@ body {
   background:#111 url(/static/img/noise.png);
 }
 
-.well .jumbotron {
-  background-color: #282828;
+.well, .jumbotron {
+  background-color: #252525 !important;
 }
 
 /*note: added outline: none !important; to bootstrap.min.css .btn*/
