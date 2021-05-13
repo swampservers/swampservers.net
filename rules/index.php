@@ -30,6 +30,13 @@
 		</li>
 		<br>
 		<li>
+			<strong>Do not share pornography outside of "underground" areas on Cinema.</strong>
+			<ul>
+				<li>Do not post it where it is visible outside of "underground" areas either (eg. global chat).</li>
+			</ul>
+		</li>
+		<br>
+		<li>
 			<strong>Don't commit extreme harassment, which is defined as:</strong>
 			<ul>
 				<li>Posting/referencing/threatening to post any player's personal information (unless subject gives permission or has the information on their Steam/Discord profile).</li>
@@ -130,6 +137,7 @@
 			<ul>
 				<li>Any staff can consider something a rule violation, but a higher level staff can override their decision and say something is okay. Staff with consistently bad discretion may be removed.</li>
 				<li>The owner can make new rules in emergencies and retains the right to ban anyone for any reason.</li>
+				<li>DO NOT ESCALATE RULES-RELATED QUESTIONS OR DISPUTES STRAIGHT TO THE OWNER. JUST ASK ANY STAFF MEMBER OF THE NEXT HIGHER RANK.</li>
 			</ul>
 		</li>
 		<br>

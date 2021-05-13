@@ -1,7 +1,7 @@
 body {
   /* Show it's not fixed to the top */
   min-height: 75rem;
-  padding-top: 88px;
+  /* padding-top: 88px; */
   background:#111 url(/static/img/noise.png);
 }
 
@@ -27,6 +27,50 @@ body {
   src: local('Righteous'), local('Righteous-Regular'), url(https://fonts.gstatic.com/s/righteous/v5/w5P-SI7QJQSDqB3GziL8XVtXRa8TVwTICgirnJhmVJw.woff2) format('woff2');
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
 }
+
+@font-face {
+  font-family: titlefont;
+  src: url('/fonts/AveriaSerif-Bold.ttf'); /* Laviossa-Medium.otf Universal Serif.ttf */
+}
+
+.titlebar {
+  background: black url("/static/img/wallpapernofishing.jpg") no-repeat fixed;
+  /* background-position: 50% 90%; */
+  /* background-position: bottom; */
+  background-position: 50% 75%;
+  background-size: cover;
+  height: 88px;
+}
+
+/* todo: make it like stuck to the navbar and slightly on top of it, also use <a> */
+.titlebar>.container>h1{
+  font-family: titlefont;
+  font-size: 56px;
+  cursor: pointer;
+  margin-top:24px;
+  /* white-space: nowrap; */
+  text-shadow: 0px 4px 8px #000000;
+}
+
+@media screen and (max-width: 767px) {
+  .titlebar>.container>h1{
+      font-size: 20px;
+  }
+}
+
+.navbar {
+  min-height: 0px !important;
+}
+
+.navbar-nav>li>a {
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+#navbar {
+  padding: 0px !important;
+}
+
 
 .navbar-brand {
 	font-family: 'Righteous', cursive;
