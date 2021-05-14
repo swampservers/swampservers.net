@@ -1,7 +1,5 @@
 <?php //This file is subject to copyright - contact swampservers@gmail.com for more information. ?>
-<?php include $_SERVER['DOCUMENT_ROOT'] . '/common-1.php'?>
-  <title>Swamp Servers - Staff</title>
-<?php include $_SERVER['DOCUMENT_ROOT'] . '/common-2.php'?>
+<?=common_top("Swamp Servers - Staff")?>
 
 	<h1 class="text-center">Staff</h1>
 
@@ -54,11 +52,11 @@ foreach ($staff as $user) {
 <h3 class="text-center">Want to join staff?</h3>
 <p class="text-center">
     If you want to develop (code, model, map etc.) ask Swamp.<br>
-    <?php if(count($staff) >= 22) { ?>
+    <?php if (count($staff) >= 22) {?>
         <strong>Moderator positions are currently full.</strong>
-    <?php } else { ?>
+    <?php } else {?>
         If you want to moderate (enforce rules), ask any staff.
-    <?php } ?>
+    <?php }?>
 </p>
 
-<?php include $_SERVER['DOCUMENT_ROOT'] . '/common-3.php'?>
+<?=common_bottom()?>

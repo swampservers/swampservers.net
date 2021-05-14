@@ -1,7 +1,5 @@
 <?php //This file is subject to copyright - contact swampservers@gmail.com for more information. ?>
-<?php include $_SERVER['DOCUMENT_ROOT'] . '/common-1.php'?>
-  <title>Swamp Servers - Staff Guide</title>
-<?php include $_SERVER['DOCUMENT_ROOT'] . '/common-2.php'?>
+<?=common_top("Swamp Servers - Staff Guide")?>
 
 	<h1 class="text-center">Staff Guide</h1>
 
@@ -88,4 +86,4 @@
 	<p>At a minimum please generally be active on a weekly basis. If you dissapear for a few weeks without notice you will be demoted.</p>
 
 
-<?php include $_SERVER['DOCUMENT_ROOT'] . '/common-3.php'?>
+<?=common_bottom()?>
