@@ -131,6 +131,10 @@
 	</li>
 	<br>
 	<li>
+		<strong>Do not exploit loopholes/technicalities in the rules or incessantly try to "ride the line".</strong>
+	</li>
+	<br>
+	<li>
 		<strong>All rules are subject to our discretion.</strong>
 		<ul>
 			<li>Any staff can consider something a rule violation, but a higher level staff can override their decision and say something is okay. Staff with consistently bad discretion may be removed.</li>
