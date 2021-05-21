@@ -102,7 +102,6 @@ div {
 <div style="margin:12px;line-height:160%;position:fixed;bottom:0px;left:0px;right:0px;font-size:18px;text-align:center;">
 <strong>Thought of the day:</strong><br>"<?php
 
-    include $_SERVER['DOCUMENT_ROOT'] . '/lib/secrets.php';
     $file = file($THOUGHTFILEPATH, FILE_IGNORE_NEW_LINES);
     $str = $file[rand(0, count($file) - 1)];
     echo $str;
