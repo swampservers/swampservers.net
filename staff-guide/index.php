@@ -20,7 +20,10 @@
 
 		<ul class="bb_ul">
 			<li>
-			As a staff member, you do represent the server and players will inevitably look up to you. With your position, set a decent example by <strong>not needlessly picking fights, acting toxic, talking down to people, or otherwise antagonizing people unnecessarily.</strong> When you, as a staff member, antagonize a player, they might feel like they can't fight back to you or you would ban them because that's how most servers are (even though we're not actually like that). Use common sense with your position of power and understand that your conduct is more limited than a typical player.
+			As a staff member, you do represent the server and players will inevitably look up to you.
+			With your position, set a decent example by <strong>not needlessly picking fights, acting toxic or obnoxiously edgy/racist, talking down to people, or otherwise antagonizing people unnecessarily.</strong>
+			When you, as a staff member, antagonize a player, they might feel like they can't fight back to you or you would ban them because that's how most servers are (even though we're not actually like that).
+			Use common sense with your position of power and understand that your conduct is more limited than a typical player.
 			</li>
 			<li>Staff do not get any special permissions outside of kick, ban, and unban. You cannot spawn in weapons, no-clip, or force skip videos for no reason. If you want to "admin abuse," go to a different community.</li>
 			<li>If you have any questions, please ask other staff members. Join our <a href="https://swampservers.net/discord">discord</a> for access to the staff channel. Do not leak information from our private staff channel!</li>
