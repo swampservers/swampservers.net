@@ -2,7 +2,7 @@ body {
   /* Show it's not fixed to the top */
   min-height: 75rem;
   /* padding-top: 88px; */
-  background:#111 url(/static/img/noise.png);
+  background:#111 url(/s/img/noise.png);
 }
 
 .well, .jumbotron {
@@ -34,7 +34,7 @@ body {
 }
 
 .titlebar {
-  background: black url("/static/img/wallpapernofishing.jpg") no-repeat fixed;
+  background: black url("/s/img/wallpapernofishing.jpg") no-repeat fixed;
   /* background-position: 50% 90%; */
   /* background-position: bottom; */
   background-position: 50% 75%;

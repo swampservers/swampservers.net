@@ -605,7 +605,7 @@ function registerPlayer( type, object ) {
 						var div = document.createElement("div");
 						this.seekpercent=0;
 						div.id = "loadingmessage";
-						div.innerHTML = "<img src=\"http://swampservers.net/static/img/loading.gif\" style=\"width:28pt;height:28pt;position:relative;top:4px;\"> Buffering... <span id=\"seekpc\"></span>%<br><span style=\"font-size:14pt;position:relative;bottom:4px;\">Yes this is very slow, tell Garry to replace Awesomium</span>"; 
+						div.innerHTML = "<img src=\"http://swampservers.net/s/img/loading.gif\" style=\"width:28pt;height:28pt;position:relative;top:4px;\"> Buffering... <span id=\"seekpc\"></span>%<br><span style=\"font-size:14pt;position:relative;bottom:4px;\">Yes this is very slow, tell Garry to replace Awesomium</span>"; 
 						document.getElementById("player-container").insertBefore(div,document.getElementById("player_wrapper"));
 					}
 					if(document.getElementById("seekpc")!==null){

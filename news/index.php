@@ -10,9 +10,9 @@
 	function discordgroup() { console.log("RUNLUA:MOTDWINDOW:Close() timer.Simple(0.1, function() gui.OpenURL('https://swampservers.net/discord') end)"); }
 	</script>
 	<div class="text-center">
-	<img style="width:48px;" src="/static/img/discord.png"><img style="width:48px;" src="/static/img/soy1.png"> &nbsp;
+	<img style="width:48px;" src="/s/img/discord.png"><img style="width:48px;" src="/s/img/soy1.png"> &nbsp;
 	<a onclick='discordgroup()' href="https://swampservers.net/discord">Join our DISCORD today for DOUBLE POINTS!</a>
-		&nbsp; <img style="width:48px;" src="/static/img/soy1.png"><img style="width:48px;" src="/static/img/discord.png">
+		&nbsp; <img style="width:48px;" src="/s/img/soy1.png"><img style="width:48px;" src="/s/img/discord.png">
 	</div>
 </div>
 
@@ -166,14 +166,14 @@ $start = strpos($page, "large_title", $start);
 	function steamgroup() { console.log("RUNLUA:MOTDWINDOW:Close() timer.Simple(0.1, function() gui.OpenURL('https://steamcommunity.com/groups/swampservers') end)"); }
 	</script>
 	<div class="text-center">
-	<img style="width:48px;" src="/static/img/steamlogo.png"> &nbsp; <a onclick='steamgroup()' href="https://steamcommunity.com/groups/swampservers">Join our Steam group!</a> &nbsp; <img style="width:48px;" src="/static/img/steamlogo.png">
+	<img style="width:48px;" src="/s/img/steamlogo.png"> &nbsp; <a onclick='steamgroup()' href="https://steamcommunity.com/groups/swampservers">Join our Steam group!</a> &nbsp; <img style="width:48px;" src="/s/img/steamlogo.png">
 	</div>
 </div>
 
 <div class="well">
 	<div class="text-center"><strong>Help wanted (PAID)</strong></div>
 	<div class="text-center">
-	<img style="width:48px;transform: scale(1.3333);" src="/static/img/lua2.png"> &nbsp;&nbsp; <a href="https://github.com/swampservers/contrib">Experienced coder?</a> &nbsp; <img style="height:48px;" src="/static/img/phpe.png">
+	<img style="width:48px;transform: scale(1.3333);" src="/s/img/lua2.png"> &nbsp;&nbsp; <a href="https://github.com/swampservers/contrib">Experienced coder?</a> &nbsp; <img style="height:48px;" src="/s/img/phpe.png">
 	</div>
 </div>
 
