@@ -7,7 +7,7 @@
 		<meta name="description" content="Garry's Mod Cinema gamemode.">
 		<meta name="keywords" content="garrysmod,cinema">
 		<meta name="author" content="pixelTail Games">
-		<link href="css/style.css" rel="stylesheet" type="text/css">
+		<link href="style.css" rel="stylesheet" type="text/css">
 		<link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet" type="text/css">
 			<link href="/css/bootstrap.min.css" rel="stylesheet" type="text/css">
 
@@ -89,13 +89,13 @@
 </head>
 <body>
 
-	<nav>
+	<!-- <nav>
 		<ul>
 			<li><a href="index.html">Swamp Cinema</a></li>
 			<li><a href="search.html" class="active">Video Search</a></li>
 			<li><a href="plugins.html">Plugin Installation</a></li>
 		</ul>
-	</nav>
+	</nav> -->
 
 
 	<script>
