@@ -51,9 +51,9 @@
 	</li>
 	<br>
 	<li>
-		<strong>Don't micspam obscene sound (constant racial slurs or porn audio)</strong>
+		<strong>Don't micspam obscene sound (constant slurs or porn audio) or flood the chat with slurs</strong>
 		<ul>
-			<li>This only covers micspam - playing sound files through voice chat - not speaking into the microphone normally.</li>
+			<li>Micspam means playing sound files through voice chat, not speaking into the microphone normally.</li>
 		</ul>
 	</li>
 	<br>
