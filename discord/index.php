@@ -3,25 +3,35 @@
 
 <?=common_top("Swamp Servers - Discord")?>
 
+<style>
+body {
+    background-image:none;
+    background-color:#202228;
+    /* font-family: Helvetica, Arial, sans-serif; */
+}
+</style>
+
 <h2>Why we don't have a Discord guild...</h2>
 
 <p>
 tl;dr:
 <ul>
-<li>Discord considers the phrase "<strong>child molestors should be chemically castrated</strong>" to be in violation of their ToS. So, Discord actively protects the groomers and pedophiles their platform is notorious for having.</li>
+<li>Discord considers the phrase "<em>child molestors should be chemically castrated</em>" to be in violation of their ToS. So, Discord actively protects the pedophiles and groomers their platform is notorious for having.</li>
 <li>Discord bans guild owners' personal accounts for offenses committed by their members, and yet, they refuse to provide information beyond their vague ToS about what does and does not constitute a violation.</li>
-<li>In effect: <strong>Discord forces one to actively protect child predators in order to operate a guild on their platform</strong>, which we refuse to do.</li>
+<li>In effect: <strong>Discord forces one to actively protect child predators in order to operate a guild on their platform</strong>.</li>
 </ul>
 </p>
 <hr>
 
 <p>
-<img src="r1.png"><br>
+<span class="thumbnail">
+<img src="r1.png">
 <img src="r2.png">
+</span>
 </p>
 
 <p>
-The rant above was posted after the latest in a series of takedowns inflicted on us by Discord.
+The rant above was posted after the latest in a series of nonsensical takedowns inflicted on us by Discord.
 </p>
 
 <p>Now here is the full story:</p>
@@ -40,7 +50,7 @@ We've had our guild taken down several times, and after the first time I lost my
 Every time the guild is removed, so is the owner's account. When the takedown occurs, I get an email like this:
 </p>
 <p>
-<img src="td1.png">
+<span class="thumbnail"><img src="td1.png"></span>
 </p>
 <p>
 This is hilarious because these emails are going to the alternate accounts that I use to make new guilds.
@@ -52,23 +62,46 @@ This is hilarious because these emails are going to the alternate accounts that 
 We quickly figured out that Discord expects us to enforce their ToS for them, and that a failure to do their jobs for them is itself a bannable offense.
 </p>
 <p>
-However, the vagueness of their community guidelines made it difficult to do this and we continued to suffer takedowns.
+The vagueness of their community guidelines made it difficult to do this and we continued to suffer takedowns.
 They absolutely refused to give a more specific reason than "bullying" or "dehumanizing" for any of our takedowns, but we figured out that whenever the server got banned they would also ban
 the account of whoever posted the message that got us banned, so we were able to somewhat narrow things down by figuring out what that person had recently posted.
 </p>
 
+<hr>
 <p>
-We very quickly disallowed "edgy" posts but continued to suffer repeated takedowns, which is frustrating because some of the kind of content we prohibited is easily discoverable on other Discord guilds.
-We suspect someone has been obsessively reporting every controversial message in our guild, and what this means is that <strong>any non-partnered guild and its owner is vulnerable to being terminated</strong> if someone simply obsessively reports every remotely offensive message (likely from different source IPs/accounts).
-Moderation has to be both very strict, and active 24/7 (as Discord sometimes takes less than an hour to act on reports), or the guild and owner's personal account are vulnerable to being randomly terminated.
+We disallowed the all of the typical "edgy" content but continued to suffer repeated takedowns, which is frustrating because much of the content we prohibited is easily discoverable on other Discord guilds.
+We suspect that we're suffering takedowns because someone has been obsessively reporting things in our guild.
 </p>
+<p>
+What this means is that <strong>any non-partnered guild and its owner is vulnerable to being terminated</strong> if someone simply reports every remotely offensive message (maybe from different source IPs/accounts).
+Moderation has to be both very strict, and active 24/7 (as Discord sometimes takes less than an hour to act on reports), or the guild and owner's personal account are vulnerable to being randomly terminated.
+A malicious user could easily post an edgy message from a sock-puppet account, then report it, and cause the server and owner's account to be terminated.
+</p>
+
 <hr>
 <p>
 For the last few months we operated a guild in which we were not allowing any slurs whatsoever, any memes about or negative discussions of race/religion/LGBTQ whatsoever, or any
 discussions of other guilds (as this may lead to raiding), yet we still got taken down again. We investigated, caught one of our players talking to his friend on GMod about how his Discord account was banned at the same time as our guild, and asked him what he had posted on our guild.
 He reported that the only remotely offensive thing he did was talk about <em>court-ordered chemical castration of child molestors</em>, which presumably, our moderators did not see a problem with, nor should they have.
 </p>
-todo: put evidence here
+<p>
+ &bull; &nbsp; Steam PM from the banned guy (user 1) to one of my moderators:
+</p>
+<p>
+<span class="thumbnail"><img src="u1e.jpg" width=800px></span>
+</p>
+<p>
+&bull; &nbsp; Confirmation with the banned guy about the nature of his ban:
+</p>
+<p>
+<span class="thumbnail"><img src="u1e2.png" width=800px></span>
+</p>
+<p>
+&bull; &nbsp; Corroboration from user 2:
+</p>
+<p>
+<span class="thumbnail"><img src="u2e.png"></span>
+</p>
 <hr>
 <p>
 It is absurd enough that Discord, unlike any other social media platform, expects us to enforce their rules for them and punishes us personally if we don't do it to their liking, despite our honest efforts.
@@ -81,12 +114,14 @@ But now, <strong>Discord is requiring guild owners to PROTECT CHILD MOLESTORS</s
 </p>
 
 <p>
-I got fed up with the absurdity of all this and posted the rant shown above on my other, read-only Discord server. After the rant above, I later posted this:
+I got fed up with the absurdity of all this and posted the rant shown above on my other, read-only Discord guild. After the rant above, I later posted this:
 </p>
 
 <p>
+<span class="thumbnail">
 <img src="r3.png">
 <img src="r4.png">
+</span>
 </p>
 
 <p>
@@ -95,11 +130,21 @@ but I actually did not expect them to do that. Once again, other social media we
 the company in a similar manner which never get taken down in retaliation. So either Discord T&S is run by a bunch of overgrown toddlers, who simply made up a reason to axe me because I insulted them, or they actually banned me for this particular message: 
 </p>
 <p>
+<span class="thumbnail">
 <img src="r5.png">
+</span>
 </p>
-<p>Either way, Discord can go to hell. Steam is my new best friend.</p>
-
-<hr>
+<p>
+Either way, Discord can go to hell. 
+</p>
+<p>
+My only suggestion for Discord is that they should revise their takedown emails to be more accurate:
+</p>
+<p>
+<span class="thumbnail">
+<img src="takedown.png">
+</span>
+</p>
 <hr>
 <p>
 Although our size is nothing compared to Discord, we are still one of the <a href="https://www.gametracker.com/search/garrysmod/">top Garry's Mod servers in the world</a>, so we hope this statement carries some level of legitimacy.
@@ -110,5 +155,8 @@ We sincerely believe these claims to be true, have shown good evidence for them,
 We feel that if these claims were false, Discord would have responded at least once to deny them.
 </p>
 
+<p>
+We did not want any of this to happen; we have been making 100% honest attempts to enforce Discord ToS in our guild but have suffered endless increasingly inane takedowns and this latest takedown for literally not supporting child predators pushed us over the edge.
+</p>
 
 <?=common_bottom()?>
