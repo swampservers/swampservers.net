@@ -5,76 +5,19 @@
 <div class="col-lg-8">
 
 <div class="well">
-	<div class="text-center"><strong>IMPORTANT: The DOUBLE POINTS perk is no longer tied to our Steam group;<br>it is now tied to Discord (because Steam has been broken for 3 months)</strong></div>
+	<div class="text-center"><strong>IMPORTANT: The DOUBLE POINTS perk is once again tied to our STEAM GROUP because Discord <a href="/discord">literally banned us for not protecting child molestors</a></strong></div>
 	<script>
-	function discordgroup() { console.log("RUNLUA:MOTDWINDOW:Close() timer.Simple(0.1, function() gui.OpenURL('https://swampservers.net/discord') end)"); }
+	function discordgroup() { console.log("RUNLUA:MOTDWINDOW:Close() timer.Simple(0.1, function() gui.OpenURL('https://steamcommunity.com/groups/swampservers') end)"); }
 	</script>
 	<div class="text-center">
-	<img style="width:48px;" src="/s/img/discord.png"><img style="width:48px;" src="/s/img/soy1.png"> &nbsp;
-	<a onclick='discordgroup()' href="https://swampservers.net/discord">Join our DISCORD today for DOUBLE POINTS!</a>
-		&nbsp; <img style="width:48px;" src="/s/img/soy1.png"><img style="width:48px;" src="/s/img/discord.png">
+	<img style="width:48px;" src="/s/img/steamlogo.png"><img style="width:48px;" src="/s/img/soy1.png"> &nbsp;
+	<a onclick='discordgroup()' href="https://steamcommunity.com/groups/swampservers">Join our STEAM GROUP today for DOUBLE POINTS!</a>
+		&nbsp; <img style="width:48px;" src="/s/img/soy1.png"><img style="width:48px;" src="/s/img/steamlogo.png">
 	</div>
 </div>
 
 
 <h1 class="text-center">News</h1>
-
-<!-- DISCORD NEWS -->
-<div style="padding:0px 8px;">
-<?php
-$stuff = json_decode(file_get_contents("/swamp/discord/announcements.json"), true);
-
-foreach ($stuff as $post) {
-    $txt = explode("\n\n", htmlspecialchars($post["content"]));
-    if (count($txt) > 1) {
-        $title = array_shift($txt);
-    } else {
-        $title = "";
-    }
-    $message = str_replace("\n", "<br>", implode("\n\n", $txt));
-    ?>
-	<div>
-		<?php if ($title) {?>
-		<h2><?=$title?></h2>
-		<?php }?>
-
-		<p style="padding:8px 0px;">
-		<?=$message?>
-		</p>
-
-		<div style="line-height: 180%;">
-		<?php foreach ($post['reactions'] as $reaction) {?>
-
-			<div class="btn btn-xs btn-default disabled" style="cursor:default;">
-			<?php
-if (substr($reaction[1], 0, 4) == "http") {
-        ?>
-				<img src="<?=$reaction[1]?>" style="max-width:20px;max-height:20px;">
-				<?php
-} else {
-        echo htmlspecialchars($reaction[1]);
-    }
-        ?>
-			<?=$reaction[0]?></div>
-		<?php }?>
-		</div>
-
-		<div class="row">
-			<p class="text-muted pull-right" style="position:relative;top:16px;">
-				Posted by <?=htmlspecialchars($post["author"])?>
-				in
-				<a class="color hoverul" onclick='discordgroup()' href="https://swampservers.net/discord">#<?=htmlspecialchars($post["channel"])?></a>
-				on
-				<span class="formattime"><?=$post["time"]?></span>
-				<!-- <?=date('l F j @ h:ia', $post["time"])?> -->
-			</p>
-		</div>
-		<hr>
-	</div>
-	<?php
-}
-?>
-</div>
 
 <script>
 var formattime = document.getElementsByClassName("formattime");
@@ -95,7 +38,7 @@ for(var i = 0; i < formattime.length; i++)
 
 <!-- STEAM NEWS -->
 <div style="padding:0px 8px;">
-		<?php /*
+		<?php 
 $page = file_get_contents($_SERVER['DOCUMENT_ROOT'] . "/cache/newsfile.txt");
 $start = strpos($page, "large_title");
 $notfirst = false;
@@ -141,7 +84,7 @@ echo str_replace(" target=\"_blank\"", "", str_replace("https://steamcommunity.c
 $notfirst = true;
 $start = strpos($page, "large_title", $start);
 }
- */?>
+?>
 </div>
 
 

@@ -159,4 +159,9 @@ We feel that if these claims were false, Discord would have responded at least o
 We did not want any of this to happen; we have been making 100% honest attempts to enforce Discord ToS in our guild but have suffered endless increasingly inane takedowns and this latest takedown for literally not supporting child predators pushed us over the edge.
 </p>
 
+<p>
+Edit (6/3): Discord has once again terminated my latest personal account (for "dehumanizing") even though I didn't post anything significant from it. They clearly tracked it down in retaliation for making this page.
+</p>
+
+
 <?=common_bottom()?>
