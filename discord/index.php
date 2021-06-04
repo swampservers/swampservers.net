@@ -147,7 +147,7 @@ My only suggestion for Discord is that they should revise their takedown emails 
 </p>
 <hr>
 <p>
-Although our size is nothing compared to Discord, we are still one of the <a href="https://www.gametracker.com/search/garrysmod/">top Garry's Mod servers in the world</a>, so we hope this statement carries some level of legitimacy.
+Although we are tiny compared to Discord, we are still one of the <a href="https://www.gametracker.com/search/garrysmod/">top Garry's Mod servers in the world</a>, so we hope this statement carries some level of legitimacy.
 </p>
 <p>
 None of the content on this page constitues libel.
@@ -160,8 +160,12 @@ We did not want any of this to happen; we have been making 100% honest attempts 
 </p>
 
 <p>
-Edit (6/3): Discord has once again terminated my latest personal account (for "dehumanizing") even though I didn't post anything significant from it. They clearly tracked it down in retaliation for making this page.
+Edit (6/3): Discord has once again terminated my latest personal account (for "dehumanizing") even though I didn't post anything significant from it. They likely tracked it down in retaliation for making this page.
 </p>
 
+<hr>
+<p>
+<a href="https://steamcommunity.com/groups/swampservers/announcements/detail/3017954936014598526">Comments section</a>
+</p>
 
 <?=common_bottom()?>
