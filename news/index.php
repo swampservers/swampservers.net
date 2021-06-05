@@ -5,7 +5,7 @@
 <div class="col-lg-8">
 
 <div class="well">
-	<div class="text-center"><strong>IMPORTANT: The DOUBLE POINTS perk is once again tied to our STEAM GROUP because Discord <a href="/discord">literally banned us for not protecting child molestors</a></strong></div>
+	<div class="text-center"><strong>IMPORTANT: The DOUBLE POINTS perk is once again tied to our STEAM CHAT because Discord <a href="/discord">literally banned us for not protecting child molestors</a></strong></div>
 	<script>
 	function discordgroup() { console.log("RUNLUA:MOTDWINDOW:Close() timer.Simple(0.1, function() gui.OpenURL('https://steamcommunity.com/groups/swampservers') end)"); }
 	</script>
