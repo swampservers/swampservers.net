@@ -16,7 +16,7 @@ body {
 <p>
 tl;dr:
 <ul>
-<li>Discord considers the phrase "<em>child molestors should be chemically castrated</em>" to be in violation of their ToS. So, Discord actively protects the pedophiles and groomers their platform is notorious for having.</li>
+<li>Discord considers the phrase "<em>child molestors should be chemically castrated under court order</em>" to be in violation of their ToS. So, Discord actively protects the pedophiles and groomers their platform is notorious for having.</li>
 <li>Discord bans guild owners' personal accounts for offenses committed by their members, and yet, they refuse to provide information beyond their vague ToS about what does and does not constitute a violation.</li>
 <li>In effect: <strong>Discord forces one to actively protect child predators in order to operate a guild on their platform</strong>.</li>
 </ul>

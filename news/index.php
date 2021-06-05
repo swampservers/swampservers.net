@@ -34,46 +34,26 @@ for(var i = 0; i < formattime.length; i++)
 </script>
 
 
-
-
-<!-- STEAM NEWS -->
 <div style="padding:0px 8px;">
-		<?php 
-$page = file_get_contents($_SERVER['DOCUMENT_ROOT'] . "/cache/newsfile.txt");
-$start = strpos($page, "large_title");
-$notfirst = false;
-$errorfree = 0;
-while ($start) {
-if ($errorfree > 20) {die("error");}
-$errorfree = $errorfree + 1;
-$hrefstart = strpos($page, "href=\"", $start) + 6;
-$hrefend = strpos($page, "\"", $hrefstart);
-$datestart = strpos($page, "announcement_byline\">", $start) + 21;
-$dateend = strpos($page, "-", $datestart);
-$start = strpos($page, ">", $start) + 1;
-$end = strpos($page, "<", $start);
+<?php 
+
+$page = json_decode(file_get_contents("/swamp/www/cache/newsposts.json"));
+foreach ($page as $post) {
 ?>
 <div>
-<h2><?=substr($page, $start, $end - $start)?></h2>
-
+<h2><?=$post->title?></h2>
 <p style="padding:8px 0px;">
-<?php
-$start = strpos($page, "bodytext", $end);
-$start = strpos($page, ">", $start) + 1;
-$end = strpos($page, "</div>", $start);
-echo str_replace(" target=\"_blank\"", "", str_replace("https://steamcommunity.com/linkfilter/?url=", "", substr($page, $start, $end - $start)));
-?>
+	<?=$post->content?>
 </p>
-
 <div class="row">
 <div class="col-lg-6">
 <p class="text-muted">
-<?=trim(substr($page, $datestart, $dateend - $datestart))?>
+<?=$post->date?>
 </p>
 </div>
 <div class="col-lg-6">
 <p class="pull-right">
-<a class="color hoverul" href="<?=substr($page, $hrefstart, $hrefend - $hrefstart)?>">View on Steam Community >></a>
+<a class="color hoverul" href="<?=$post->link?>">View on Steam Community >></a>
 </p>
 </div>
 </div>
@@ -81,8 +61,6 @@ echo str_replace(" target=\"_blank\"", "", str_replace("https://steamcommunity.c
 <br>
 </div>
 <?php
-$notfirst = true;
-$start = strpos($page, "large_title", $start);
 }
 ?>
 </div>
