@@ -5,14 +5,14 @@
 <div class="col-lg-8">
 
 <div class="well">
-	<div class="text-center"><strong>IMPORTANT: The DOUBLE POINTS perk is once again tied to our STEAM CHAT because Discord <a href="/discord">literally banned us for not protecting child molestors</a></strong></div>
+	<div class="text-center"><strong>IMPORTANT: The DOUBLE POINTS perk is now tied to our STEAM CHAT because Discord <a href="/discord">literally banned us for not protecting child molestors</a></strong></div>
 	<script>
 	function discordgroup() { console.log("RUNLUA:MOTDWINDOW:Close() timer.Simple(0.1, function() gui.OpenURL('https://steamcommunity.com/groups/swampservers') end)"); }
 	</script>
 	<div class="text-center">
-	<img style="width:48px;" src="/s/img/steamlogo.png"><img style="width:48px;" src="/s/img/soy1.png"> &nbsp;
-	<a onclick='discordgroup()' href="https://steamcommunity.com/groups/swampservers">Join our STEAM GROUP today for DOUBLE POINTS!</a>
-		&nbsp; <img style="width:48px;" src="/s/img/soy1.png"><img style="width:48px;" src="/s/img/steamlogo.png">
+	<img style="width:48px;" src="/s/img/steamlogo.png"> &nbsp;
+	<a onclick='discordgroup()' href="https://steamcommunity.com/groups/swampservers">Join our STEAM CHAT today for DOUBLE POINTS!</a>
+		&nbsp; <img style="width:48px;" src="/s/img/steamlogo.png">
 	</div>
 </div>
 
@@ -43,7 +43,7 @@ foreach ($page as $post) {
 <div>
 <h2><?=$post->title?></h2>
 <p style="padding:8px 0px;">
-	<?=$post->content?>
+	<?=str_replace("\n", "<br>",$post->content)?>
 </p>
 <div class="row">
 <div class="col-lg-6">
@@ -53,7 +53,7 @@ foreach ($page as $post) {
 </div>
 <div class="col-lg-6">
 <p class="pull-right">
-<a class="color hoverul" href="<?=$post->link?>">View on Steam Community >></a>
+<a class="color hoverul" href="<?=$post->link?>"><?=$post->upvotes?> <img src="/s/img/icon_rate.png"> &nbsp; <?=$post->comments?> <img src="/s/img/icon_comments.png"> &nbsp; on Steam Community >></a>
 </p>
 </div>
 </div>
@@ -82,13 +82,17 @@ foreach ($page as $post) {
 </div>
 
 <div class="well">
-	<!--<div class="text-center"><strong>Want DOUBLE POINTS?</strong></div>-->
+	<div class="text-center"><strong>Want DOUBLE POINTS?</strong></div>
 	<script>
 	function steamgroup() { console.log("RUNLUA:MOTDWINDOW:Close() timer.Simple(0.1, function() gui.OpenURL('https://steamcommunity.com/groups/swampservers') end)"); }
 	</script>
 	<div class="text-center">
-	<img style="width:48px;" src="/s/img/steamlogo.png"> &nbsp; <a onclick='steamgroup()' href="https://steamcommunity.com/groups/swampservers">Join our Steam group!</a> &nbsp; <img style="width:48px;" src="/s/img/steamlogo.png">
+	<img style="width:48px;" src="/s/img/steamlogo.png"> &nbsp; <a onclick='steamgroup()' href="https://steamcommunity.com/groups/swampservers">Join us on Steam!</a> &nbsp; <img style="width:48px;" src="/s/img/steamlogo.png">
 	</div>
+</div>
+
+<div class="well">
+	<div class="text-center" style="font-size:12pt;">For even more points, add <em>swamp.sv</em> to your Steam name for 10,000 per day upon login!</div>
 </div>
 
 <div class="well">
