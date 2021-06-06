@@ -79,6 +79,13 @@ Moderation has to be both very strict, and active 24/7 (as Discord sometimes tak
 A malicious user could easily post an edgy message from a sock-puppet account, then report it, and cause the server and owner's account to be terminated.
 </p>
 
+<p>
+It's also worth noting that if your Discord account is terminated, you lose anything you've purchased on it (games, IAPs, nitro) without a refund.
+Imagine your entire Steam library being taken from you because someone else posted a racial slur in the comments on your profile;
+Valve would <em>never</em> do that, but Discord literally does it as a standard procedure.
+It's spelled out in their <a href="https://discord.com/terms">ToS</a> under "TERMINATION", and as this page demonstrates, they terminate accounts for utterly frivolous reasons.
+</p>
+
 <hr>
 <p>
 For the last few months we operated a guild in which we were not allowing any slurs whatsoever, any memes about or negative discussions of race/religion/LGBTQ whatsoever, or any
@@ -146,6 +153,13 @@ My only suggestion for Discord is that they should revise their takedown emails 
 <img src="takedown.png">
 </span>
 </p>
+
+<p>
+But seriously, the actions of Discord Trust & Safety severely undermines Discord's business - 
+they're trying to build a <a href="https://discord.com/sell-your-game">game distribution platform</a> akin to Steam, but people won't spend thousands of dollars on Discord games like they do on Steam if it might all be taken away for a bullshit reason -
+so this group needs to be kept on a much tighter leash by the directors of this company, and clearer and fairer policies need to be enacted so customers have a reason to trust this platform with their money.
+</p>
+
 <hr>
 <p>
 Although we are tiny compared to Discord, we are still one of the <a href="https://www.gametracker.com/search/garrysmod/">top Garry's Mod servers in the world</a>, so we hope this statement carries some level of legitimacy.
@@ -159,6 +173,8 @@ We feel that if these claims were false, Discord would have responded at least o
 <p>
 We did not want any of this to happen; we have been making 100% honest attempts to enforce Discord ToS in our guild but have suffered endless increasingly inane takedowns and this latest takedown for literally not supporting child predators pushed us over the edge.
 </p>
+
+<hr>
 
 <p>
 Edit (6/3): Discord has once again terminated my latest personal account (for "dehumanizing") even though I didn't post anything significant from it. They likely tracked it down in retaliation for making this page.
