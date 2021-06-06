@@ -27,6 +27,7 @@ tl;dr:
 <span class="thumbnail">
 <img src="r1.png">
 <img src="r2.png">
+<img src="r2andahalf.png">
 </span>
 </p>
 
@@ -162,6 +163,11 @@ We did not want any of this to happen; we have been making 100% honest attempts 
 <p>
 Edit (6/3): Discord has once again terminated my latest personal account (for "dehumanizing") even though I didn't post anything significant from it. They likely tracked it down in retaliation for making this page.
 </p>
+
+<p>
+Edit (6/5): I appealed the latest ban, but instead of writing an appeal I just said <em>"Does anyone actually read these or are they automatically denied?"</em> and they have not responded in 2 days, which implies someone is actually reading these ban appeals and upholding all the absurd bans shown above.
+</p>
+
 
 <hr>
 <p>
