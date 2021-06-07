@@ -156,8 +156,8 @@ My only suggestion for Discord is that they should revise their takedown emails 
 
 <p>
 But seriously, the actions of Discord Trust & Safety severely undermines Discord's business - 
-they're trying to build a <a href="https://discord.com/sell-your-game">game distribution platform</a> akin to Steam, but people won't spend thousands of dollars on Discord games like they do on Steam if it might all be taken away for a bullshit reason -
-so this group needs to be kept on a much tighter leash by the directors of this company, and clearer and fairer policies need to be enacted so customers have a reason to trust this platform with their money.
+they're trying to build a <a href="https://discord.com/sell-your-game">game distribution platform</a> in direct competition with Steam, but people won't spend thousands of dollars on Discord games like they do on Steam if they worry it might all be taken away for a bullshit reason -
+so this group needs to be kept on a much tighter leash by the directors of this company, and clearer and fairer policies need to be enacted so consumers have a reason to trust this platform with their money.
 </p>
 
 <hr>
