@@ -14,12 +14,14 @@ body {
 <h2>Why we don't have a Discord guild...</h2>
 
 <p>
-tl;dr:
+TL;DR:
 <ul>
 <li>Discord considers the phrase "<em>child molestors should be chemically castrated under court order</em>" to be in violation of their ToS. So, Discord actively protects the pedophiles and groomers their platform is notorious for having.</li>
 <li>Discord bans guild owners' personal accounts for offenses committed by their members, and yet, they refuse to provide information beyond their vague ToS about what does and does not constitute a violation.</li>
 <li>In effect: <strong>Discord forces one to actively protect child predators in order to operate a guild on their platform</strong>.</li>
 </ul>
+
+<strong>Also FYI</strong>: If you get banned from Discord (which can happen for utter nonsense reasons as shown below), <strong>you will (probably) lose access to any purchases (games, IAPs, nitro) on your Discord account without a refund!</strong>
 </p>
 <hr>
 
@@ -80,7 +82,7 @@ A malicious user could easily post an edgy message from a sock-puppet account, t
 </p>
 
 <p>
-It's also worth noting that if your Discord account is terminated, you lose anything you've purchased on it (games, IAPs, nitro) without a refund.
+It's also worth noting that if your Discord account is terminated, you will (probably) lose anything you've purchased on it (games, IAPs, nitro) without a refund.
 Imagine your entire Steam library being taken from you because someone else posted a racial slur in the comments on your profile;
 Valve would <em>never</em> do that, but Discord literally does it as a standard procedure.
 It's spelled out in their <a href="https://discord.com/terms">ToS</a> under "TERMINATION", and as this page demonstrates, they terminate accounts for utterly frivolous reasons.
@@ -181,7 +183,7 @@ Edit (6/3): Discord has once again terminated my latest personal account (for "d
 </p>
 
 <p>
-Edit (6/5): I appealed the latest ban, but instead of writing an appeal I just said <em>"Does anyone actually read these or are they automatically denied?"</em> and they have not responded in 2 days, which implies someone is actually reading these ban appeals and upholding all the absurd bans shown above.
+Edit (6/6): I appealed the latest ban, but instead of writing an appeal I just said <em>"Does anyone actually read these or are they automatically denied?"</em> and they have not responded in 3 days, which implies someone is actually reading these ban appeals and upholding all the absurd bans shown above.
 </p>
 
 

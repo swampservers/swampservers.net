@@ -105,7 +105,7 @@ div {
     $file = file($THOUGHTFILEPATH, FILE_IGNORE_NEW_LINES);
     $str = $file[rand(0, count($file) - 1)];
     echo $str;
-    ?>"
+    ?>"<br><em style="font-size:10pt;">(user submitted)</em>
 </div>
 
 <!--
