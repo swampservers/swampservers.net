@@ -186,6 +186,9 @@ Edit (6/3): Discord has once again terminated my latest personal account (for "d
 Edit (6/6): I appealed the latest ban, but instead of writing an appeal I just said <em>"Does anyone actually read these or are they automatically denied?"</em> and they have not responded in 3 days, which implies someone is actually reading these ban appeals and upholding all the absurd bans shown above.
 </p>
 
+<p>
+Edit (6/10): Discord just retailiated against <strong>several of my moderators</strong> by disabling their accounts - evidently just for associating with me. These people did nothing wrong and have no control over my actions, but Discord hates me so much that they are banning not only all of my accounts, but the accounts of my associates as well!
+</p>
 
 <hr>
 <p>
