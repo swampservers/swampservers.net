@@ -187,7 +187,7 @@ Edit (6/6): I appealed the latest ban, but instead of writing an appeal I just s
 </p>
 
 <p>
-Edit (6/10): Discord just retailiated against <strong>several of my moderators</strong> by disabling their accounts - evidently just for associating with me. These people did nothing wrong and have no control over my actions, but Discord hates me so much that they are banning not only all of my accounts, but the accounts of my associates as well!
+Edit (6/10): Discord just retailiated against <strong>16 of my moderators</strong> by disabling their accounts - evidently just for associating with me. These people did nothing wrong and have no control over my actions, but Discord hates me so much that they are banning not only all of my accounts, but the accounts of my associates as well!
 </p>
 
 <hr>
