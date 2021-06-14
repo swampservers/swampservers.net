@@ -190,6 +190,22 @@ Edit (6/6): I appealed the latest ban, but instead of writing an appeal I just s
 <strong>Edit (6/10): Discord just retailiated against 16 of my moderators by disabling their accounts</strong> - evidently just for associating with me. These people did nothing wrong and have no control over my actions, but Discord hates me so much that they are banning not only all of my accounts, but the accounts of my associates as well!
 </p>
 
+<p>
+Edit (6/12): Many of my moderators appealed the Discord ban and recieved the same "you're staying banned, fuck you" response showcased above <em>except one</em> who got a real response from them and had the ban lifted.
+
+The response is quite incredible; Discord unambiguously states that guilt-by-association is a valid ban reason on their platform.
+</p>
+
+<p>
+<span class="thumbnail">
+<img src="discord_gba.png">
+</span>
+</p>
+<p>
+I believe the "content in extreme violation of the community guidelines" they refer to here was <em>a link to this article posted by a bot in the server</em>.
+</p>
+
+
 <hr>
 <p>
 <a href="https://steamcommunity.com/groups/swampservers/announcements/detail/3017954936014598526">Comments section</a>
