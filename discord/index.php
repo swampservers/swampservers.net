@@ -202,7 +202,7 @@ The response is quite incredible; Discord unambiguously states that guilt-by-ass
 </span>
 </p>
 <p>
-I believe the "content in extreme violation of the community guidelines" they refer to here was <em>a link to this article posted by a bot in the server</em>.
+I believe the "content in extreme violation of the community guidelines" they refer to here was <em>a link to this article posted in the server</em>. I don't think there was anything else on it at the time these takedowns happened.
 </p>
 
 
