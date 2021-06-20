@@ -22,6 +22,14 @@ if (isset($_GET["map"])) {
         $wallpaper = "spadeswallpaper";
     }
 }
+
+
+$videoid = 'vRF3zgF6Xao'; //'kQ-I-VQsvko', //, //'ih4_1FyVjaY',
+
+if (date("m/d")=="06/19") {
+  $videoid = "bR5fPDVciSE";
+}
+
 ?>
 
 <html>
@@ -74,7 +82,7 @@ div {
     player = new YT.Player('player', {
       height: '390',
       width: '640',
-      videoId: 'vRF3zgF6Xao', //'kQ-I-VQsvko', //, //'ih4_1FyVjaY',
+      videoId: '<?=$videoid?>', //'kQ-I-VQsvko', //, //'ih4_1FyVjaY',
       loop: 1,
       events: {
         'onReady': onPlayerReady
@@ -84,7 +92,9 @@ div {
 
   function onPlayerReady(event) {
     //event.target.setVolume(0);
+    <?php if ($videoid=="vRF3zgF6Xao") { ?>    
     event.target.seekTo(7);
+    <?php } ?>
     event.target.playVideo();
     // document.getElementById("videoname").innerText = event.target.getVideoData().title;
     // document.getElementById("videonameouter").style.display="block";
