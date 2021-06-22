@@ -75,7 +75,6 @@ foreach ($page as $post) {
 		<li>Absolutely no pedophiles</li>
 		<li>No disgusting shock vids/pics</li>
 		<li>No calls for violence/suicide</li>
-		<li>No porn unless you're underground</li>
 		<li>No hackers (get a life)</li>
 	</ol>
 	<a href="/rules">Full rules</a>
@@ -96,7 +95,7 @@ foreach ($page as $post) {
 </div>
 
 <div class="well">
-	<div class="text-center"><strong>Help wanted (PAID)</strong></div>
+	<div class="text-center"><strong>Help wanted ($30/hr)</strong></div>
 	<div class="text-center">
 	<img style="width:48px;transform: scale(1.3333);" src="/s/img/lua2.png"> &nbsp;&nbsp; <a href="https://github.com/swampservers/contrib">Experienced coder?</a> &nbsp; <img style="height:48px;" src="/s/img/phpe.png">
 	</div>

@@ -28,10 +28,7 @@
 	</li>
 	<br>
 	<li>
-		<strong>Do not share pornography outside of "underground" areas on Cinema.</strong>
-		<ul>
-			<li>Do not post it where it is visible outside of "underground" areas either (eg. global chat).</li>
-		</ul>
+		<strong>Do not customize your playermodel to be pornographic, or lie on the "is your spray porn?" popup.</strong>
 	</li>
 	<br>
 	<li>

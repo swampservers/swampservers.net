@@ -21,7 +21,7 @@ TL;DR:
 <li>In effect: <strong>Discord forces one to actively protect child predators in order to operate a guild on their platform</strong>.</li>
 </ul>
 
-<strong>Also FYI</strong>: If you get banned from Discord (which can happen for utter nonsense reasons as shown below), <strong>you will (probably) lose access to any purchases (games, IAPs, nitro) on your Discord account without a refund!</strong>
+<strong>Also FYI</strong>: If you get banned from Discord (which can happen for utter nonsense reasons, including just hanging out with people they dislike <a href="#gba">which the company even admits to</a>), <strong>you will (probably) lose access to any purchases (games, IAPs, nitro) on your Discord account without a refund!</strong>
 </p>
 <hr>
 
@@ -198,7 +198,7 @@ The response is quite incredible; Discord unambiguously states that guilt-by-ass
 
 <p>
 <span class="thumbnail">
-<img src="discord_gba.png">
+<img src="discord_gba.png" id="gba">
 </span>
 </p>
 <p>
