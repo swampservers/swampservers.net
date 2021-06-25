@@ -144,7 +144,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 	<div class="text-center"><strong>Recent updates</strong></div>
 	<?php
 $junk = array();
-exec('cd /swamp/cinema/garrysmod/addons/contrib; git log --pretty=format:"%ad: %s" --relative-date -n 10', $junk);
+exec('cd /swamp/workspace/repos/contrib; git log --pretty=format:"%ad: %s" --relative-date -n 10', $junk);
 // exec('cd /swamp/cinema/garrysmod/addons/swampcinema; git log --pretty=format:"%ad: %s" --relative-date -n 5', $junk2);
 echo implode("<br>", $junk);
 ?>
