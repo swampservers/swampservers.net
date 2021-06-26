@@ -2,6 +2,32 @@ body {
   /* Show it's not fixed to the top */
   min-height: 75rem;
   /* padding-top: 88px; */
+  /* background:#111 url(/s/img/noise.png); */
+
+  background: black url("/s/img/wallpapernofishing.jpg") no-repeat fixed;
+  
+  /* background-position: 0px -100px; */
+  background-size: cover;
+}
+
+.hackground {
+  float:left;
+  background-color: rgba(0,0,0,0.6);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right:0;
+  bottom:0;
+  z-index:-9999;
+}
+
+.navbar {
+  margin-bottom: 0px; !important
+}
+
+#bodycontainer {
+  padding-top:25px;
+  /* background-color: rgba(0,0,0,0.6); */
   background:#111 url(/s/img/noise.png);
 }
 
@@ -35,11 +61,9 @@ body {
 
 .titlebar {
   background: black url("/s/img/wallpapernofishing.jpg") no-repeat fixed;
-  /* background-position: 50% 90%; */
-  /* background-position: bottom; */
-  background-position: 50% 75%;
+  /* background-position: 0px -100px; */
   background-size: cover;
-  height: 88px;
+  height: 96px; /*88px;*/
 }
 
 /* todo: make it like stuck to the navbar and slightly on top of it, also use <a> */
