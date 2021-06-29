@@ -144,6 +144,9 @@
 <p class="text-center">
 	If you are banned, please appeal by posting on the <a href="https://steamcommunity.com/groups/swampservers/discussions">Steam Group.</a>
 </p>
+<p class="text-center">
+To report a rule breaker, please send a Steam private message to any <a href="https://swamp.sv/staff/">staff</a> <strong>other than the owner or any developer</strong>.
+</p>
 <hr>
 <div class="alert alert-success">
 	The following is <strong>allowed</strong>:
