@@ -112,9 +112,57 @@ div {
 <div style="margin:12px;line-height:160%;position:fixed;bottom:0px;left:0px;right:0px;font-size:18px;text-align:center;">
 <strong>Thought of the day:</strong><br>"<?php
 
+    $badwords = array(
+      " nig",
+      " kike",
+      " jew",
+      " fag",
+      " kkk ",
+      " klan ",
+      " lynch ",
+      " cum",
+      " cock",
+      " dick",
+      " ass ",
+      // " butt",
+      " asshole",
+      " anus",
+      " penis",
+      " vagina",
+      " fuck",
+      " puss",
+      " shit",
+      " suck",
+      " rape",
+      " rapist",
+      " nude",
+      " hitler",
+      " heil",
+      " fap",
+      " porn",
+      " anal",
+    );
+
     $file = file($THOUGHTFILEPATH, FILE_IGNORE_NEW_LINES);
-    $str = $file[rand(0, count($file) - 1)];
-    echo $str;
+    
+    for ($i=0; $i<1000; $i++) {
+      $str = $file[rand(0, count($file) - 1)];
+      $str2 = " ".strtolower($str)." ";
+
+      $ok = true;
+      foreach ($badwords as &$value) {
+        if (strpos($str2, $value)!==false) {
+          $ok = false;
+        }
+      }
+
+      if ($ok) {
+        echo $str;
+        break;
+      }
+    }
+    
+    
     ?>"<br><em style="font-size:10pt;">(user submitted)</em>
 </div>
 
