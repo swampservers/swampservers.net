@@ -163,7 +163,7 @@ div {
     }
     
     
-    ?>"<br><em style="font-size:10pt;">(user submitted)</em>
+    ?>" <!--<br><em style="font-size:10pt;">(user submitted)</em>-->
 </div>
 
 <!--
