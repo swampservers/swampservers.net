@@ -30,6 +30,10 @@ if (date("m/d")=="06/19") {
   $videoid = "bR5fPDVciSE";
 }
 
+//CSGO
+$wallpaper = "csgoswamp2";
+$videoid = "Rvi6c8toWJM";
+
 ?>
 
 <html>
