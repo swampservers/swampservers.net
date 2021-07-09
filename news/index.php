@@ -95,10 +95,10 @@ foreach ($page as $post) {
 </div>
 
 <div class="well">
-	<div class="text-center"><strong>Help wanted ($30/hr)</strong></div>
 	<div class="text-center">
-	<img style="width:48px;transform: scale(1.3333);" src="/s/img/lua2.png"> &nbsp;&nbsp; <a href="https://github.com/swampservers/contrib">Experienced coder?</a> &nbsp; <img style="height:48px;" src="/s/img/phpe.png">
+	<img style="width:48px;transform: scale(1.3333);" src="/s/img/lua2.png"> &nbsp;&nbsp; Experienced coder? &nbsp; <img style="height:48px;" src="/s/img/phpe.png">
 	</div>
+	<div style="position:relative;top:8px;" class="text-center"><strong><a href="https://swamp.sv/contact">Contact us</a> to apply ($30/hr)</strong></div>
 </div>
 
 <!-- TOTD STUFF -->
