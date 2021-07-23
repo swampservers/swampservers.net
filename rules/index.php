@@ -91,7 +91,7 @@
 		<strong>Don't real-world-trade points with other players.</strong>
 		<ul>
 			<li>Points do not have real-world value. Trading points for real money or things with real-world value (eg. game codes) is not allowed.</li>
-			<li>The "give points" function can be used for gifts or for "paying" for something without real-world value (eg. a theater in-game).</li>
+			<li>The "give points" function can be used for gifts or for "paying" for something without real-world value (eg. a drawing).</li>
 		</ul>
 	</li>
 	<br>
