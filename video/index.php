@@ -157,7 +157,7 @@
 					<a class="list-group-item" href="http://streamwat.ch/">Streamwat.ch - Live TV<span class="glyphicon glyphicon-film" style="color:#808"></span></a>
 					<a class="list-group-item" href="https://twitch.tv">Twitch.tv<span class="glyphicon glyphicon-eye-open" style="color:#080;"></span></a>
 					<a class="list-group-item" href="https://www.soundcloud.com">Soundcloud<span class="glyphicon glyphicon-fire" style="color:#C80;"></span></a>
-					<a class="list-group-item" href="https://4anime.to/">4Anime.to<span class="glyphicon glyphicon glyphicon-yen" style="color:#008"></span></a>
+					<!-- <a class="list-group-item" href="https://4anime.to/">4Anime.to<span class="glyphicon glyphicon glyphicon-yen" style="color:#008"></span></a> -->
 				</div>
 			</div>
 
