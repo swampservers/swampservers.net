@@ -4,7 +4,7 @@
 <div class="row">
 <div class="col-lg-8">
 
-<div class="well">
+<!-- <div class="well">
 	<div class="text-center"><strong>IMPORTANT: The DOUBLE POINTS perk is now tied to our STEAM CHAT because Discord <a href="/discord">literally banned us for not protecting child molestors</a></strong></div>
 	<script>
 	function discordgroup() { console.log("RUNLUA:MOTDWINDOW:Close() timer.Simple(0.1, function() gui.OpenURL('https://steamcommunity.com/groups/swampservers') end)"); }
@@ -14,7 +14,7 @@
 	<a onclick='discordgroup()' href="https://steamcommunity.com/groups/swampservers">Join our STEAM CHAT today for DOUBLE POINTS!</a>
 		&nbsp; <img style="width:48px;" src="/s/img/steamlogo.png">
 	</div>
-</div>
+</div> -->
 
 
 <h1 class="text-center">News</h1>
@@ -90,8 +90,27 @@ foreach ($page as $post) {
 	</div>
 </div>
 
-<div class="well">
-	<div class="text-center" style="font-size:12pt;">For even more points, add <em>swamp.sv</em> to your Steam name for 10,000 per day upon login!</div>
+<div class="well" style="font-size:12pt;">
+	<div class="text-center">For even more points, add <em>swamp.sv</em> to your Steam name for 10,000 per day upon login!</div>
+</div>
+
+<div class="well" style="font-size:12pt;">
+<div class="text-center"><strong>Richest players</strong></div>
+	
+	<?php 
+		$stuff = SQL_Query("SELECT points FROM users WHERE id64!=0 ORDER BY points DESC LIMIT 5",[]);
+
+?><ul><?php
+		foreach($stuff->data as $thing) {
+
+			?>
+			<li> Anonymous: <?=number_format($thing->points)?> 
+			</li>
+			<?php
+		}
+
+		?></ul><?php
+		?>
 </div>
 
 <div class="well">

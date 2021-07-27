@@ -24,7 +24,7 @@ if (isset($_GET["map"])) {
 }
 
 
-$videoid = 'vRF3zgF6Xao'; //'kQ-I-VQsvko', //, //'ih4_1FyVjaY',
+$videoid = 'Z21kNmtOx6I'; //'vRF3zgF6Xao'; //'kQ-I-VQsvko', //, //'ih4_1FyVjaY',
 
 if (date("m/d")=="06/19") {
   $videoid = "bR5fPDVciSE";
@@ -99,6 +99,11 @@ div {
     <?php if ($videoid=="vRF3zgF6Xao") { ?>    
     event.target.seekTo(7);
     <?php } ?>
+
+    <?php if ($videoid=="Z21kNmtOx6I") { ?>   
+      event.target.seekTo(10);
+    <?php } ?>
+    
     event.target.playVideo();
     // document.getElementById("videoname").innerText = event.target.getVideoData().title;
     // document.getElementById("videonameouter").style.display="block";
