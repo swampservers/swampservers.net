@@ -32,6 +32,10 @@
 	</li>
 	<br>
 	<li>
+		<strong>Do not customize your playermodel to be invisible, very tiny, or hidden under the floor.</strong>
+	</li>
+	<br>	
+	<li>
 		<strong>Don't commit extreme harassment, which is defined as:</strong>
 		<ul>
 			<li>Posting/referencing/threatening to post any player's personal information (unless subject gives permission or has the information on their Steam/Discord profile).</li>
