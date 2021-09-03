@@ -26,7 +26,10 @@
 			Use common sense with your position of power and understand that your conduct is more limited than a typical player.
 			</li>
 			<li>Staff do not get any special permissions outside of kick, ban, and unban. You cannot spawn in weapons, no-clip, or force skip videos for no reason. If you want to "admin abuse," go to a different community.</li>
-			<li>If you have any questions, please ask other staff members. Join our <a href="https://swampservers.net/discord">discord</a> for access to the staff channel. Do not leak information from our private staff channel!</li>
+			<li>If you have any questions, please ask other staff members. Ask for an invite to our private Steam chat group for staff.</li>
+			<li>Do not leak information from our private chat group or from any staff-only webpage. Access to staff webpages (eg. ban manager) is logged and can be audited.
+				<strong>Leaking of confidential staff information will result in an automatic demotion and possibly a ban.</strong>
+			</li>
 		</ul>
 		<h3 class="text-center">Tools</h3>
 		<ul>
