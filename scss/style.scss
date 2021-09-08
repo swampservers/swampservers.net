@@ -1,0 +1,127 @@
+/* Application stylesheet */
+
+@font-face{
+    font-family:titlefont;
+	/* Changed url(fonts/AveriaSerif-Bold.ttf) to url(../fonts/AveriaSerif-Bold.ttf) for local testing purposes */
+    src:url(/fonts/Righteous-Regular.ttf)
+}
+
+@font-face{
+    font-family:righteous;
+    font-style:normal;
+    font-weight:400;
+    src:local('Righteous'),local('Righteous-Regular'),url(https://fonts.gstatic.com/s/righteous/v5/eJYqrhUff1n1Ge9A-rSw_BJtnKITppOI_IvcXXDNrsc.woff2) format('woff2');
+    unicode-range:U+0100-024F,U+1E00-1EFF,U+20A0-20AB,U+20AD-20CF,U+2C60-2C7F,U+A720-A7FF
+}
+
+@font-face{
+    font-family:righteous;
+    font-style:normal;
+    font-weight:400;
+    src:local('Righteous'),local('Righteous-Regular'),url(https://fonts.gstatic.com/s/righteous/v5/w5P-SI7QJQSDqB3GziL8XVtXRa8TVwTICgirnJhmVJw.woff2) format('woff2');
+    unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2212,U+2215,U+E0FF,U+EFFD,U+F000
+}
+
+.titlebar {
+	background: #393939;
+	background-image: url("/s/img/titlebackground.png");
+    background-repeat: repeat-x;
+	background-size: cover;
+	height: 96px;
+	>.container {
+		>h1 {
+			font-family: titlefont;
+            padding-left: 10px;
+			font-size: 56px;
+			cursor: pointer;
+			text-shadow: 0 4px 8px #000;
+		}
+	}
+}
+
+.screenshot-desc {
+    padding-top: 50px;
+    padding-left: 25px;
+}
+
+@media screen and (max-width:767px) {
+	.titlebar {
+		>.container {
+			>h1 {
+				font-size: 20px;
+			}
+		}
+	}
+}
+
+.btn-group {
+    width:554px;
+    .btn {
+        border: 0px !important;
+        margin: 0px !important;
+    };
+}
+
+.navbar{
+    min-height:0!important
+}
+
+.navbar-nav>li>a{
+    padding-top:8px;
+    padding-bottom:8px
+}
+
+#navbar{
+    padding:0!important
+}
+
+.navbar-brand{
+    font-family:righteous,cursive;
+    font-size:42px;
+    line-height:26px;
+    position:relative;
+    top:-16px
+}
+
+.fake-button{
+    pointer-events:auto;
+    -webkit-user-select:text;
+    -moz-user-select:text;
+    -ms-user-select:text;
+    user-select:auto;
+    cursor:auto
+}
+
+.bancard{
+    width:600px;
+    display:inline-block
+}
+
+.steamcard{
+    max-width:600px;
+    display:inline-block;
+    cursor:pointer
+}
+
+.steamcard:hover{
+    box-shadow:0 0 16px #fff
+}
+
+td{
+    padding:4px!important
+}
+
+.underline{
+    text-decoration:underline
+}
+
+.server-thumbnail{
+    clear:both;
+    padding-top:1em;
+    padding-left:80px
+}
+
+.progress{
+    height:20px;
+    margin:20px
+}

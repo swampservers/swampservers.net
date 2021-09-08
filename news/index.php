@@ -4,7 +4,7 @@
 <div class="row">
 <div class="col-lg-8">
 
-<!-- <div class="well">
+<!-- <div class="card">
 	<div class="text-center"><strong>IMPORTANT: The DOUBLE POINTS perk is now tied to our STEAM CHAT because Discord <a href="/discord">literally banned us for not protecting child molestors</a></strong></div>
 	<script>
 	function discordgroup() { console.log("RUNLUA:MOTDWINDOW:Close() timer.Simple(0.1, function() gui.OpenURL('https://steamcommunity.com/groups/swampservers') end)"); }
@@ -69,7 +69,7 @@ foreach ($page as $post) {
 </div><!--column-->
 
 <div class="col-lg-4">
-<div class="well">
+<div class="card">
 	<div class="text-center"><strong>Server rules</strong></div>
 	<ol>
 		<li>Absolutely no pedophiles</li>
@@ -80,7 +80,7 @@ foreach ($page as $post) {
 	<a href="/rules">Full rules</a>
 </div>
 
-<div class="well">
+<div class="card">
 	<div class="text-center"><strong>Want DOUBLE POINTS?</strong></div>
 	<script>
 	function steamgroup() { console.log("RUNLUA:MOTDWINDOW:Close() timer.Simple(0.1, function() gui.OpenURL('https://steamcommunity.com/groups/swampservers') end)"); }
@@ -90,11 +90,11 @@ foreach ($page as $post) {
 	</div>
 </div>
 
-<div class="well" style="font-size:12pt;">
+<div class="card" style="font-size:12pt;">
 	<div class="text-center">For even more points, add <em>swamp.sv</em> to your Steam name for 10,000 per day upon login!</div>
 </div>
 
-<div class="well" style="font-size:12pt;">
+<div class="card" style="font-size:12pt;">
 <div class="text-center"><strong>Richest players</strong></div>
 	
 	<?php 
@@ -113,15 +113,15 @@ foreach ($page as $post) {
 		?>
 </div>
 
-<div class="well">
+<div class="card">
 	<div class="text-center">
 	<img style="width:48px;transform: scale(1.3333);" src="/s/img/lua2.png"> &nbsp;&nbsp; Experienced coder? &nbsp; <img style="height:48px;" src="/s/img/phpe.png">
 	</div>
-	<div style="position:relative;top:8px;" class="text-center"><strong><a href="https://swamp.sv/contact">Contact us</a> to apply ($30/hr)</strong></div>
+	<div style="position:relative;top:8px;" class="text-center"><strong><a href="https://swamp.sv/contact">Contact us</a> to apply</strong></div>
 </div>
 
 <!-- TOTD STUFF -->
-<div class="well">
+<div class="card">
 	<?php
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     if (!isset($_POST["thought"]) || strlen(trim($_POST["thought"])) < 2 || strlen($_POST["thought"]) > 100) {
@@ -159,7 +159,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 </div>
 
 
-<div class="well">
+<div class="card">
 	<div class="text-center"><strong>Recent updates</strong></div>
 	<?php
 $junk = array();

@@ -2,7 +2,7 @@
 @font-face {
   font-family: titlefont;
   /* Changed url(fonts/AveriaSerif-Bold.ttf) to url(../fonts/AveriaSerif-Bold.ttf) for local testing purposes */
-  src: url(../fonts/righteous-regular.ttf);
+  src: url(/fonts/Righteous-Regular.ttf);
 }
 @font-face {
   font-family: righteous;
@@ -20,7 +20,7 @@
 }
 .titlebar {
   background: #393939;
-  background-image: url("../images/titlebackground.png");
+  background-image: url("/s/img/titlebackground.png");
   background-repeat: repeat-x;
   background-size: cover;
   height: 96px;
