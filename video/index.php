@@ -7,9 +7,9 @@
 		<meta name="description" content="Garry's Mod Cinema gamemode.">
 		<meta name="keywords" content="garrysmod,cinema">
 		<meta name="author" content="pixelTail Games">
-		<link href="style.min.css" rel="stylesheet" type="text/css">
+		<link href="style.css" rel="stylesheet" type="text/css">
+		<link href="/css/style.min.css" rel="stylesheet" type="text/css">
 		<link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet" type="text/css">
-			<!-- <link href="/css/bootstrap.min.css" rel="stylesheet" type="text/css"> -->
 
 	<style>
 	.glyphicon {

@@ -48,6 +48,11 @@ foreach ($staff as $user) {
 </div>
 </div>
 
+<div style="display:none;">
+    
+    <?php SteamCard(76561198103347732, "backstabbing asshole"); ?>
+</div>
+
 
 <h3 class="text-center">Want to join staff?</h3>
 <p class="text-center">
