@@ -51,6 +51,7 @@ foreach ($staff as $user) {
 <div style="display:none;">
     
     <?php SteamCard(76561198103347732, "backstabbing asshole"); ?>
+    <?php SteamCard(76561198116249190, "ex-redditor"); ?>
 </div>
 
 
