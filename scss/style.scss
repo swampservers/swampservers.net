@@ -15,12 +15,16 @@ $brand-danger:          #E74C3C;
 $font-size-base:  18px;
 $jumbotron-font-size: 18px;
 
+$navbar-height: 52px;
+
+// todo: make navbar a little smaller
 .navbar-default {
   // moved slightly down 2px so darker on bottom
   box-shadow: 0px 2px 16px 0px rgba(0, 0, 0, 0.8);
+  // height: 54px !important;
 }
 
-// body {
+body {
 //   /* So it's not fixed to the top */
 //   min-height: 75rem;
 //   /* padding-top: 88px; */
@@ -30,7 +34,8 @@ $jumbotron-font-size: 18px;
   
 //   /* background-position: 0px -100px; */
 //   background-size: cover;
-// }
+  background-color: #181818 !important;
+}
 
 .navbar {
   margin-bottom: 0px !important;
@@ -85,8 +90,9 @@ $jumbotron-font-size: 18px;
 	background: #393939;
 	background-image: url("/s/img/titlebackground.png");
   background-repeat: repeat-x;
-	background-size: cover;
-	height: 96px;
+	background-size: auto 100%; //cover;
+  background-position: center;
+	height: 88px;
 	>.container {
 		>h1 {
 			font-family: Righteous;

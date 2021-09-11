@@ -6,6 +6,10 @@
   box-shadow: 0px 2px 16px 0px rgba(0, 0, 0, 0.8);
 }
 
+body {
+  background-color: #181818 !important;
+}
+
 .navbar {
   margin-bottom: 0px !important;
 }
@@ -41,8 +45,9 @@
   background: #393939;
   background-image: url("/s/img/titlebackground.png");
   background-repeat: repeat-x;
-  background-size: cover;
-  height: 96px;
+  background-size: auto 100%;
+  background-position: center;
+  height: 88px;
 }
 .titlebar > .container > h1 {
   font-family: Righteous;
@@ -4749,7 +4754,7 @@ tbody.collapse.in {
 
 .navbar {
   position: relative;
-  min-height: 60px;
+  min-height: 52px;
   margin-bottom: 25px;
   border: 1px solid transparent;
 }
@@ -4883,10 +4888,10 @@ tbody.collapse.in {
 
 .navbar-brand {
   float: left;
-  padding: 17.5px 15px;
+  padding: 13.5px 15px;
   font-size: 23px;
   line-height: 25px;
-  height: 60px;
+  height: 52px;
 }
 .navbar-brand:hover, .navbar-brand:focus {
   text-decoration: none;
@@ -4905,8 +4910,8 @@ tbody.collapse.in {
   float: right;
   margin-right: 15px;
   padding: 9px 10px;
-  margin-top: 13px;
-  margin-bottom: 13px;
+  margin-top: 9px;
+  margin-bottom: 9px;
   background-color: transparent;
   background-image: none;
   border: 1px solid transparent;
@@ -4931,7 +4936,7 @@ tbody.collapse.in {
 }
 
 .navbar-nav {
-  margin: 8.75px -15px;
+  margin: 6.75px -15px;
 }
 .navbar-nav > li > a {
   padding-top: 10px;
@@ -4968,8 +4973,8 @@ tbody.collapse.in {
     float: left;
   }
   .navbar-nav > li > a {
-    padding-top: 17.5px;
-    padding-bottom: 17.5px;
+    padding-top: 13.5px;
+    padding-bottom: 13.5px;
   }
 }
 
@@ -4981,8 +4986,8 @@ tbody.collapse.in {
   border-bottom: 1px solid transparent;
   -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 0 rgba(255, 255, 255, 0.1);
   box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 0 rgba(255, 255, 255, 0.1);
-  margin-top: 5.5px;
-  margin-bottom: 5.5px;
+  margin-top: 1.5px;
+  margin-bottom: 1.5px;
 }
 @media (min-width: 768px) {
   .navbar-form .form-group {
@@ -5070,21 +5075,21 @@ tbody.collapse.in {
 }
 
 .navbar-btn {
-  margin-top: 5.5px;
-  margin-bottom: 5.5px;
+  margin-top: 1.5px;
+  margin-bottom: 1.5px;
 }
 .navbar-btn.btn-sm, .btn-group-sm > .navbar-btn.btn {
-  margin-top: 10px;
-  margin-bottom: 10px;
+  margin-top: 6px;
+  margin-bottom: 6px;
 }
 .navbar-btn.btn-xs, .btn-group-xs > .navbar-btn.btn {
-  margin-top: 19px;
-  margin-bottom: 19px;
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
 
 .navbar-text {
-  margin-top: 17.5px;
-  margin-bottom: 17.5px;
+  margin-top: 13.5px;
+  margin-bottom: 13.5px;
 }
 @media (min-width: 768px) {
   .navbar-text {
