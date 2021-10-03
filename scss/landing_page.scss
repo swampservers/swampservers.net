@@ -1,0 +1,240 @@
+$brand-primary:         #286068;
+
+section.top {
+  position: relative;
+
+  #bg { background: url("/screenshots/swampcinemadk.jpg") }
+  
+  div.top {
+    height: 600px;
+    background-position-x: center !important;
+    background-position-y: top 100px !important;
+    background-size: cover !important;
+
+    .mask {
+      width: 100%;
+      height: 100%;
+      background: -webkit-gradient(linear, left top, right bottom, from(rgba(9, 14, 11, 90%)), to(rgba(9, 14, 11, 80%)));
+      background: linear-gradient(to right, rgba(9, 14, 11, 90%), rgba(9, 14, 11, 80%));
+    }
+  }
+
+  .title {
+    position: absolute;
+    z-index:3;
+    top: 0px;
+    width: 100%;
+    margin-top: 0px;
+    padding-top: 110px;
+
+    h1 {
+      margin: 0;
+      font-size: 92px;
+      line-height: 0.9em !important;
+      font-weight: 900;
+      text-align: center;
+      text-shadow: 4px 4px #333;
+    }
+
+    h2 {
+      font-size: 30px;
+      margin: 35px 0;
+      text-align: center;
+    }    
+  }
+
+  .move-down {
+    position: absolute;
+    z-index:3;
+    bottom: 16px;
+    width: 100%;
+    text-align: center;
+
+    a {
+      text-decoration: none !important;
+
+      span.label {
+        color: #999;
+        display: block;
+        margin-bottom: 4px;
+      }
+
+      &:hover {
+        text-decoration: none !important;
+
+        span.label {
+          color: #10c090;
+        }
+
+        .down-btn {
+          border: 4px solid #10c090;
+
+          &:after {
+            border-top: 4px solid #10c090;
+            border-right: 4px solid #10c090;
+          }
+        }
+      }
+    }
+    
+    .down-btn {
+      display: inline-block;
+      width: 36px;
+      height: 36px;
+      border: 4px solid #999;
+      border-radius: 50%;
+      
+      &:after {
+        content: '';
+        display: inline-block;
+        margin-top: 0.20em;
+        width: 14px;
+        height: 14px;
+        border-top: 4px solid #999;
+        border-right: 4px solid #999;
+        -moz-transform: rotate(135deg);
+        -webkit-transform: rotate(135deg);
+        transform: rotate(135deg);
+      }
+    }
+  }
+
+  // Carousel fading effect
+  .carousel-fade {
+    .carousel-inner {
+      .item {
+        opacity: 0;
+        -moz-transition: opacity 1s ease-in-out;
+        -webkit-transition: opacity 1s ease-in-out;
+        transition-property: opacity 1s ease-in-out;
+      }
+      .active {
+        opacity: 1;
+      }
+      .active.left {
+        left: 0;
+        opacity: 0;
+        z-index: 1;
+      }
+      .active.right {
+        left: 0;
+        opacity: 0;
+        z-index: 1;
+      }
+      .next.left {
+        opacity: 1;
+      }
+      .prev.right {
+        opacity: 1;
+      }
+    }
+    .carousel-control {
+      z-index: 2;
+    }
+  }
+}
+
+section.copy {
+  padding: 80px 0;
+  background-color: #222;
+
+  h3 {
+    margin-top: 0px !important;
+  }
+
+  .thumbnail {
+    display: block;
+    padding: 0px !important;
+    border:2px solid #505050;
+    background: url(img/tiger.png) no-repeat;
+    box-shadow: 5px 5px 5px #444;
+    -moz-box-shadow: 5px 5px 5px #444;
+    -webkit-box-shadow: 5px 5px 5px #444;
+    -khtml-box-shadow: 5px 5px 5px #444;
+  }
+}
+
+// Server section
+section.servers {
+  padding: 40px 0;
+  position: relative;
+  background: #111 url(/s/img/noise.png);
+  
+  .description-bar {
+    background-color: #1c1c1c;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+
+    .description {
+      padding: 20px;
+    }
+
+    .buttons {
+      padding-right: 0px !important;
+    }
+  }
+
+  #cinema-carousel {
+    #bg1 { background: url("/screenshots/carousel/cinema/screenshot_1.jpg") }
+    #bg2 { background: url("/screenshots/carousel/cinema/screenshot_2.jpg") }
+    #bg3 { background: url("/screenshots/carousel/cinema/screenshot_3.jpg") }
+    #bg4 { background: url("/screenshots/carousel/cinema/screenshot_4.jpg") }
+    #bg5 { background: url("/screenshots/carousel/cinema/screenshot_5.jpg") }
+    #bg6 { background: url("/screenshots/carousel/cinema/screenshot_6.jpg") }
+    #bg7 { background: url("/screenshots/carousel/cinema/screenshot_7.jpg") }
+  }
+
+  #fatkid-carousel {
+    #bg1 { background: url("/screenshots/carousel/fatkid/screenshot_1.jpg") }
+    #bg2 { background: url("/screenshots/carousel/fatkid/screenshot_2.jpg") }
+    #bg3 { background: url("/screenshots/carousel/fatkid/screenshot_3.jpg") }
+  }
+
+  #fatkid-carousel, #cinema-carousel {
+    .carousel-control {
+      width: 8%;
+    }
+
+    .carousel-indicators {
+      margin-bottom: 0;
+    }
+
+    .slider-size {
+      margin-top: 10px;
+      height: 600;      
+      background-position: center center !important;
+      background-size: cover !important;
+
+      .caption {        
+        position: absolute;
+        bottom: 0;
+        width: 100% !important;
+        height: 100px !important;
+        padding: 15px 30px 0 30px;
+        background: rgba(24, 24, 24, 75%);
+      }
+    }
+  }
+}
+
+.display-flex-center {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+   justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.buffer-bottom {
+  margin-bottom: 30px;
+}
+
+
+/* Universal Parallax Plugin: https://github.com/marrio-h/universal-parallax */
+@import "universal-parallax"; 
