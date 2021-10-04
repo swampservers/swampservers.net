@@ -190,13 +190,13 @@
 
       .caption {        
         position: absolute;
-        top: 0;
+        bottom: 0;
         width: 100% !important;
         // height: 100px !important;
         text-align: center;
-        padding: 20px 0px 20px 0px;
+        padding: 16px 0px 40px 0px;
         font-size: 24px;
-        // background: rgba(24, 24, 24, 75%);
+        background: rgba(0,0,0,50%);
       }
     }
   }
