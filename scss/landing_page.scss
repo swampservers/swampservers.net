@@ -5,7 +5,7 @@
   // #bg { background: url("/screenshots/swampcinemadk.jpg") }
   
   div.top {
-    height: 600px;
+    height: 500px;
     background-position-x: center !important;
     background-position-y: top 100px !important;
     background-size: cover !important;
@@ -28,11 +28,11 @@
 
     h1 {
       margin: 0;
-      font-size: 92px;
-      line-height: 0.9em !important;
-      font-weight: 900;
+      font-size: 72px;
+      // line-height: 0.9em !important;
+      // font-weight: 900;
       text-align: center;
-      text-shadow: 4px 4px #333;
+      // text-shadow: 4px 4px #333;
     }
 
     h2 {
@@ -184,7 +184,7 @@
 
     .slider-size {
       // margin-top: 10px;
-      height: 600;      
+      height: 600px;      
       background-position: center center !important;
       background-size: cover !important;
 
@@ -194,7 +194,7 @@
         width: 100% !important;
         // height: 100px !important;
         text-align: center;
-        padding: 16px 0px 40px 0px;
+        padding: 16px 0px 48px 0px;
         font-size: 24px;
         background: rgba(0,0,0,50%);
       }
