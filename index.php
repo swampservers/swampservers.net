@@ -55,10 +55,16 @@ $serverdata = json_decode(file_get_contents($_SERVER['DOCUMENT_ROOT'] . '/cache/
   }
   /* ITS NOT CENTERED */
   .parallax {
-    background-position: center;
+    /* background-position: center; */
+    background-position: center !important;
+    background-size: cover !important;
   }
-</style>
 
+  .mask {
+    background: linear-gradient(to right, rgba(9, 14, 11, 0.4), rgba(9, 14, 11, 0.4)) !important;
+  }
+
+</style>
 
 
 <section class="top">
@@ -75,8 +81,10 @@ $serverdata = json_decode(file_get_contents($_SERVER['DOCUMENT_ROOT'] . '/cache/
       </div>
 		</div>
 	</div>
-	<div class="parallax" style="background:url('/screenshots/swampcinemadk.jpg')"></div>
+	<div class="parallax" style="background:url('/screenshots/gamercattle.jpg')"></div>
 </section>
+
+
 
 <!-- 
 <div id="main-carousel" class="carousel slide" data-ride="carousel">
