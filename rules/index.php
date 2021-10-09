@@ -1,7 +1,14 @@
 <?php //This file is subject to copyright - contact swampservers@gmail.com for more information. ?>
+
+<?php
+$FancyTitle = "Rules";
+$FancyTitleImage = "/screenshots/chinese.jpg";
+
+?>
+
 <?=common_top("Swamp Servers - Rules")?>
 
-<h1 class="text-center">Rules</h1>
+<!-- <h1 class="text-center">Rules</h1> -->
 
 <h3 class="text-center">These rules apply to all of our servers:</h3>
 
@@ -149,7 +156,7 @@
 	If you are banned, please appeal by posting on the <a href="https://steamcommunity.com/groups/swampservers/discussions">Steam Group.</a>
 </p>
 <p class="text-center">
-To report a rule breaker, please send a Steam private message to any <a href="https://swamp.sv/staff/">staff</a> <strong>other than the owner or any developer</strong>.
+To report a rule breaker, please send a Steam private message to any <a href="https://swamp.sv/staff/">staff</a> <strong>other than the owner</strong>.
 </p>
 <hr>
 <div class="alert alert-success">
@@ -160,5 +167,13 @@ To report a rule breaker, please send a Steam private message to any <a href="ht
 	</ul>
 
 </div>
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="/css/bootstrap.min.js"></script>
+<script src="/css/respond.min.js"></script>
+<script src="/css/universal-parallax.min.js"></script>
+<script>
+	new universalParallax().init({ speed: 4	});
+</script>
 
 <?=common_bottom()?>
