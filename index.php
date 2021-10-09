@@ -55,10 +55,15 @@ $serverdata = json_decode(file_get_contents($_SERVER['DOCUMENT_ROOT'] . '/cache/
   }
   /* ITS NOT CENTERED */
   .parallax {
-    /* background-position: center; */
     background-position: center !important;
     background-size: cover !important;
   }
+
+  .myparallax {
+    background-position: center;
+    background-size: cover !important;
+  }
+
 
   .mask {
     background: linear-gradient(to right, rgba(9, 14, 11, 0.4), rgba(9, 14, 11, 0.4)) !important;
@@ -83,6 +88,56 @@ $serverdata = json_decode(file_get_contents($_SERVER['DOCUMENT_ROOT'] . '/cache/
 	</div>
 	<div class="parallax" style="background:url('/screenshots/gamercattle.jpg')"></div>
 </section>
+
+
+<!-- 
+background-position-y:100% -->
+
+<!-- <div class="myparallax" style="background:url('/screenshots/gamercattle.jpg');height:800px"></div> -->
+
+
+<script>
+
+  function cb(ts) {
+    
+    window.requestAnimationFrame(cb);
+
+    var els = document.getElementsByClassName("myparallax");
+
+    for (var i=0;i<els.length;i++) {
+      var el = els[i];
+
+      var rect = el.getBoundingClientRect();
+
+      // dist from top
+      // var totop = rect.y
+      // var tobottom = window.innerHeight - rect.bottom
+      // var ratio = Math.abs(totop) /  (Math.abs(totop) + Math.abs(tobottom));
+
+      // var toptopagebottom = window.innerHeight - rect.y;
+      // var bottomtopagetop = rect.bottom;
+      // var ratio = Math.abs(bottomtopagetop) /  (Math.abs(toptopagebottom) + Math.abs(bottomtopagetop));
+
+      var ratio = (rect.y / (window.innerHeight - rect.height));
+
+      // console.log(rect);
+
+      el.style.backgroundPositionY = (ratio*100) + "%";
+      el.style.backgroundPositionX = "50%";
+
+    }
+
+  }
+
+  // window.requestAnimationFrame(cb);
+
+</script>
+
+
+<!-- <div style="height:800px">
+  Test
+  <div class="parallax" style="background:url('/screenshots/gamercattle.jpg')"></div>
+</div> -->
 
 
 
@@ -180,7 +235,12 @@ $serverdata = json_decode(file_get_contents($_SERVER['DOCUMENT_ROOT'] . '/cache/
   </ol>
   <div class="carousel-inner" role="listbox">
     <div class="item active">
-      <div style="background:url('/screenshots/swampcinemadk.jpg')" class="slider-size">
+       <div  class="slider-size" style="background:url('/screenshots/swampcinemadk.jpg')">
+        
+       <!-- <div style="position:fixed" class="slider-size">
+        <div class="parallax" style="position:fixed;background:url('/screenshots/swampcinemadk.jpg')"></div>
+      </div> -->
+
         <div class="caption">
           One of the most popular and unique servers in GMod.
         </div>
