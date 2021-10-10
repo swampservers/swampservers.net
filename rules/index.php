@@ -169,7 +169,6 @@ To report a rule breaker, please send a Steam private message to any <a href="ht
 </div>
 
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-<script src="/css/bootstrap.min.js"></script>
 <script src="/css/respond.min.js"></script>
 <script src="/css/universal-parallax.min.js"></script>
 <script>

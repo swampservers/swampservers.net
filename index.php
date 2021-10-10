@@ -71,7 +71,6 @@ $serverdata = json_decode(file_get_contents($_SERVER['DOCUMENT_ROOT'] . '/cache/
 
 </style>
 
-
 <section class="top">
   <div class="top">
 		<div class="mask"></div>
@@ -79,7 +78,7 @@ $serverdata = json_decode(file_get_contents($_SERVER['DOCUMENT_ROOT'] . '/cache/
 			<h1>Welcome to the Swamp</h1>
 			<h2>We are a unique Garry's Mod gaming community</h2>
       <div class="text-center">
-        <ul style="display:inline-block;text-align:left;font-size:20px;">
+        <ul style="display:inline-block;text-align:left;font-size:22px;">
           <li>Custom-built servers that perform well and download fast</li>
           <li>Minimal rules and lenient, down-to-earth staff</li>
         </ul>
@@ -406,7 +405,6 @@ background-position-y:100% -->
 
 
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-<script src="/css/bootstrap.min.js"></script>
 <script src="/css/respond.min.js"></script>
 <script src="/css/universal-parallax.min.js"></script>
 <script>
