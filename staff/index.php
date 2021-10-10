@@ -4,7 +4,7 @@
 	<h1 class="text-center">Staff</h1>
 
 	<?php
-$staff = $db->query("SELECT * FROM users WHERE rank > 0 AND title!='HIDDEN' ORDER BY if(title LIKE '%Movie%',2.5,rank) DESC")->fetchAll(PDO::FETCH_ASSOC);
+$staff = $db->query("SELECT * FROM users WHERE rank > 0 AND title!='HIDDEN' ORDER BY rank DESC")->fetchAll(PDO::FETCH_ASSOC);
 ?>
 
 <?php
@@ -12,6 +12,10 @@ function SteamCardWrap($row)
 {
     $title = htmlspecialchars($row['title']);
     if ($title == "") {$title = "Cyber Police";}
+
+    $title .= "<br>" . array(1=>"Junior Mod", 2=>"Moderator", 3=>"Administrator", 9=>"Owner & Lead Developer")[$row["rank"]];
+
+
     global $SignedInRank;
     if ($SignedInRank > RANK_USER) {
         $title .= "<br>Last login: " . date("F j", $row['login_t']) . "<br>" . SteamID64toID($row['id64']);
@@ -48,21 +52,13 @@ foreach ($staff as $user) {
 </div>
 </div>
 
-<div style="display:none;">
-    
-    <?php //SteamCard(76561198103347732, "backstabbing asshole"); 
-    ?>
-    <?php SteamCard(76561198116249190, "ex-redditor"); ?>
-</div>
-
-
 <h3 class="text-center">Want to join staff?</h3>
 <p class="text-center">
-    If you want to develop (code, model, map etc.) ask Swamp.<br>
+    If you want to develop (code, model, map etc.) ask the owner. Pay is available.<br>
     <?php if (count($staff) >= 22) {?>
         <strong>Moderator positions are currently full.</strong>
     <?php } else {?>
-        If you want to moderate (enforce rules), ask any staff.
+        If you want to moderate (enforce rules), ask any staff. No pay.
     <?php }?>
 </p>
 
