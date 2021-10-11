@@ -7,7 +7,7 @@
 
 <p>We do have a Discord guild as well, but we only use it for voice/video chat. The link can be found in the "VOICE" section of our Steam Chat.<br>&nbsp;</p>
 
-<p>The reason we avoid Discord is because of their <a href="/discordmoderators">endless unreasonable takedowns</a> of our accounts and groups.</p>
+<p>The reason we avoid Discord is because of their <a href="/discordmoderators">endless unreasonable takedowns</a> of our accounts and groups.<br>&nbsp;</p>
 
 </div>
 

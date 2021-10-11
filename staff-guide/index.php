@@ -1,7 +1,5 @@
 <?php //This file is subject to copyright - contact swampservers@gmail.com for more information. ?>
-<?=common_top("Swamp Servers - Staff Guide")?>
-
-	<h1 class="text-center">Staff Guide</h1>
+<?=common_top("Staff Guide","/s/screenshots/selected.jpg")?>
 
 
 		<h3 class="text-center">With power, comes responsibility</h3>

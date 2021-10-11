@@ -85,7 +85,7 @@ $serverdata = json_decode(file_get_contents($_SERVER['DOCUMENT_ROOT'] . '/cache/
       </div>
 		</div>
 	</div>
-	<div class="parallax" style="background:url('/screenshots/gamercattle.jpg')"></div>
+	<div class="parallax" style="background:url('/s/screenshots/gamercattle.jpg')"></div>
 </section>
 
 
@@ -234,7 +234,7 @@ background-position-y:100% -->
   </ol>
   <div class="carousel-inner" role="listbox">
     <div class="item active">
-       <div  class="slider-size" style="background:url('/screenshots/fulltheater.jpg')">
+       <div  class="slider-size" style="background:url('/s/screenshots/fulltheater.jpg')">
         
        <!-- <div style="position:fixed" class="slider-size">
         <div class="parallax" style="position:fixed;background:url('/screenshots/swampcinemadk.jpg')"></div>
@@ -246,7 +246,7 @@ background-position-y:100% -->
       </div>
     </div>
     <div class="item">
-      <div style="background:url('/screenshots/swampcinemadk.jpg')" class="slider-size">
+      <div style="background:url('/s/screenshots/rocketlaunch.jpg')" class="slider-size">
         <div class="caption">
           Explore the vast map full of discoveries above and below ground!
         </div>
