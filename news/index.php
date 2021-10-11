@@ -1,5 +1,5 @@
 <?php //This file is subject to copyright - contact swampservers@gmail.com for more information. ?>
-<?=common_top("Swamp Servers - News")?>
+<?=common_top("News","/s/screenshots/newscast.jpg")?>
 
 <div class="row">
 <div class="col-lg-8">
@@ -17,7 +17,7 @@
 </div> -->
 
 
-<h1 class="text-center">News</h1>
+<!-- <h1 class="text-center">News</h1> -->
 
 <script>
 var formattime = document.getElementsByClassName("formattime");

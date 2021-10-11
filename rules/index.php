@@ -1,6 +1,6 @@
 <?php //This file is subject to copyright - contact swampservers@gmail.com for more information. ?>
 
-<?=common_top("Rules", "/screenshots/chinese.jpg")?>
+<?=common_top("Rules", "/s/screenshots/trapped.jpg")?>
 
 <!-- <h1 class="text-center">Rules</h1> -->
 
