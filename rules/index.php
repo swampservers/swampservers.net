@@ -1,12 +1,6 @@
 <?php //This file is subject to copyright - contact swampservers@gmail.com for more information. ?>
 
-<?php
-$FancyTitle = "Rules";
-$FancyTitleImage = "/screenshots/chinese.jpg";
-
-?>
-
-<?=common_top("Swamp Servers - Rules")?>
+<?=common_top("Rules", "/screenshots/chinese.jpg")?>
 
 <!-- <h1 class="text-center">Rules</h1> -->
 
@@ -167,12 +161,5 @@ To report a rule breaker, please send a Steam private message to any <a href="ht
 	</ul>
 
 </div>
-
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-<script src="/css/respond.min.js"></script>
-<script src="/css/universal-parallax.min.js"></script>
-<script>
-	new universalParallax().init({ speed: 4	});
-</script>
 
 <?=common_bottom()?>

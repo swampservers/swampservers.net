@@ -5,7 +5,7 @@ global $NoBodyContainer;
 $NoBodyContainer=true;
 ?>
 
-<?=common_top("Swamp Servers")?>
+<?=common_top("")?>
 
 <?php
 $serverdata = json_decode(file_get_contents($_SERVER['DOCUMENT_ROOT'] . '/cache/servers.txt'), true);
@@ -401,21 +401,5 @@ background-position-y:100% -->
 				<span class="sr-only">Next</span>
 			</a>
 		</div>
-
-
-
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-<script src="/css/respond.min.js"></script>
-<script src="/css/universal-parallax.min.js"></script>
-<script>
-	new universalParallax().init({ speed: 4	});
-
-	// function scrollToContent() {
-	// 	$('html, body').animate({
-  //   		scrollTop: 720,
-  //   		scrollLeft: 0
-	// 	}, 1000);
-	// }
-</script>
 
 <?=common_bottom()?>

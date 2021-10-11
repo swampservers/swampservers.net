@@ -1,7 +1,5 @@
 <?php //This file is subject to copyright - contact swampservers@gmail.com for more information. ?>
-<?=common_top("Swamp Servers - Staff")?>
-
-	<h1 class="text-center">Staff</h1>
+<?=common_top("Staff", "/screenshots/chinese.jpg")?>
 
 	<?php
 $staff = $db->query("SELECT * FROM users WHERE rank > 0 AND title!='HIDDEN' ORDER BY rank DESC")->fetchAll(PDO::FETCH_ASSOC);
