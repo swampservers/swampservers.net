@@ -147,7 +147,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 			<div class="text-center"><strong>Thought of the day</strong></div>
 			<div class="text-center" style="margin:4px auto;">
 				<form action="" method="post">
-					<input type="text" name="thought" autofocus="autofocus" maxlength="100" size="30">
+					<input type="text" name="thought" maxlength="100" size="30">
 					<br>
 					<input style="margin-top:8px;" type="submit" value="Submit">
 				</form>
