@@ -280,7 +280,7 @@ background-position-y:100% -->
     </div> -->
 
     <div class="item">
-      <div style="background:url('/screenshots/carousel/cinema/screenshot_4.jpg')" class="slider-size">
+      <div style="background:url('/s/screenshots/mirror.jpg')" class="slider-size">
         <div class="caption">
           Customize your character - are you a human or a pony?
         </div>
@@ -289,7 +289,7 @@ background-position-y:100% -->
 
 
     <div class="item">
-      <div style="background:url('/screenshots/carousel/cinema/screenshot_6.jpg')" class="slider-size">
+      <div style="background:url('/s/screenshots/gamerfight.jpg')" class="slider-size">
         <div class="caption">
           Find unique weapons and fight other players for control of the theaters. RDM anyone you want!
         </div>
