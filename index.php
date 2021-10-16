@@ -230,7 +230,7 @@ background-position-y:100% -->
     <li data-target="#cinema-carousel" data-slide-to="5" class=""></li>
     <li data-target="#cinema-carousel" data-slide-to="6" class=""></li>
     <li data-target="#cinema-carousel" data-slide-to="7" class=""></li>
-    <li data-target="#cinema-carousel" data-slide-to="8" class=""></li>
+    <!-- <li data-target="#cinema-carousel" data-slide-to="8" class=""></li> -->
   </ol>
   <div class="carousel-inner" role="listbox">
     <div class="item active">
@@ -252,44 +252,52 @@ background-position-y:100% -->
         </div>
       </div>
     </div>
+
     <div class="item">
-      <div style="background:url('/screenshots/carousel/cinema/screenshot_2.jpg')" class="slider-size">
-        <div class="caption">
-          Collect points and trade unique items with other players!
-        </div>
-      </div>
-    </div>
-    <div class="item">
-      <div style="background:url('/screenshots/carousel/cinema/screenshot_3.jpg')" class="slider-size">
-        <div class="caption">
-          Build your own secluded theater and hang out with your friends!
-        </div>
-      </div>
-    </div>
-    <div class="item">
-      <div style="background:url('/screenshots/carousel/cinema/screenshot_4.jpg')" class="slider-size">
-        <div class="caption">
-          Customize your playermodel - are you a human or a pony?
-        </div>
-      </div>
-    </div>
-    <div class="item">
-      <div style="background:url('/screenshots/carousel/cinema/screenshot_5.jpg')" class="slider-size">
+      <div style="background:url('/s/screenshots/chess.jpg')" class="slider-size">
         <div class="caption">
           Play minigames such as chess, golf, slots, and dodgeball!
         </div>
       </div>
     </div>
+
+    <div class="item">
+      <div style="background:url('/s/screenshots/spookyponies.jpg')" class="slider-size">
+        <div class="caption">
+          <!-- Build your own secluded theater and hang out with your friends! -->
+          Collect and customize props to build theaters, bases, and more!
+        </div>
+      </div>
+    </div>
+
+
+    <!-- <div class="item">
+      <div style="background:url('/screenshots/carousel/cinema/screenshot_2.jpg')" class="slider-size">
+        <div class="caption">
+          Save up points and trade unique items with other players!
+        </div>
+      </div>
+    </div> -->
+
+    <div class="item">
+      <div style="background:url('/screenshots/carousel/cinema/screenshot_4.jpg')" class="slider-size">
+        <div class="caption">
+          Customize your character - are you a human or a pony?
+        </div>
+      </div>
+    </div>
+
+
     <div class="item">
       <div style="background:url('/screenshots/carousel/cinema/screenshot_6.jpg')" class="slider-size">
         <div class="caption">
-          Fight other players for control of the theaters - RDM anyone you want!
+          Find unique weapons and fight other players for control of the theaters. RDM anyone you want!
         </div>
       </div>
     </div>
 
     <div class="item">
-      <div style="background:url('/screenshots/carousel/cinema/screenshot_6.jpg')" class="slider-size">
+      <div style="background:url('/s/screenshots/garfields.jpg')" class="slider-size">
         <div class="caption">
           Participate in server-wide events!
         </div>
@@ -297,7 +305,7 @@ background-position-y:100% -->
     </div>
 
     <div class="item">
-      <div style="background:url('/screenshots/carousel/cinema/screenshot_7.jpg')" class="slider-size">
+      <div style="background:url('/s/screenshots/bedroom.jpg')" class="slider-size">
         <div class="caption">
           Or, just hang out for a casual night of YouTube videos.
         </div>
