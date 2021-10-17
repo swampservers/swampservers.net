@@ -2,13 +2,13 @@
 <?=common_top("Staff", "/screenshots/chinese.jpg")?>
 
 	<?php
-$staff = $db->query("SELECT * FROM users WHERE rank > 0 AND title!='HIDDEN' ORDER BY rank DESC")->fetchAll(PDO::FETCH_ASSOC);
+$staff = $db->query("SELECT * FROM users WHERE rank > 0 AND stafftitle!='HIDDEN' ORDER BY rank DESC")->fetchAll(PDO::FETCH_ASSOC);
 ?>
 
 <?php
 function SteamCardWrap($row)
 {
-    $title = htmlspecialchars($row['title']);
+    $title = htmlspecialchars($row['stafftitle']);
     if ($title == "") {$title = "Cyber Police";}
 
     $title .= "<br>" . array(1=>"Junior Mod", 2=>"Moderator", 3=>"Administrator", 9=>"Owner & Lead Developer")[$row["rank"]];
