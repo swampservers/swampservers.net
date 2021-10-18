@@ -241,7 +241,7 @@ background-position-y:100% -->
       </div> -->
 
         <div class="caption">
-          One of the most popular and unique servers in GMod.
+          One of the most unique and popular servers in GMod.
         </div>
       </div>
     </div>
