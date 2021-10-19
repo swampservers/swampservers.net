@@ -84,7 +84,7 @@
 		var filename = urla.pop();
 		if(subs != "") player.addRemoteTextTrack({src: subs}, false);
 		else if(id.indexOf(".m3u8") == -1) player.addRemoteTextTrack({src: urla.join("/")+"/"+filename.slice(0,-4)+".vtt"}, false); //try to load a .vtt file with the same file name for subtitles
-		player.textTracks()[player.textTracks().length-1].mode = "showing";
+		if (player.textTracks().length) player.textTracks()[player.textTracks().length-1].mode = "showing";
 
 		player_ready = false;
  		player.ready(onReady);
