@@ -53,7 +53,7 @@
 	</li>
 	<br>
 	<li>
-		<strong>Don't micspam obscene sound (constant slurs or porn audio) or flood the chat with slurs (10+ messages in quick succession)</strong>
+		<strong>Don't micspam obscene sound while AFK (constant slurs or porn audio) or flood the chat with slurs (10+ messages in quick succession)</strong>
 		<ul>
 			<li>Micspam means playing sound files through voice chat, not speaking into the microphone normally.</li>
 		</ul>
@@ -62,7 +62,7 @@
 	<li>
 		<strong>Don't play on the server for the sole purpose of whining and causing drama.</strong>
 		<ul>
-			<li>If you hate our server, go play something else.</li>
+			<li>Warnings will be given before action is taken.</li>
 		</ul>
 	</li>
 	<br>
