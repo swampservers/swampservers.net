@@ -19,8 +19,9 @@
 		<ul class="bb_ul">
 			<li>
 			As a staff member, you do represent the server and players will inevitably look up to you.
-			With your position, set a decent example by <strong>not needlessly picking fights, acting toxic or obnoxiously edgy/racist, talking down to people, or otherwise antagonizing people unnecessarily.</strong>
-			When you, as a staff member, antagonize a player, they might feel like they can't fight back to you or you would ban them because that's how most servers are (even though we're not actually like that).
+			With your position, set a decent example by <strong>not needlessly picking fights, acting toxic, obnoxiously edgy/racist, talking down to people, or otherwise antagonizing people unnecessarily.</strong>
+			When you, as a staff member, antagonize a player, they might feel like they can't fight you back or you would ban them because that's how most servers are (even though we're not actually like that).
+			For example, a player may think you'll ban them for "whining or causing drama" if you are antagonizing them.
 			Use common sense with your position of power and understand that your conduct is more limited than a typical player.
 			</li>
 			<li>Staff do not get any special permissions outside of kick, ban, and unban. You cannot spawn in weapons, no-clip, or force skip videos for no reason. If you want to "admin abuse," go to a different community.</li>
@@ -32,11 +33,12 @@
 		<h3 class="text-center">Tools</h3>
 		<ul>
 			<li><strong>DO NOT use any staff powers such as kick/ban or force-skipping videos unless a rule violation has occured! All staff actions must be justified!</strong></li>
-			<li>To perform actions such as kick, ban, or unban, type "sc.menu" in console or say "!menu" in chat.</li>
-			<li>Screengrab can be used to find XRay hackers, and afkmonitor can be used to find anti-afk scripts.</li>
+			<li>To perform actions such as kick, ban, type "sc.menu" in console or say "!menu" in chat.</li>
+			<li>Screengrab can be used to find wall hackers.</li>
+			<li>AFKmonitor can be used to find AFK evasion scripts (Do not ban for this; let console do it).</li>
 			<li>Use the <a href="/log-viewer">Log viewer</a> to investigate reports, if you have permission (otherwise ask someone else to use it for you).</li>
 			<li>Use the <a href="/bans">Ban manager</a> to edit bans or check for past bans, if you have permission (otherwise ask someone else to use it for you).</li>
-			<li>To chat privately with other staff, use the <em>/sc &lt;message&gt;</em> chat command.</li>
+			<li>To chat privately with other staff in-game, use the <em>/sc &lt;message&gt;</em> chat command.</li>
 		</ul>
 
 		<h3 class="text-center">Ban Lengths</h3>
@@ -62,12 +64,12 @@
 			<li><em>Pseudo child pornography</em> consists of anything which sexualizes children without falling into the above category. For example: Jailbait, lolicon, and underage nudism. This is not illegal but it is against our rules.
 		</ul>
 		<p>
-			If someone shares <strong>REAL child pornography</strong>, we must comply with <a href="https://www.law.cornell.edu/uscode/text/18/2258A">U.S. Code § 2258A.</a> Follow these steps:
+			If someone shares <strong>REAL child pornography</strong>, we must comply with <a href="https://www.law.cornell.edu/uscode/text/18/2258A" target="_blank">U.S. Code § 2258A.</a> Follow these steps:
 		</p>
 		<ul>
 			<li>Take a screenshot of the apparent CP. This is an important part of the report, and if you delete the image once you're done with it, then you aren't doing anything wrong.</li>
 			<li>Permaban the user and any "accomplices"</li>
-			<li>Tell Swamp about this incident, and I will give directions to securely upload the screenshot. I will then use the screenshot, and other info from the server logs, to create and send a report to the NCMEC's CyberTipline.</li>
+			<li>Tell <a href="https://steamcommunity.com/profiles/76561198037111412" target="_blank">Swamp</a> about this incident, and he will give directions to securely upload the screenshot. Swamp will then use the screenshot, and other info from the server logs, to create and send a report to the NCMEC's CyberTipline.</li>
 		</ul>
 
 		<h3 class="text-center">Ban Appeals</h3>
@@ -80,11 +82,11 @@
 	<p>The Movie Theater is a staff-controllable theater meant for watching movies and TV shows. As a staff member, anything you play will not be covered by the Explicit Video Warning. As a result, playing pornography in here is not allowed. Additionally, you have the ability to force skip and seek in it. Please do not "troll" with these commands and only use them to play legitimate movies, shows, or major event livestreams.</p>
 
 	<h3 class="text-center">Movie Nights</h3>
-	<p>Any staff member can host <strong>movie nights</strong>. To do so, request a movie into the queue and then say '<strong>!movienight</strong>' in chat. This will automatically control server-wide announcements and theater locking, and your movie will play after a 5 minute timer.</p>
+	<p>Any staff member can host <strong>movie nights</strong>. To do so, request a movie into the Movie Theater and then say '<strong>!movienight (title of movie night)</strong>' in chat. This will make a server-wide announcement and lock the Movie Theater queue, and your movie will play after a 5 minute timer.</p>
 
-	<p>If you have the <strong>movie night host</strong> role, you get a rank on the Steam group which you can use to make "Events" to attract more viewers to your movie. Please play movies on a weekly basis to keep this rank.</p>
+	<p>If you plan on hosting movie nights or events, you get a rank on the Steam group which allows you mention users in the Steam chat to attract more players to your event.</p>
 
-	<p><em>Movies can be found on the FullMoviesOnGoogle/FullMoviesOnYoutube links under "Request Video". Kisscartoon also has movies, but the service is extremely unreliable.</em></p>
+	<p><em>Movies can be found under the Lookmovie.io link under "Request Video". You can also ask for access to the Neko instance and the Plex login if you plan on hosting movie nights.</em></p>
 
 	<h3 class="text-center">Requirements</h3>
 	<p>At a minimum please generally be active on a weekly basis. If you dissapear for a few weeks without notice you will be demoted.</p>
