@@ -80,11 +80,11 @@
 	<p>The Movie Theater is a staff-controllable theater meant for watching movies and TV shows. As a staff member, anything you play will not be covered by the Explicit Video Warning. As a result, playing pornography in here is not allowed. Additionally, you have the ability to force skip and seek in it. Please do not "troll" with these commands and only use them to play legitimate movies, shows, or major event livestreams.</p>
 
 	<h3 class="text-center">Movie Nights</h3>
-	<p>Any staff member can host <strong>movie nights</strong>. To do so, request a movie into the queue and then say '<strong>!movienight</strong>' in chat. This will automatically control server-wide announcements and theater locking, and your movie will play after a 5 minute timer.</p>
+	<p>Any staff member can host <strong>movie nights</strong>. To do so, request a movie into the Movie Theater and then say '<strong>!movienight (title of movie night)</strong>' in chat. This will make a server-announcement and lock the Movie Theater queue, and your movie will play after a 5 minute timer.</p>
 
-	<p>If you have the <strong>movie night host</strong> role, you get a rank on the Steam group which you can use to make "Events" to attract more viewers to your movie. Please play movies on a weekly basis to keep this rank.</p>
+	<p>If you plan on hosting movie nights or events, you get a rank on the Steam group which allows you mention users in the Steam chat to attract more players to your event.</p>
 
-	<p><em>Movies can be found on the FullMoviesOnGoogle/FullMoviesOnYoutube links under "Request Video". Kisscartoon also has movies, but the service is extremely unreliable.</em></p>
+	<p><em>Movies can be found under the Lookmovie.io link under "Request Video". You can also ask for access to the Neko instance and the Plex login if you plan on hosting movie nights.</em></p>
 
 	<h3 class="text-center">Requirements</h3>
 	<p>At a minimum please generally be active on a weekly basis. If you dissapear for a few weeks without notice you will be demoted.</p>
