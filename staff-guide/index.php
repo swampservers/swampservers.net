@@ -82,7 +82,7 @@
 	<p>The Movie Theater is a staff-controllable theater meant for watching movies and TV shows. As a staff member, anything you play will not be covered by the Explicit Video Warning. As a result, playing pornography in here is not allowed. Additionally, you have the ability to force skip and seek in it. Please do not "troll" with these commands and only use them to play legitimate movies, shows, or major event livestreams.</p>
 
 	<h3 class="text-center">Movie Nights</h3>
-	<p>Any staff member can host <strong>movie nights</strong>. To do so, request a movie into the Movie Theater and then say '<strong>!movienight (title of movie night)</strong>' in chat. This will make a server-announcement and lock the Movie Theater queue, and your movie will play after a 5 minute timer.</p>
+	<p>Any staff member can host <strong>movie nights</strong>. To do so, request a movie into the Movie Theater and then say '<strong>!movienight (title of movie night)</strong>' in chat. This will make a server-wide announcement and lock the Movie Theater queue, and your movie will play after a 5 minute timer.</p>
 
 	<p>If you plan on hosting movie nights or events, you get a rank on the Steam group which allows you mention users in the Steam chat to attract more players to your event.</p>
 
