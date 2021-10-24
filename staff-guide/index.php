@@ -69,7 +69,7 @@
 		<ul>
 			<li>Take a screenshot of the apparent CP. This is an important part of the report, and if you delete the image once you're done with it, then you aren't doing anything wrong.</li>
 			<li>Permaban the user and any "accomplices"</li>
-			<li>Tell <a href"https://steamrep.com/profiles/76561198037111412" target="_blank">Swamp</a> about this incident, and he will give directions to securely upload the screenshot. Swamp will then use the screenshot, and other info from the server logs, to create and send a report to the NCMEC's CyberTipline.</li>
+			<li>Tell <a href="https://steamcommunity.com/profiles/76561198037111412" target="_blank">Swamp</a> about this incident, and he will give directions to securely upload the screenshot. Swamp will then use the screenshot, and other info from the server logs, to create and send a report to the NCMEC's CyberTipline.</li>
 		</ul>
 
 		<h3 class="text-center">Ban Appeals</h3>
