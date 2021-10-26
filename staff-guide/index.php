@@ -25,7 +25,7 @@
 			If you have any doubts on what behavior might be limited, ask a higher-up.
 			</li>
 			<li>Staff do not get any special permissions outside of kick, ban, and unban. You cannot spawn in weapons, no-clip, or force skip videos for no reason. If you want to "admin abuse," go to a different community.</li>
-			<li>If you have any questions, please ask other staff members or in staff chat in-game or in our Steam group chat.</li>
+			<li>If you have any questions, please ask other staff members in staff chat in-game or in our Steam group chat.</li>
 			<li>Do not leak information from our private chat group or from any staff-only webpage. Access to staff webpages (eg. ban manager) is logged and can be audited.
 				<strong>Leaking of confidential staff information will result in an automatic demotion and possibly a ban.</strong>
 			</li>
