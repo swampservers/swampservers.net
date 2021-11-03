@@ -113,12 +113,6 @@ foreach ($page as $post) {
 		?>
 </div>
 
-<div class="well">
-	<div class="text-center">
-	<img style="width:48px;transform: scale(1.3333);" src="/s/img/lua2.png"> &nbsp;&nbsp; Experienced coder? &nbsp; <img style="height:48px;" src="/s/img/phpe.png">
-	</div>
-	<div style="position:relative;top:8px;" class="text-center"><strong><a href="https://swamp.sv/contact">Contact us</a> to apply</strong></div>
-</div>
 
 <!-- TOTD STUFF -->
 <div class="well">
@@ -144,15 +138,14 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 	<?php
 } else {
     ?>
-			<div class="text-center"><strong>Thought of the day</strong></div>
+			<div class="text-center"><strong>Thought of the day </strong><span style="font-size:10pt;">(for loading screen)</span></div>
 			<div class="text-center" style="margin:4px auto;">
 				<form action="" method="post">
 					<input type="text" name="thought" maxlength="100" size="30">
 					<br>
 					<input style="margin-top:8px;" type="submit" value="Submit">
 				</form>
-			</div>
-			<div class="text-center" style="font-size:10pt;"><em>Messages will be shown randomly on the loading screen</em></div>
+			</div>	
 	<?php
 }
 ?>
@@ -168,6 +161,17 @@ exec('cd /swamp/repos/contrib; git log --pretty=format:"%ad: %s" --relative-date
 echo implode("<br>", $junk);
 ?>
 </div>
+
+
+<div class="well">
+	<div class="text-center">
+	<img style="width:48px;transform: scale(1.3333);" src="/s/img/lua2.png"> &nbsp;&nbsp; Experienced coder? &nbsp; <img style="height:48px;" src="/s/img/phpe.png">
+	</div>
+	<div style="position:relative;top:8px;" class="text-center"><strong><a href="https://swamp.sv/contact">Contact us</a> to apply</strong></div>
+</div>
+
+
+
 
 </div> <!--column-->
 </div> <!--row-->
