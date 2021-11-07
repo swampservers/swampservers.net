@@ -33,6 +33,15 @@ for(var i = 0; i < formattime.length; i++)
 }
 </script>
 
+<style>
+.mc {
+	text-align:center;
+}
+video {
+	max-width:100%;
+	max-height:400px;
+}
+</style>
 
 <div style="padding:0px 8px;">
 <?php 
@@ -42,8 +51,14 @@ foreach ($page as $post) {
 ?>
 <div>
 <h2><?=$post->title?></h2>
+
+
 <p style="padding:8px 0px;">
-	<?=str_replace("\n", "<br>",$post->content)?>
+	<?=preg_replace(
+		'/<a href="([^ ]+)\.(mp4|webm)">[^ ]+<\/a>/',
+		'<div class="mc"><video controls><source src="${1}.${2}" type="video/${2}">${1}.${2}</video></div>',
+		str_replace("\n", "<br>",$post->content)
+	)?>
 </p>
 <div class="row">
 <div class="col-lg-6">
