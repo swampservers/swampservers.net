@@ -122,6 +122,10 @@
 	</li>
 	<br>
 	<li>
+		<strong>If you are asked to stop, don't continue to pester a staff member doing something important (eg. development).</strong>
+	</li>
+	<br>
+	<li>
 		<strong>If you're under the legal age to view pornography (18 in USA), don't disable the "Adult" content filters or post pornography.</strong>
 	</li>
 	<br>
