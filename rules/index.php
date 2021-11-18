@@ -122,7 +122,7 @@
 	</li>
 	<br>
 	<li>
-		<strong>If you are asked to stop, don't continue to pester a staff member doing something important (eg. development).</strong>
+		<strong>If you are asked to stop, don't continue to pester a developer who is working.</strong>
 	</li>
 	<br>
 	<li>
