@@ -41,6 +41,7 @@
 		<ul>
 			<li>Posting/referencing/threatening to post any player's personal information (unless subject gives permission or has the information on their Steam/Discord profile).</li>
 			<li>Persuading someone to commit self-harm or suicide, such as by saying "kill yourself" (it's a liability for us).</li>
+			<li>Spreading baseless (made up) rumors of someone being a pedophile, zoophile, or rapist.</li>
 			<li>Any real-life harassment, such as annoying phone calls.</li>
 		</ul>
 	</li>
