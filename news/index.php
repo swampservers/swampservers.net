@@ -37,7 +37,7 @@ for(var i = 0; i < formattime.length; i++)
 .mc {
 	text-align:center;
 }
-video {
+video, .customimg {
 	max-width:100%;
 	max-height:400px;
 }
@@ -55,10 +55,13 @@ foreach ($page as $post) {
 
 <p style="padding:8px 0px;">
 	<?=preg_replace(
+		'/<a href="([^ ]+\.png|jpg)">[^ ]+<\/a>/',
+		'<div class="mc"><img class="customimg" src="${1}"></div>',
+	preg_replace(
 		'/<a href="([^ ]+)\.(mp4|webm)">[^ ]+<\/a>/',
 		'<div class="mc"><video controls><source src="${1}.${2}" type="video/${2}">${1}.${2}</video></div>',
 		str_replace("\n", "<br>",$post->content)
-	)?>
+	))?>
 </p>
 <div class="row">
 <div class="col-lg-6">
