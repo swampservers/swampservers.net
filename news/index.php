@@ -174,9 +174,80 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 	<div class="text-center"><strong>Recent updates</strong></div>
 	<?php
 $junk = array();
-exec('cd /swamp/repos/contrib; git log --pretty=format:"%ad: %s" --relative-date -n 10', $junk);
+
+foreach(["/swamp/repos/contrib","/swamp/repos/restricted","/swamp/repos/private"] as $repo) {
+	exec('cd '.$repo.'; git log --pretty=format:"%ad:%s" -n 10 --date=unix', $junk);
+	// print_r($junk);
+}
+
+$stuff = array();
+foreach($junk as $x){
+	$x = explode(":",$x,2);
+	if ($x[1]=="glualint") { continue; }
+	if (in_array(strtolower($x[1]), ["garry's mod","work","stuff"])) { 
+		$x[1]="<em>Undocumented changes</em>"; 
+
+	} else {
+		$x[1]="<strong>".$x[1]."</strong>";
+	}
+	array_push($stuff, $x);
+}
+
+usort($stuff, function($a, $b) {
+    return $b[0] -$a[0];
+});
+
+
+function plural($one, $val) {
+	if ($val==1) {
+		return "1 ".$one;
+	} else {
+		return $val." ".$one."s";
+	}
+}
+function zdateRelative($date)
+{
+    $diff = time() - $date;
+    if ($diff < 60){
+        return plural("second", $diff);
+    }
+    $diff = floor($diff/60);
+    if ($diff < 60){
+        return plural("minute", $diff);
+    }
+    $diff = floor($diff/60);
+    if ($diff < 24){
+        return plural("hour", $diff);
+    }
+    $diff = floor($diff/24);
+    if ($diff < 7){
+        return plural("day", $diff);
+    }
+	$diff = floor($diff / 7);
+	return plural("week", $diff);
+}
+
+
+$lasttime = 0;
+$lastmsg = "";
+$count = 0;
+foreach($stuff as $thing) {
+	if ($lastmsg == $thing[1] && ($lasttime-$thing[0])<1000 ) {
+		continue;
+	}
+	$lasttime = $thing[0];
+	$lastmsg = $thing[1];
+	?><div style="text-indent:-2em;padding-left:2em;"><span style="font-size:10pt;"><?=zdateRelative($thing[0])?> ago:</span> <?=$thing[1]?></div><?php
+	$count=$count+1;
+	if ($count==15) {
+		break;
+	}
+}
+
+
+// exec('cd /swamp/repos/contrib; git log --pretty=format:"%ad: %s" --relative-date -n 10', $junk);
 // exec('cd /swamp/cinema/garrysmod/addons/swampcinema; git log --pretty=format:"%ad: %s" --relative-date -n 5', $junk2);
-echo implode("<br>", $junk);
+// echo implode("<br>", $junk);
 ?>
 </div>
 
