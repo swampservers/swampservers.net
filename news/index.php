@@ -112,7 +112,7 @@ foreach ($page as $post) {
 	<div class="text-center">For even more points, add <em>swamp.sv</em> to your Steam name for 10,000 per day upon login!</div>
 </div>
 
-<div class="well" style="font-size:12pt;">
+<!-- <div class="well" style="font-size:12pt;">
 <div class="text-center"><strong>Richest players</strong></div>
 	
 	<?php 
@@ -129,7 +129,7 @@ foreach ($page as $post) {
 
 		?></ul><?php
 		?>
-</div>
+</div> -->
 
 
 <!-- TOTD STUFF -->
