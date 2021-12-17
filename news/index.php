@@ -232,12 +232,15 @@ $lasttime = 0;
 $lastmsg = "";
 $count = 0;
 foreach($stuff as $thing) {
-	if ($lastmsg == $thing[1] && ($lasttime-$thing[0])<1000 ) {
+	$datestr = zdateRelative($thing[0]);
+	
+	if ($lastmsg == $datestr.$thing[1]) {
 		continue;
 	}
+	
 	$lasttime = $thing[0];
-	$lastmsg = $thing[1];
-	?><div style="text-indent:-2em;padding-left:2em;"><span style="font-size:10pt;"><?=zdateRelative($thing[0])?> ago:</span> <?=$thing[1]?></div><?php
+	$lastmsg = $datestr.$thing[1];
+	?><div style="text-indent:-2em;padding-left:2em;"><span style="font-size:10pt;"><?=$datestr?> ago:</span> <?=$thing[1]?></div><?php
 	$count=$count+1;
 	if ($count==15) {
 		break;
