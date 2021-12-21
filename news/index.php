@@ -183,7 +183,7 @@ foreach(["/swamp/repos/contrib","/swamp/repos/restricted","/swamp/repos/private"
 $stuff = array();
 foreach($junk as $x){
 	$x = explode(":",$x,2);
-	if ($x[1]=="glualint") { continue; }
+	if ($x[1]=="glualint" || strtolower($x[1])=="merge") { continue; }
 	if (in_array(strtolower($x[1]), ["garry's mod","work","stuff"])) { 
 		$x[1]="<em>Undocumented changes</em>"; 
 
