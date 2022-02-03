@@ -54,6 +54,8 @@
 
 	<li>Don't run any clientside hacks.</li>
 
+	<li>Don't evade a ban with an alternate account. Just <a href="https://steamcommunity.com/groups/swampservers/discussions">post a ban appeal</a> - we almost always accept them.</li>
+
 	<li>Don't try to get players' IP addresses, or DDoS anyone or anything.</li>
 
 	<li>
@@ -81,9 +83,7 @@
 
 	<li>Don't threaten to break rules or tell others to break rules.</li>
 
-	<li>Don't intentionally falsely report something to waste our time.</li>
-
-	<li>Don't evade a ban with an alternate account. Just <a href="https://steamcommunity.com/groups/swampservers/discussions">post a ban appeal</a> - we almost always accept them.</li>
+	<li>Don't intentionally falsely report something to waste our time.</li>	
 
 	<li>Don't play on the server just to whine and spread drama.</li>
 
