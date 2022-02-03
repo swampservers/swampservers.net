@@ -2,162 +2,118 @@
 
 <?=common_top("Rules", "/s/screenshots/trapped.jpg")?>
 
-<!-- <h1 class="text-center">Rules</h1> -->
+<style>
+	.main > li {
+		margin-bottom:20px;
+		/* font-weight: bold; */
+	}
+	.main > li > ul {
+		/* font-weight: normal; */
+		font-style: italic;
+	}
+</style>
 
-<h3 class="text-center">These rules apply to all of our servers:</h3>
 
-<ul>
-	<li>
-		<strong>Do not do anything illegal in the United States.</strong>
-	</li>
-	<br>
-	<li>
-		<strong>Do not sexualize children in any way.</strong>
-		<!--<ul>
-			<li>Try to avoid raising this topic - for example, don't jokingly call someone a pedophile.</li>
-		</ul>-->
-	</li>
-	<br>
-	<li>
-		<strong>Do not post (or ask FEDORA-BOT for) shock videos/images, which are defined as:</strong>
-		<ul>
-			<li><span style="text-decoration:underline;">Footage</span> of torture or execution, of humans or animals, which contains visible mutilation/gore, except which is USA legal to commit.</li>
-			<li><span style="text-decoration:underline;">Footage</span> of sex acts or containing genitals which involves mutilation, scat, goatse/prolapse, or beastiality.</li>
-			<li>"Footage" is limited to real camera footage of an actual event - it doesn't include animations, CGI, etc.</li>
-			<li>Any depictions of sexual violence (eg. rape), as per <a href='https://wiki.facepunch.com/gmod/Server_Operator_Rules'>Facepunch rules</a>.
-		</ul>
-	</li>
-	<br>
-	<li>
-		<strong>Do not customize your playermodel to be pornographic, or lie on the "is your spray porn?" popup.</strong>
-	</li>
-	<br>
-	<li>
-		<strong>Do not customize your playermodel to be invisible, very tiny, or hidden under the floor.</strong>
-	</li>
-	<br>	
-	<li>
-		<strong>Don't commit extreme harassment, which is defined as:</strong>
-		<ul>
-			<li>Posting/referencing/threatening to post any player's personal information (unless subject gives permission or has the information on their Steam/Discord profile).</li>
-			<li>Persuading someone to commit self-harm or suicide, such as by saying "kill yourself" (it's a liability for us).</li>
-			<li>Spreading baseless (made up) rumors of someone being a pedophile, zoophile, or rapist.</li>
-			<li>Any real-life harassment, such as annoying phone calls.</li>
-		</ul>
-	</li>
-	<br>
-	<li>
-		<strong>Don't threaten or advocate for violent crimes <a href='https://www.law.cornell.edu/uscode/text/18/373'>(it's illegal)</a></strong>
-		<ul>
-			<li>This includes statements targeting groups of people as well as individuals.</li>
-		</ul>
-	</li>
-	<br>
-	<li>
-		<strong>Don't micspam obscene sound while AFK (constant slurs or porn audio) or flood the chat with slurs (10+ messages in quick succession)</strong>
-		<ul>
-			<li>Micspam means playing sound files through voice chat, not speaking into the microphone normally.</li>
-		</ul>
-	</li>
-	<br>
-	<li>
-		<strong>Don't play on the server for the sole purpose of whining and causing drama.</strong>
-		<ul>
-			<li>Warnings will be given before action is taken.</li>
-		</ul>
-	</li>
-	<br>
-	<li>
-		<strong>Don't run clientside hacks (aimbot, ESP etc).</strong>
-	</li>
-	<br>
-	<li>
-		<strong>Don't DDoS anyone or anything, or try to get players' IP addresses.</strong>
-	</li>
-	<br>
-	<li>
-		<strong>Don't abuse any point/item duplication or server crashing exploits.</strong>
-		<ul>
-			<li>Don't keep them secret either.</li>
-			<li>Being first to disclose a server crash/mass lag out exploit (per my determination) will give you either 10m points or $50 paypal.</li>
-			<li>Being first to disclose a true point/item *duping* exploit (per my determination) will give you either 40m points or $200 paypal.</li>
-		</ul>
+<ul class="main">
+	<li>Don't do anything illegal in the United States.</li>
+	<li>Don't sexualize children in any way.</li>
 
-	</li>
-	<br>
-	<li>
-		<strong>Don't abuse the points system, such as by:</strong>
+	<li>Don't share <span style="text-decoration:underline;">footage</span> of torture or execution, of humans or animals, which contains visible mutilation/gore, except which is USA legal to commit (such as hunting).
 		<ul>
-			<li>Using multiple accounts to unfairly earn more points.</li>
-			<li>Using a script or device to bypass the AFK system.</li>
+			<li>"Footage" means real camera footage of an actual event - it doesn't include animations, CGI, etc.</li>
 		</ul>
 	</li>
-	<br>
+
+	<li>Don't share <span style="text-decoration:underline;">footage</span> of sex acts or containing genitals which involves mutilation, scat, goatse/prolapse, or beastiality.</li>
+
+	<li>Don't share depictions of sexual violence (eg. rape), as per <a href='https://wiki.facepunch.com/gmod/Server_Operator_Rules'>Facepunch rules</a>.</li>
+
+	<li>Don't make your playermodel pornographic, or very difficult to see.</li>
+
+	<li>Don't lie on the "is your spray porn?" popup.</li>
+
+	<li>Don't view or share pornography if you are below the legal age to do so.</li>
+
+	<hr>
+
+	<li>Don't post or reference any player's personal information without permission (info on their Steam profile is OK).</li>
+
+	<li>Don't harass someone in real life in any way.</li>
+
+	<li>Don't persuade someone to commit self-harm or suicide. (this includes saying "kill yourself")</li>
+
+	<li>Don't baselessly accuse someone of being a pedophile/zoophile/rapist.</li>
+
+	<li>Don't threaten or advocate for violence against any individual or protected class.</li>
+
+	<li>Don't spam the chat with slurs. (10+ messages in quick succession)</li>
+
+	<li>Don't micspam slurs or porn sounds while AFK.</li>
+
+	<hr>
+
+	<li>Don't run any clientside hacks.</li>
+
+	<li>Don't try to get players' IP addresses, or DDoS anyone or anything.</li>
+
 	<li>
-		<strong>Don't real-world-trade points with other players.</strong>
+		Don't abuse, or keep secret, any point/item duplication or server crashing exploits.
 		<ul>
-			<li>Points do not have real-world value. Trading points for real money or things with real-world value (eg. game codes) is not allowed.</li>
-			<li>The "give points" function can be used for gifts or for "paying" for something without real-world value (eg. a drawing).</li>
+			<li>Being first to disclose a server crash/mass lag out exploit (per my determination) will give you either 10m points or $50</li>
+			<li>Being first to disclose a point/item <strong>duplication</strong> exploit (per my determination) will give you either 40m points or $200</li>
 		</ul>
 	</li>
-	<br>
+
+	<li>Don't use multiple accounts to unfairly earn more points, or attempt to bypass the AFK detection system.</li>
+
+	<li>Don't trade points with other players in exchange for real money (or anything which easily converts to real money).</li>
+
 	<li>
-		<strong>Do not donate with a stolen credit card or dispute a donation payment.</strong>
+		Don't donate with a stolen credit card or dispute a donation payment.
 		<ul>
 			<li>
 			If you have any donation-related issues, please <a href="http://swampservers.net/contact/">contact me.</a>
 			</li>
 		</ul>
 	</li>
-	<br>
-	<li>
-		<strong>Stop using game breaking exploits on fat kid.</strong>
-	</li>
-	<br>
-	<li>
-		<strong>Don't threaten to break rules or ask others to break rules.</strong>
-	</li>
-	<br>
-	<li>
-		<strong>Don't intentionally falsely report a rule-breaker or server issue to waste time.</strong>
-	</li>
-	<br>
-	<li>
-		<strong>If you are asked to stop, don't continue to pester a developer who is working.</strong>
-	</li>
-	<br>
-	<li>
-		<strong>If you're under the legal age to view pornography (18 in USA), don't disable the "Adult" content filters or post pornography.</strong>
-	</li>
-	<br>
-	<li>
-		<strong>Don't evade punishment with alternate accounts.</strong>
-		<ul>
-			<li>You should appeal your ban instead - We almost always accept a legitimate appeal.</li>
-		</ul>
-	</li>
-	<br>
-	<li>
-		<strong>Do not exploit loopholes/technicalities in the rules or incessantly try to "ride the line".</strong>
-	</li>
-	<br>
-	<li>
-		<strong>All rules are subject to our discretion.</strong>
-		<ul>
-			<li>Any staff can consider something a rule violation, but a higher level staff can override their decision and say something is okay. Staff with consistently bad discretion may be removed.</li>
-			<li>The owner can make new rules in emergencies and retains the right to ban anyone for any reason.</li>
-			<li>DO NOT ESCALATE RULES-RELATED QUESTIONS OR DISPUTES STRAIGHT TO THE OWNER. JUST ASK ANY STAFF MEMBER OF THE NEXT HIGHER RANK.</li>
-		</ul>
-	</li>
-	<br>
+
+	<hr>
+
+	<li>Don't threaten to break rules or tell others to break rules.</li>
+
+	<li>Don't intentionally falsely report something to waste our time.</li>
+
+	<li>Don't evade a ban with an alternate account. Just <a href="https://steamcommunity.com/groups/swampservers/discussions">post a ban appeal</a> - we almost always accept them.</li>
+
+	<li>Don't play on the server just to whine and spread drama.</li>
+
+	<li>Don't look for loopholes in these rules or try to "ride the line".</li>
+
+	<li>Don't disobey staff if they tell you to stop doing something.</li>
+
+	<li>Don't intentionally be a constant headache for the owner/developers.</li>
+
 </ul>
+<hr>
+
 <p class="text-center">
 	If you are banned, please appeal by posting on the <a href="https://steamcommunity.com/groups/swampservers/discussions">Steam Group.</a>
 </p>
 <p class="text-center">
-To report a rule breaker, please send a Steam private message to any <a href="https://swamp.sv/staff/">staff</a> <strong>other than the owner</strong>.
+To report a rule breaker, please send a Steam private message to any <a href="https://swamp.sv/staff/">staff</a> other than the owner.
 </p>
+
 <hr>
+<p class="text-center"><strong>All rules are subject to our discretion.</strong></p>
+<ul>
+	<li>Any staff can consider something a rule violation, but a higher level staff can override their decision and say something is okay. Staff with consistently bad discretion may be removed.</li>
+	<li>The owner can make new rules and retains the right to ban anyone for any reason.</li>
+	<li>DO NOT ESCALATE RULES-RELATED QUESTIONS OR DISPUTES STRAIGHT TO THE OWNER. JUST ASK ANY STAFF MEMBER OF THE NEXT HIGHER RANK.</li>
+</ul>
+
+
+
+		<hr>
 <div class="alert alert-success">
 	The following is <strong>allowed</strong>:
 	<ul>
