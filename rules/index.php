@@ -114,13 +114,8 @@ To report a rule breaker, please send a Steam private message to any <a href="ht
 
 
 		<hr>
-<div class="alert alert-success">
-	The following is <strong>allowed</strong>:
-	<ul>
-		<li>RDM (Killing players for no reason)</li>
-		<li>Micspam (Playing music over voice chat)</li>
-	</ul>
 
-</div>
+		<p class="text-center">Unlike most servers, RDM (killing players for no reason) and micspam (playing music over voice chat) are allowed.</p>
+
 
 <?=common_bottom()?>
