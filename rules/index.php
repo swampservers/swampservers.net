@@ -87,12 +87,11 @@
 
 	<li>Don't play on the server just to whine and spread drama.</li>
 
+	<li>Don't intentionally impede a working developer.</li>
+
 	<li>Don't look for loopholes in these rules or try to "ride the line".</li>
 
 	<li>Don't disobey staff if they tell you to stop doing something.</li>
-
-	<li>Don't intentionally be a constant headache for the owner/developers.</li>
-
 </ul>
 <hr>
 
