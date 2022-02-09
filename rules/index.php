@@ -36,7 +36,7 @@
 
 	<hr>
 
-	<li>Don't post or reference any player's personal information without permission (info on their Steam profile is OK).</li>
+	<li>Don't post or reference any player's personal information without permission (info on their Steam/Discord profile is OK).</li>
 
 	<li>Don't harass someone in real life in any way.</li>
 
