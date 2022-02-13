@@ -180,6 +180,7 @@ foreach(["/swamp/repos/contrib","/swamp/repos/restricted","/swamp/repos/private"
 	// print_r($junk);
 }
 
+
 $stuff = array();
 foreach($junk as $x){
 	$x = explode(":",$x,2);
@@ -190,6 +191,7 @@ foreach($junk as $x){
 	} else {
 		$x[1]="<strong>".$x[1]."</strong>";
 	}
+	$x[1] = str_replace( "cannon","swampmap", $x[1]);
 	array_push($stuff, $x);
 }
 
