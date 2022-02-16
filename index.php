@@ -216,7 +216,7 @@ background-position-y:100% -->
       <div class="btn-group" role="group" aria-label="...">
         <span class="btn btn-default fake-button">IP: <?=$serverdata['cinema']['ip']?></span>
         <span class="btn btn-primary fake-button"><?=$serverdata['cinema']['players']?> players online</span>
-        <a class="btn btn-success" href="steam://connect/cinema.swampservers.net:27015" role="button">Join &raquo;</a>
+        <a class="btn btn-success" href="steam://connect/cinema.swamp.sv:27015" role="button">Join &raquo;</a>
       </div>
     </div>
   </div>
@@ -343,7 +343,7 @@ background-position-y:100% -->
         <div class="btn-group" role="group" aria-label="...">
           <span class="btn btn-default fake-button">IP: <?=$serverdata['fatkid']['ip']?></span>
           <span class="btn btn-primary fake-button"><?=$serverdata['fatkid']['players']?> players online</span>
-          <a class="btn btn-success" href="steam://connect/fatkid.swampservers.net:27015" role="button">Join &raquo;</a>
+          <a class="btn btn-success" href="steam://connect/fatkid.swamp.sv:27015" role="button">Join &raquo;</a>
         </div>
       </div>
 
@@ -363,7 +363,7 @@ background-position-y:100% -->
       <div class="btn-group" role="group" aria-label="...">
         <span class="btn btn-default fake-button">IP: <?=$serverdata['fatkid']['ip']?></span>
         <span class="btn btn-primary fake-button"><?=$serverdata['fatkid']['players']?> players online</span>
-        <a class="btn btn-success" href="steam://connect/fatkid.swampservers.net:27015" role="button">Join &raquo;</a>
+        <a class="btn btn-success" href="steam://connect/fatkid.swamp.sv:27015" role="button">Join &raquo;</a>
       </div>
     </div>
   </div>
