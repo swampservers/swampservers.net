@@ -9,7 +9,7 @@
 // <!-- of our accounts and groups -->
 // </div>
 
-$link = "https://discord.gg/njd6MAmAuZ";
+$link = "https://discord.gg/J4yyeW5evy";
 header('Location: '.$link, true, 302);
 ?>
 
