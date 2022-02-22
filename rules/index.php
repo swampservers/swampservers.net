@@ -16,6 +16,7 @@
 
 <ul class="main">
 	<li>Don't do anything illegal in the United States.</li>
+	
 	<li>Don't sexualize children in any way.</li>
 
 	<li>Don't share <span style="text-decoration:underline;">footage</span> of torture or execution, of humans or animals, which contains visible mutilation/gore, except which is USA legal to commit (such as hunting).
@@ -36,11 +37,11 @@
 
 	<hr>
 
-	<li>Don't post or reference any player's personal information without permission (info on their Steam/Discord profile is OK).</li>
+	<li>Don't post or reference any player's personal information without permission. (info on their Steam/Discord profile is OK)</li>
 
 	<li>Don't harass someone in real life in any way.</li>
 
-	<li>Don't persuade someone to commit self-harm or suicide. (this includes saying "kill yourself")</li>
+	<li>Don't tell people to kill or harm themselves.</li>
 
 	<li>Don't baselessly accuse someone of being a pedophile/zoophile/rapist.</li>
 
@@ -66,7 +67,9 @@
 		</ul>
 	</li>
 
-	<li>Don't use multiple accounts to unfairly earn more points, or attempt to bypass the AFK detection system.</li>
+	<li>Don't use multiple accounts to unfairly earn more points.</li>
+		
+	<li>Don't attempt to bypass the AFK detection system.</li>
 
 	<li>Don't trade points with other players in exchange for real money (or anything which easily converts to real money).</li>
 
@@ -81,13 +84,11 @@
 
 	<hr>
 
+	<li>Don't play on the server just to whine and spread drama.</li>
+
 	<li>Don't threaten to break rules or tell others to break rules.</li>
 
 	<li>Don't intentionally falsely report something to waste our time.</li>	
-
-	<li>Don't play on the server just to whine and spread drama.</li>
-
-	<li>Don't intentionally impede a working developer.</li>
 
 	<li>Don't look for loopholes in these rules or try to "ride the line".</li>
 
