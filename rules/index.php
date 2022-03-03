@@ -47,9 +47,9 @@
 
 	<li>Don't threaten or advocate for violence against any individual or protected class.</li>
 
-	<li>Don't spam the chat with slurs. (10+ messages in quick succession)</li>
+	<li>Don't spam slurs just to be obnoxious (eg. flooding the chat with a wall of slurs or micspamming constant slurs on a loop).</li>
 
-	<li>Don't micspam slurs or porn sounds while AFK.</li>
+	<li>Don't micspam earrape or porn sounds while AFK (allowed if you are active).</li>
 
 	<hr>
 
