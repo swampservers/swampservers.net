@@ -49,7 +49,7 @@
 
 	<li>Don't spam slurs just to be obnoxious (eg. flooding the chat with a wall of slurs or micspamming constant slurs on a loop).</li>
 
-	<li>Don't micspam earrape or porn sounds while AFK (allowed if you are active).</li>
+	<!--<li>Don't micspam earrape or porn sounds while AFK (allowed if you are active).</li>-->
 
 	<hr>
 
