@@ -71,7 +71,13 @@
 		
 	<li>Don't attempt to bypass the AFK detection system.</li>
 
-	<li>Don't trade points with other players in exchange for real money (or anything which easily converts to real money).</li>
+	<li>Don't trade points with other players in exchange for real money (or anything which easily converts to real money).
+		<ul>
+			<li>
+			Punishment may include deletion of traded points.
+			</li>
+		</ul>
+	</li>
 
 	<li>
 		Don't donate with a stolen credit card or dispute a donation payment.
