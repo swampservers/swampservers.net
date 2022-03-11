@@ -43,8 +43,61 @@ video, .customimg {
 }
 </style>
 
+
+
 <div style="padding:0px 8px;">
-<?php 
+<?php
+$stuff = json_decode(file_get_contents("/swamp/discord/announcements.json"), true);
+
+foreach ($stuff as $post) {
+    $txt = explode("\n\n", htmlspecialchars($post["content"]));
+    if (count($txt) > 1) {
+        $title = array_shift($txt);
+    } else {
+        $title = "";
+    }
+    $message = str_replace("\n", "<br>", implode("\n\n", $txt));
+    ?>
+	<div>
+		<?php if ($title) {?>
+		<h2><?=$title?></h2>
+		<?php }?>
+
+		<p style="padding:8px 0px;">
+		<?=$message?>
+		</p>
+
+		<div style="line-height: 180%;">
+		<?php foreach ($post['reactions'] as $reaction) {?>
+
+			<div class="btn btn-xs btn-default disabled" style="cursor:default;">
+			<?php
+if (substr($reaction[1], 0, 4) == "http") {
+        ?>
+				<img src="<?=$reaction[1]?>" style="max-width:20px;max-height:20px;">
+				<?php
+} else {
+        echo htmlspecialchars($reaction[1]);
+    }
+        ?>
+			<?=$reaction[0]?></div>
+		<?php }?>
+		</div>
+
+		<div class="row">
+			<p class="text-muted pull-right" style="position:relative;top:16px;">
+				Posted by <?=htmlspecialchars($post["author"])?>
+				in
+				<a class="color hoverul" onclick='discordgroup()' href="https://swampservers.net/discord">#<?=htmlspecialchars($post["channel"])?></a>
+				on
+				<span class="formattime"><?=date('l F j @ h:ia', $post["time"])?></span>
+				<!-- <?=date('l F j @ h:ia', $post["time"])?> -->
+			</p>
+		</div>
+		<hr>
+	</div>
+	<?php
+}
 
 $page = json_decode(file_get_contents("/swamp/www/cache/newsposts.json"));
 foreach ($page as $post) {
@@ -81,6 +134,7 @@ foreach ($page as $post) {
 <?php
 }
 ?>
+
 </div>
 
 
