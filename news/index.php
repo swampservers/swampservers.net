@@ -67,6 +67,16 @@ foreach ($stuff as $post) {
 		<?=$message?>
 		</p>
 
+		<?php foreach ($post['assets'] as $asset) {
+			$type = end(explode(".", $asset));
+
+			if ($type=="jpg" || $type=="png" || $type=="webp") {
+			?><div class="mc"><img class="customimg" src="<?=$asset?>"></div><?php
+			} elseif ($type=="mp4" || $type=="webm") { 
+			?><div class="mc"><video controls><source src="<?=$asset?>" type="video/<?=$type?>"><?=$asset?></video></div><?php
+			}?>
+		<?php }?>
+
 		<div style="line-height: 180%;">
 		<?php foreach ($post['reactions'] as $reaction) {?>
 
