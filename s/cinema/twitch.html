@@ -11,12 +11,16 @@
 		var to_video = null;
 		var to_volume = 100;
 		var start_time = 0;
+		var target_time = -0.5;
+		var cooldown = 0;
+		var vod = null;
 		//var is_live = false;
-
 		var last_quality = "";
 
 		function think() {
 			if (player_ready) {
+				target_time += 0.1;
+				cooldown -= 0.1;
 				var quality = window.innerHeight < 700 ? "medium" : "chunked";
 
 				if (quality != last_quality) {
@@ -29,7 +33,8 @@
 				}
 
 				if (to_video !== null) {
-					player.setChannel(to_video);
+					if (!vod) player.setChannel(to_video);
+					else player.setVideo(vod);
 					player.setQuality(quality);
 
 					// get rid of spinner
@@ -41,22 +46,40 @@
 					to_video = null;
 				}
 
-				if (to_volume !== null) {
+				if (player.getVolume() != to_volume/100) {
 					player.setVolume(to_volume / 100);
 					player.setMuted(to_volume == 0);
-					to_volume = null;
+				}
+				
+				if (vod && cooldown <= 0 && target_time < player.getDuration() && Math.abs(player.getCurrentTime() - target_time) > 5) {
+					player.seek(target_time);
+					player.play();
+					cooldown = 10; //seek doesn't change the current time until it loads
 				}
 			}
 		}
 		setInterval(think, 100);
 
 		function th_video(id) {
+			var k = id.split("/");
+			target_time = -0.5
+			var options = {
+				height: "100%",
+				width: "100%",
+				time: "0h0m0s"
+			};
+			
+			if (k.length>1) {
+				vod = k[1];
+				options.video = vod;
+			}
+			else {
+				vod = null;
+				options.channel = k[0];
+			}
+			
 			if (player == null) {
-				player = new Twitch.Player("player", {
-					height: "100%",
-					width: "100%",
-					channel: id
-				});
+				player = new Twitch.Player("player", options);
 				player_ready = true;
 			}
 			to_video = id;
@@ -67,7 +90,8 @@
 		};
 
 		function th_seek(seconds) {
-			console.log("can't seek");
+			target_time = seconds - 0.5;
+			cooldown = 0;
 		};
 	</script>
 
