@@ -153,7 +153,7 @@
 				</div>
 				<h3>Other Sites</h3>
 				<div class="list-group">
-					<a class="list-group-item" href="https://lookmovie.site/">LookMovie<span class="glyphicon glyphicon-film" style="color:#800"></span></a>
+					<a class="list-group-item" href="https://lookmovie2.to/">LookMovie<span class="glyphicon glyphicon-film" style="color:#800"></span></a>
 					<a class="list-group-item" href="https://9anime.to/home">9Anime.to<span class="glyphicon glyphicon-yen" style="color:#008"></span></a>
 					<a class="list-group-item" href="https://www.bitchute.com/">BitChute<span class="glyphicon glyphicon-play-circle" style="color:#800"></span></a>
 					<a class="list-group-item" href="https://twitch.tv">Twitch.tv<span class="glyphicon glyphicon-eye-open" style="color:#080;"></span></a>
