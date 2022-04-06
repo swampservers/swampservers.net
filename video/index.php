@@ -154,11 +154,11 @@
 				<h3>Other Sites</h3>
 				<div class="list-group">
 					<a class="list-group-item" href="https://lookmovie2.to/">LookMovie<span class="glyphicon glyphicon-film" style="color:#800"></span></a>
-					<a class="list-group-item" href="https://9anime.to/home">9Anime.to<span class="glyphicon glyphicon-yen" style="color:#008"></span></a>
+					<a class="list-group-item" href="https://animixplay.to/">AniMixPlay<span class="glyphicon glyphicon-yen" style="color:#008"></span></a>
 					<a class="list-group-item" href="https://www.bitchute.com/">BitChute<span class="glyphicon glyphicon-play-circle" style="color:#800"></span></a>
 					<a class="list-group-item" href="https://twitch.tv">Twitch.tv<span class="glyphicon glyphicon-eye-open" style="color:#080;"></span></a>
 					<a class="list-group-item" href="https://www.soundcloud.com">Soundcloud<span class="glyphicon glyphicon-fire" style="color:#C80;"></span></a>
-					<a class="list-group-item" href="http://streamwat.ch/">Streamwat.ch - Live TV<span class="glyphicon glyphicon-facetime-video" style="color:#808"></span></a>
+					<a class="list-group-item" href="https://9anime.to/home">9Anime<span class="glyphicon glyphicon-facetime-video" style="color:#808"></span></a>
 				</div>
 			</div>
 
