@@ -26,7 +26,7 @@ function SteamCardWrap($row)
 <div class="text-center" style="zoom:0.875;"> <?php SteamCardWrap(array_shift($staff));    ?> </div>
  */?>
 	<div class="row" style="zoom:0.75;">
-	<div class="col-sm-6 text-right">
+	<div class="col-xs-6 text-right">
 		<?php
 $do = true;
 foreach ($staff as $user) {
@@ -37,7 +37,7 @@ foreach ($staff as $user) {
 }
 ?>
 	</div>
-	<div class="col-sm-6 text-left">
+	<div class="col-xs-6 text-left">
 		<?php
 $do = false;
 foreach ($staff as $user) {
