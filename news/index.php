@@ -68,7 +68,8 @@ foreach ($stuff as $post) {
 		</p>
 
 		<?php foreach ($post['assets'] as $asset) {
-			$type = end(explode(".", $asset));
+			$type = explode(".", $asset);
+			$type = end($type);
 
 			if ($type=="jpg" || $type=="png" || $type=="webp") {
 			?><div class="mc"><img class="customimg" src="<?=$asset?>"></div><?php
