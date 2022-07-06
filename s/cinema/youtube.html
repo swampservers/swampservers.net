@@ -1,19 +1,15 @@
 <!-- This file is subject to copyright - contact swampservers@gmail.com for more information. -->
 <html>
-
-<body style="margin:0px;background-color:black;overflow:hidden;">
-	<div id="player" style="width:200%;height:100%;position:absolute;left:-50%;"></div>
+	<body style="margin:0px;background-color:black;overflow:hidden;">
+	<div id="player" style="width:300%;height:100%;position:absolute;left:-100%;"></div>
 	<script src="https://www.youtube.com/iframe_api" type="text/javascript"></script>
 	<script>
-
 		function timestamp() {
 			return (new Date().getTime()) * 0.001;
 		}
-
 		function target_time() {
 			return Math.max(0, (timestamp() - start_time) - 0.5);
 		}
-
 		var player = null;
 		var player_ready = false;
 		var to_video = null;
@@ -21,39 +17,31 @@
 		var start_time = 0;
 		var seek_to_end = false;
 		//var is_live = false;
-
 		function think() {
 			if (player_ready) {
-
 				if (to_video !== null) {
 					player.loadVideoById(to_video);
 					to_video = null;
 				}
-
 				if (to_volume !== null) {
 					player.setVolume(to_volume);
 					to_volume = null;
 				}
-
 				if (seek_to_end && player.getDuration() > 0) {
 					start_time = timestamp() - player.getDuration();
 					seek_to_end = false;
 				}
-
 				var target_t = target_time();
-
 				if (target_t < (player.getDuration() - 1.0)) {
 					if (Math.abs(player.getCurrentTime() - target_t) > 2.0) {
 						player.seekTo(target_t, true);
 					}
 				}
-
 				// ended or playing
 				if (player.getPlayerState() != 0 && player.getPlayerState() != 1) {
 					player.playVideo();
 				}
 			}
-
 			if (player_ready) {
 				console.log("T:"+player.getCurrentTime());
 			}
@@ -85,25 +73,16 @@
 					}
 				});
 			}
-		};
-
+		}
 		function th_volume(volume) {
 			to_volume = volume;
-		};
-
+		}
 		function th_seek(seconds) {
 			start_time = timestamp() - seconds;
-		};
-
+		}
 		function onReady(playerId) {
-			//if ( theater.isHDEnabled() ) {
-			//	player.setPlaybackQuality("hd720");
-			//}
-
 			player_ready = true;
 		}
 	</script>
-
-</body>
-
+	</body>
 </html>
