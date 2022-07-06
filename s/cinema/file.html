@@ -1,114 +1,78 @@
 <!-- This file is subject to copyright - contact swampservers@gmail.com for more information. -->
 <html>
-<head>
-<link href="https://vjs.zencdn.net/7.15.4/video-js.min.css" rel="stylesheet">
-<script src="https://vjs.zencdn.net/7.15.4/video.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/videojs-flash@2/dist/videojs-flash.min.js"></script>
-</head>
-<body style="margin:0px;background-color:black;overflow:hidden;">
-	<video
-		id="vjsplayer"
-		style="width:100%;height:100%;"
-		class="video-js vjs-default-skin vjs-big-play-centered"
-		autoplay
-		preload="auto"
-		data-setup='{"techorder" : ["html5","flash"], "errorDisplay": false }'>
-	</video>
-
-	<div id="loadmsg" style="z-index:99999;color:white;background-color:black;font-size:28pt;text-align:center;vertical-align:top;position:absolute;margin-top:200px;left:0;right:0;top:0;display:none;"><img src="http://swampservers.net/s/img/loading.gif" style="width:28pt;height:28pt;position:relative;top:4px;"> Buffering... <span id="seekpc"></span><br><span style="font-size:14pt;position:relative;bottom:4px;">Yes this is very slow, tell Garry to replace Awesomium</span></div>
+	<head>
+	<link href="https://vjs.zencdn.net/7.15.4/video-js.min.css" rel="stylesheet">
+	<script src="https://vjs.zencdn.net/7.15.4/video.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/videojs-flash@2/dist/videojs-flash.min.js"></script>
+	</head>
+	<body style="margin:0px;background-color:black;overflow:hidden;">
+	<video id="vjsplayer" style="width:100%;height:100%;" class="video-js vjs-default-skin vjs-big-play-centered" autoplay preload="auto" data-setup='{"techorder" : ["html5"], "errorDisplay": false }'></video>
 	<script>
-	var player = videojs("vjsplayer");
-	var player_ready = false;
-	var to_video = null;
-	var to_volume = 100;
-	var target_time = -0.5;
-	var video_source = "";
-	var seek_percent = 0;
+		var player = videojs("vjsplayer");
+		var player_ready = false;
+		var to_video = null;
+		var to_volume = 100;
+		var target_time = -0.5;
 
-	var dom_loadmsg = document.getElementById("loadmsg");
-	var dom_seekpc = document.getElementById("seekpc");
+		function think() {
+			target_time += 0.1;
 
-	function think() {
-		target_time += 0.1;
-
-		if (player_ready) {
-
-			if (to_volume !== null) {
-				player.volume(to_volume*0.01);
-				to_volume = null;
-			}
-
-			//livestreams are 0
-			if (player.duration() > 0) {
-
-				if (target_time < player.duration()) {
-					
-					var maxoffset = 15;
-
-					if (Math.abs(player.currentTime() - target_time) > maxoffset) {
-						player.currentTime(Math.max(0,target_time));
-
-						if((dom_loadmsg.style.display=="none") && (video_source.indexOf("rtmp://") == -1)) {
-							seek_percent=0;
-							dom_loadmsg.style.display = 'block';
-						}
-						if(dom_loadmsg.style.display == 'block'){
-							seek_percent=Math.min(Math.max(seek_percent,Math.floor(player.bufferedEnd()/target_time)),100);
-							dom_seekpc.innerHTML = seek_percent+"%";
-						}
-
-					} else {
-						if(dom_loadmsg.style.display == 'block'){ dom_loadmsg.style.display = 'none'; }
-					}
+			if (player_ready) {
+				if (to_volume !== null) {
+					player.volume(to_volume*0.01);
+					to_volume = null;
 				}
 
+				//livestreams are 0
+				if (player.duration() > 0) {
+					if (target_time < player.duration()) {
+						var maxoffset = 15;
+						if (Math.abs(player.currentTime() - target_time) > maxoffset) {
+							player.currentTime(Math.max(0,target_time));
+						}
+					}
+				}
 			}
 		}
+		setInterval(think, 100);
 
-	}
-	setInterval(think, 100);
-
-	function th_video(id,subs="") {
-		id = decodeURIComponent(id);
-
-		//help with buffering
-		target_time = -0.5;
-		video_source = id;
-
-		if(dom_loadmsg.style.display == 'block') dom_loadmsg.style.display = 'none';
-
-		if(id.indexOf(".m3u8") != -1) player.src({type: "application/x-mpegURL", src: id});
-		else player.src({type: "video/mp4", src: id});
-
-		var urla = id.split("/");
-		var filename = urla.pop();
-		if(subs != "") player.addRemoteTextTrack({src: subs}, false);
-		else if(id.indexOf(".m3u8") == -1) player.addRemoteTextTrack({src: urla.join("/")+"/"+filename.slice(0,-4)+".vtt"}, false); //try to load a .vtt file with the same file name for subtitles
-		if (player.textTracks().length) player.textTracks()[player.textTracks().length-1].mode = "showing";
-
-		player_ready = false;
- 		player.ready(onReady);
-	};
+		function th_video(id,subs="") {
+			id = decodeURIComponent(id);
 	
-	function th_volume( volume ) {
-		to_volume = volume;
-	};
+			//help with buffering
+			target_time = -0.5;
+	
+			if(id.indexOf(".m3u8") != -1) player.src({type: "application/x-mpegURL", src: id});
+			else player.src({type: "video/mp4", src: id});
+	
+			var urla = id.split("/");
+			var filename = urla.pop();
+			if(subs != "") player.addRemoteTextTrack({src: subs}, false);
+			else if(id.indexOf(".m3u8") == -1) player.addRemoteTextTrack({src: urla.join("/")+"/"+filename.slice(0,-4)+".vtt"}, false); //try to load a .vtt file with the same file name for subtitles
+			if (player.textTracks().length) player.textTracks()[player.textTracks().length-1].mode = "showing";
+	
+			player_ready = false;
+			player.ready(onReady);
+		}
 
-	function th_seek( seconds ) {
-		target_time = seconds-0.5;
-	};
+		function th_volume( volume ) {
+			to_volume = volume;
+		}
 
-	function onReady() {
-		player_ready = true;
-		player.textTrackSettings.setValues({
-			"backgroundColor": "#000",
-			"backgroundOpacity": "0",
-			"edgeStyle": "uniform",
-		});
-		player.textTrackSettings.updateDisplay();
-		player.play();
-	}
-	</script>
+		function th_seek( seconds ) {
+			target_time = seconds-0.5;
+		}
 
-</body>
+		function onReady() {
+			player_ready = true;
+			player.textTrackSettings.setValues({
+				"backgroundColor": "#000",
+				"backgroundOpacity": "0",
+				"edgeStyle": "uniform",
+			});
+			player.textTrackSettings.updateDisplay();
+			player.play();
+		}
+		</script>
+	</body>
 </html>
