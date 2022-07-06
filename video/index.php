@@ -153,7 +153,7 @@
 				</div>
 				<h3>Other Sites</h3>
 				<div class="list-group">
-					<a class="list-group-item" href="https://olgply.com/">Oligopoly<span class="glyphicon glyphicon-film" style="color:#800"></span></a>
+					<a class="list-group-item" href="https://bflix.gg/home">BFlix<span class="glyphicon glyphicon-film" style="color:#800"></span></a>
 					<a class="list-group-item" href="https://animixplay.to/">AniMixPlay<span class="glyphicon glyphicon-yen" style="color:#008"></span></a>
 					<a class="list-group-item" href="https://www.bitchute.com/">BitChute<span class="glyphicon glyphicon-play-circle" style="color:#800"></span></a>
 					<a class="list-group-item" href="https://twitch.tv">Twitch.tv<span class="glyphicon glyphicon-eye-open" style="color:#080;"></span></a>
