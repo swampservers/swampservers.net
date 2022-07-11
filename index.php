@@ -372,6 +372,7 @@ background-position-y:100% -->
 				<li data-target="#fatkid-carousel" data-slide-to="0" class="active"></li>
 				<li data-target="#fatkid-carousel" data-slide-to="1" class=""></li>
 				<li data-target="#fatkid-carousel" data-slide-to="2" class=""></li>
+				<li data-target="#fatkid-carousel" data-slide-to="3" class=""></li>
 			</ol>
 			<div class="carousel-inner" role="listbox">
 				<div class="item active">
@@ -395,6 +396,15 @@ background-position-y:100% -->
 						<div id="cinema2" class="slider-size">
 							<div class="caption">
 								<b>Autism Alert!</b> Do you have what it takes to beat the Fat Kid and his horde of pony minions?
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="item">
+					<div style="background:url('/screenshots/carousel/fatkid/screenshot_4.jpg')" class="slider-size">
+						<div id="cinema2" class="slider-size">
+							<div class="caption">
+								Want to contribute? Submit a PR on the Fat Kid <a href="https://github.com/swampservers/fatkid">Github!</a>
 							</div>
 						</div>
 					</div>
