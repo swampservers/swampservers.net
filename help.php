@@ -1,6 +1,4 @@
-<?=common_top("Swamp Servers - Commands")?>
-
-<h1 class="text-center">Commands</h1>
+<?=Page("Help")?>
 
 <?php
 $commands = [
@@ -62,5 +60,3 @@ foreach ($commands as $category => $list) {
 <?php
 }
 ?>
-
-<?=common_bottom()?>

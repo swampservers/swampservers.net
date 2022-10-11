@@ -1,24 +1,22 @@
 <?php //This file is subject to copyright - contact swampservers@gmail.com for more information. ?>
-<?=common_top("Staff", "/screenshots/chinese.jpg")?>
+<?=Page("Staff", "/s/screenshots/chinese.jpg")?>
 
-	<?php
-$staff = $db->query("SELECT * FROM users WHERE rank > 0 AND stafftitle!='HIDDEN' ORDER BY rank DESC")->fetchAll(PDO::FETCH_ASSOC);
+<?php
+$staff = SQL_Query("SELECT * FROM users WHERE rank > 0 AND stafftitle!='HIDDEN' ORDER BY rank DESC", [])->rows;
 ?>
 
 <?php
 function SteamCardWrap($row)
 {
-    $title = htmlspecialchars($row['stafftitle']);
+    $title = htmlspecialchars($row->stafftitle);
     if ($title == "") {$title = "Cyber Police";}
 
-    $title .= "<br>" . array(1=>"Junior Mod", 2=>"Moderator", 3=>"Administrator", 9=>"Owner & Lead Developer")[$row["rank"]];
+    $title .= "<br>" . array(1=>"Junior Mod", 2=>"Moderator", 3=>"Developer", 4=>"Administrator", 9=>"Owner & Lead Developer")[$row->rank];
 
-
-    global $SignedInRank;
-    if ($SignedInRank > RANK_USER) {
-        $title .= "<br>Last login: " . date("F j", $row['login_t']) . "<br>" . SteamID64toID($row['id64']);
+    if (Login(1)) {
+        $title .= "<br>Last login: " . date("F j", $row->login_t) . "<br>" . SteamIDString($row->id);
     }
-    SteamCard($row['id64'], $title);
+    SteamCard($row->id, $title);
 }
 ?>
 <?php /*
@@ -59,5 +57,3 @@ foreach ($staff as $user) {
         If you want to moderate (enforce rules), ask any staff. No pay.
     <?php }?>
 </p>
-
-<?=common_bottom()?>

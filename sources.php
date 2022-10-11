@@ -45,7 +45,7 @@
 <h2 id="file">HLS Livestreaming</h2>
 
 <p>
-	<a href="https://blog.void.yt/servers/hls/index.html">Check out this guide</a>
+	<a href="https://blog.nihilism.network/servers/hls/index.html">Check out this guide</a>
 </p>
 
 <?=common_bottom()?>

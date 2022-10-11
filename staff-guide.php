@@ -1,5 +1,5 @@
 <?php //This file is subject to copyright - contact swampservers@gmail.com for more information. ?>
-<?=common_top("Staff Guide","/s/screenshots/selected.jpg")?>
+<?=Page("Staff Guide","/s/screenshots/selected.jpg")?>
 
 
 		<h3 class="text-center">With power, comes responsibility</h3>
@@ -43,54 +43,26 @@
 
 		<h3 class="text-center">Ban Lengths</h3>
 		<p>
-			If the user has <strong>no previous bans</strong> and:
-		</p>
-		<ul>
-			<li>Shares a video as described by the "edgy content" rule which is <strong>publicly viewable on YouTube</strong></li>
-			<li>Asks FEDORA-BOT for "edgy content"</li>
-			<li>Runs a spam macro</li>
-		</ul>
-		<p>
-			They shall be banned for 5 minutes. If they are offline, they'll still see the message upon rejoining later.
-		</p>
-		<p>
-			In most other situations, the question of whether to kick, temp-ban, or permaban depends on the situation, and we trust you to make a fair decision. 
+			The question of whether to kick, temp-ban, or permaban depends on the situation, and we trust you to make a fair decision. 
+			Try to consider the apparent malice behind a user's actions when determining a ban length.
+			Minor accidental offenses (eg. someone doesn't really know the rules) should be punished with kicks; malicious or concealed offenses should be punished more harshly.
 			Ask other staff if you need help making a decision.
 		</p>
 		<p>
-			In the case of apparent child pornography, we have specific guidelines. First of all, there are two types of "child pornography":
+			In the case of apparent child pornography <em>(actual photographic images or video of underage humans engaged in sex, not lolicon or nudism)</em>, contact the owner for directions.
 		</p>
-		<ul>
-			<li><strong>REAL child pornography</strong> is actual photographic images or video of underage humans engaged in sex.</li>
-			<li><em>Pseudo child pornography</em> consists of anything which sexualizes children without falling into the above category. For example: Jailbait, lolicon, and underage nudism. This is not illegal but it is against our rules.
-		</ul>
-		<p>
-			If someone shares <strong>REAL child pornography</strong>, we must comply with <a href="https://www.law.cornell.edu/uscode/text/18/2258A" target="_blank">U.S. Code § 2258A.</a> Follow these steps:
-		</p>
-		<ul>
-			<li>Take a screenshot of the apparent CP. This is an important part of the report, and if you delete the image once you're done with it, then you aren't doing anything wrong.</li>
-			<li>Permaban the user and any "accomplices"</li>
-			<li>Tell <a href="https://steamcommunity.com/profiles/76561198037111412" target="_blank">Swamp</a> about this incident, and he will give directions to securely upload the screenshot. Swamp will then use the screenshot, and other info from the server logs, to create and send a report to the NCMEC's CyberTipline.</li>
-		</ul>
 
 		<h3 class="text-center">Ban Appeals</h3>
 		<p>
-			Except in extreme cases (doxxing, ddosing, etc.), if a user is banned for their first offense, and they create a reasonable appeal, the ban should be removed immediately.
+			Except in extreme cases (doxxing, ddosing, etc.), if a user is banned for their first offense, and they create a reasonable appeal, the ban should be removed.
 			It takes a decent amount of work to make a ban appeal. There is no reason to be overly punitive.
 		</p>
 
 	<h3 class="text-center">The Movie Theater</h3>
-	<p>The Movie Theater is a staff-controllable theater meant for watching movies, TV shows, or major events.  As a staff member, anything you play will not be covered by the Explicit Video Warning. As a result, playing pornography in here is not allowed. Additionally, you have the ability to force skip and seek in it. Please do not "troll" with these commands and only use them to play legitimate movies, shows, or major event livestreams.</p>
+	<p>The Movie Theater is a protected, staff-controllable theater meant for events. Do not post pornography or abuse the theater commands.</p>
 
 	<h3 class="text-center">Movie Nights</h3>
-	<p>Any staff member can host <strong>movie nights</strong>. To do so, request a movie into the Movie Theater and then say <em>!movienight &lt;title of movie&gt;</em> in chat. This will make a server-wide announcement and lock the Movie Theater queue, and your movie will play after a 5 minute timer.</p>
-
-	<p>If you plan on hosting movie nights or events, you get a rank on the Steam group which allows you mention users in the Steam chat to attract more players to your event.</p>
-
-	<p><em>Movies can be found under the Lookmovie.io link under "Request Video". You can also ask for access to the Neko instance and the Plex login if you plan on hosting movie nights.</em></p>
+	<p>Any staff member can host <strong>movie nights</strong>. To do so, request a video in the Movie Theater and then say <em>!movienight &lt;title of movie&gt;</em> in chat. This will make a server-wide announcement and lock the Movie Theater queue, and your video will play after a 5 minute timer.</p>
 
 	<h3 class="text-center">Requirements</h3>
 	<p>At a minimum, please be active on a weekly basis. If you disappear for a few weeks without notice, you will be demoted.</p>
-
-
-<?=common_bottom()?>

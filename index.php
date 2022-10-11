@@ -5,72 +5,9 @@ global $NoBodyContainer;
 $NoBodyContainer=true;
 ?>
 
-<?=common_top("")?>
+<?=Page("")?>
 
-<?php
-$serverdata = json_decode(file_get_contents($_SERVER['DOCUMENT_ROOT'] . '/cache/servers.txt'), true);
-?>
-
-<!-- this is the page body lmao -->
-<link href="css/landing_page.min.css" rel="stylesheet">
-
-
-<style>
-  .carousel-overlay {
-    position:absolute;
-    z-index: 99999;
-    top:0px;
-    left:0px;
-    right:0px;
-  }
-  .carousel-overlay-text {
-    background: rgba(0,0,0,50%);
-    padding-top:12px;
-    padding-bottom:4px;
-  }
-  .carousel-overlay-text > h1 {
-    margin-top:0px;
-  }
-  .spacer > h1 {
-    font-size:60px;
-  }
-  .spacer > h4 {
-    margin-bottom:0px;
-  }
-  .spacer {
-    padding-top: 72px;
-    padding-bottom: 12px;
-    text-align: center;
-    /* background: #111 url(/s/img/noise.png); */
-
-    /* background: #393939;
-    background-image: url(/s/img/titlebackground.png);
-    background-repeat: repeat-x;
-    background-size: auto 100%;
-    background-position: center; */
-
-  }
-  .server-btn-group-holder {
-    margin-top: 8px;
-  }
-  /* ITS NOT CENTERED */
-  .parallax {
-    background-position: center !important;
-    background-size: cover !important;
-  }
-
-  .myparallax {
-    background-position: center;
-    background-size: cover !important;
-  }
-
-
-  .mask {
-    background: linear-gradient(to right, rgba(9, 14, 11, 0.4), rgba(9, 14, 11, 0.4)) !important;
-  }
-
-</style>
-
+<link href="/css/landing_page.min.css" rel="stylesheet">
 <section class="top">
   <div class="top">
 		<div class="mask"></div>
@@ -187,8 +124,8 @@ background-position-y:100% -->
         <h4 class="text-center"> A casual, chaotic social game based around a virtual movie theater. </h4>
 
         <div class="btn-group" role="group" aria-label="...">
-          <span class="btn btn-default fake-button">IP: <?=$serverdata['cinema']['ip']?></span>
-          <span class="btn btn-primary fake-button"><?=$serverdata['cinema']['players']?> players online</span>
+          <span class="btn btn-default fake-button">IP: </span>
+          <span class="btn btn-primary fake-button"> players online</span>
           <a class="btn btn-success" href="steam://connect/cinema.swampservers.net:27015" role="button">Join &raquo;</a>
         </div>
       </div>
@@ -202,7 +139,7 @@ background-position-y:100% -->
 
 <div class="spacer">
   <h1>Swamp Cinema</h1>
-  <h4>A casual, chaotic social game based around a virtual movie theater.</h4>
+  <h4>A casual, chaotic social game based around a virtual movie theater</h4>
 </div>
 
 <div id="cinema-carousel" class="carousel slide" data-ride="carousel">
@@ -214,8 +151,8 @@ background-position-y:100% -->
     </div> -->
     <div class="server-btn-group-holder">
       <div class="btn-group" role="group" aria-label="...">
-        <span class="btn btn-default fake-button">IP: <?=$serverdata['cinema']['ip']?></span>
-        <span class="btn btn-primary fake-button"><?=$serverdata['cinema']['players']?> players online</span>
+        <span class="btn btn-default fake-button">IP: <?=ServerDisplayIP("cinema.swamp.sv")?></span>
+        <span class="btn btn-primary fake-button"><?=ServerStatus("cinema.swamp.sv")?> players online</span>
         <a class="btn btn-success" href="steam://connect/cinema.swamp.sv:27015" role="button">Join &raquo;</a>
       </div>
     </div>
@@ -326,7 +263,7 @@ background-position-y:100% -->
 
 <div class="spacer">
   <h1>Fat Kid</h1>
-  <h4>Our remake of the classic Halo 3 custom game.</h4>
+  <h4>Our remake of the classic Halo 3 custom game <a href="/fatkid">(about)</a></h4>
 </div>
 
 <!-- 
@@ -341,8 +278,8 @@ background-position-y:100% -->
 			
       <div class="text-center">
         <div class="btn-group" role="group" aria-label="...">
-          <span class="btn btn-default fake-button">IP: <?=$serverdata['fatkid']['ip']?></span>
-          <span class="btn btn-primary fake-button"><?=$serverdata['fatkid']['players']?> players online</span>
+          <span class="btn btn-default fake-button">IP: </span>
+          <span class="btn btn-primary fake-button"> players online</span>
           <a class="btn btn-success" href="steam://connect/fatkid.swamp.sv:27015" role="button">Join &raquo;</a>
         </div>
       </div>
@@ -361,8 +298,8 @@ background-position-y:100% -->
     </div> -->
     <div class="server-btn-group-holder">
       <div class="btn-group" role="group" aria-label="...">
-        <span class="btn btn-default fake-button">IP: <?=$serverdata['fatkid']['ip']?></span>
-        <span class="btn btn-primary fake-button"><?=$serverdata['fatkid']['players']?> players online</span>
+        <span class="btn btn-default fake-button">IP: <?=ServerDisplayIP("fatkid.swamp.sv")?></span>
+        <span class="btn btn-primary fake-button"><?=ServerStatus("fatkid.swamp.sv")?> players online</span>
         <a class="btn btn-success" href="steam://connect/fatkid.swamp.sv:27015" role="button">Join &raquo;</a>
       </div>
     </div>
@@ -375,14 +312,14 @@ background-position-y:100% -->
 			</ol>
 			<div class="carousel-inner" role="listbox">
 				<div class="item active">
-					<div style="background:url('/screenshots/carousel/fatkid/screenshot_1.jpg')" class="slider-size">
+					<div style="background:url('/s/fatkid-screenshots/screenshot_1.jpg')" class="slider-size">
 						<div class="caption">
 							He's slow, he's obese, and he's hungry. Do whatever it takes to avoid being devoured by the Fat Kid.
 						</div>
 					</div>
 				</div>
 				<div class="item">
-					<div style="background:url('/screenshots/carousel/fatkid/screenshot_2.jpg')" class="slider-size">
+					<div style="background:url('/s/fatkid-screenshots/skeletons.jpg')" class="slider-size">
 						<div id="cinema2" class="slider-size">
 							<div class="caption">
 								Numerous weapons are hidden throughout the map. Use them to hold back the Fat Kid and his skeleton army.
@@ -391,10 +328,10 @@ background-position-y:100% -->
 					</div>
 				</div>
 				<div class="item">
-					<div style="background:url('/screenshots/carousel/fatkid/screenshot_3.jpg')" class="slider-size">
+					<div style="background:url('/s/fatkid-screenshots/screenshot_3.jpg')" class="slider-size">
 						<div id="cinema2" class="slider-size">
 							<div class="caption">
-								<b>Autism Alert!</b> Do you have what it takes to beat the Fat Kid and his horde of pony minions?
+								Do you have what it takes to beat the Fat Kid and his horde of pony minions?
 							</div>
 						</div>
 					</div>
@@ -409,5 +346,3 @@ background-position-y:100% -->
 				<span class="sr-only">Next</span>
 			</a>
 		</div>
-
-<?=common_bottom()?>

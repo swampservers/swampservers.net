@@ -158,7 +158,6 @@
 					<a class="list-group-item" href="https://www.bitchute.com/">BitChute<span class="glyphicon glyphicon-play-circle" style="color:#800"></span></a>
 					<a class="list-group-item" href="https://twitch.tv">Twitch.tv<span class="glyphicon glyphicon-eye-open" style="color:#080;"></span></a>
 					<a class="list-group-item" href="https://www.soundcloud.com">Soundcloud<span class="glyphicon glyphicon-fire" style="color:#C80;"></span></a>
-					<a class="list-group-item" href="https://9anime.to/home">9Anime<span class="glyphicon glyphicon-facetime-video" style="color:#808"></span></a>
 				</div>
 			</div>
 

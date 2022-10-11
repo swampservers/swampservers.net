@@ -6,10 +6,10 @@ if (strpos(strtolower($_SERVER['HTTP_USER_AGENT']),"gmod")===FALSE) {
 	die();
 }
 
+$NoHeader=true; 
+?>
 
-$NoHeader=true; ?>
-
-<?=common_top("Random Videos")?>
+<?=Page("Random Videos")?>
 
 <!-- <h1 class="text-center">Rules</h1> -->
 
@@ -112,5 +112,3 @@ for ($i=0;$i<count($vids);$i++) {
 </div>
 
 <h1 class="text-center"><a href="<?=$_SERVER['REQUEST_URI']?>">Load more</a></h1>
-
-<?=common_bottom()?>

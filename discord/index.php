@@ -14,10 +14,8 @@ header('Location: '.$link, true, 302);
 ?>
 
 
-<?=common_top("Discord", "/s/screenshots/discordmoderator.jpg")?>
+<?=Page("Discord", "/s/screenshots/discordmoderator.jpg")?>
 
 <p>
     <a href="<?=$link?>">Click here to join</a>
 </p>
-
-<?=common_bottom()?>
