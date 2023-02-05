@@ -154,7 +154,6 @@
 				<h3>Other Sites</h3>
 				<div class="list-group">
 					<a class="list-group-item" href="https://bflix.gg/home">BFlix<span class="glyphicon glyphicon-film" style="color:#800"></span></a>
-					<a class="list-group-item" href="https://animixplay.to/">AniMixPlay<span class="glyphicon glyphicon-yen" style="color:#008"></span></a>
 					<a class="list-group-item" href="https://www.bitchute.com/">BitChute<span class="glyphicon glyphicon-play-circle" style="color:#800"></span></a>
 					<a class="list-group-item" href="https://twitch.tv">Twitch.tv<span class="glyphicon glyphicon-eye-open" style="color:#080;"></span></a>
 					<a class="list-group-item" href="https://www.soundcloud.com">Soundcloud<span class="glyphicon glyphicon-fire" style="color:#C80;"></span></a>
@@ -166,11 +165,13 @@
 					
 				</div>
 				<h3>Your Content</h3>
+				<!--
 				<div class="list-group">
-					<!-- <a class="list-group-item" href="http://horatiotube.stream/">HoratioTube<span class="glyphicon glyphicon-facetime-video" style="color:#C00;"></span></a> -->
+					<a class="list-group-item" href="http://horatiotube.stream/">HoratioTube<span class="glyphicon glyphicon-facetime-video" style="color:#C00;"></span></a>
 					
 					<a class="list-group-item" href="https://swampservers.net/sources">Tutorial:<br>• Dropbox<br>• Web/HLS Files<br>• HLS Livestreaming<span class="glyphicon glyphicon-plus" style="color:#40A;position:relative;top:-32px;"></span></a>
 				</div>
+				-->
 			</div>
 		</div>
 <!--
