@@ -95,7 +95,7 @@
 			<li><a href="search.html" class="active">Video Search</a></li>
 			<li><a href="plugins.html">Plugin Installation</a></li>
 		</ul>
-	</nav> --!>
+	</nav> -->
 
 
 	<script>
