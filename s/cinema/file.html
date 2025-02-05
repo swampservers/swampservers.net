@@ -26,7 +26,7 @@
 				//livestreams are 0
 				if (player.duration() > 0) {
 					if (target_time < player.duration()) {
-						var maxoffset = 15;
+						var maxoffset = 5;
 						if (Math.abs(player.currentTime() - target_time) > maxoffset) {
 							player.currentTime(Math.max(0,target_time));
 						}
@@ -61,6 +61,7 @@
 
 		function th_seek( seconds ) {
 			target_time = seconds-0.5;
+			player.currentTime(Math.max(0,target_time));
 		}
 
 		function onReady() {
